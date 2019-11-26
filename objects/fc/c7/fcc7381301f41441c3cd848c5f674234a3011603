@@ -1,0 +1,137 @@
+[
+	{
+		"targetBlock": "minecraft:cobblestone:0",                   
+		"heldItem": "silentgems:craftingmaterial:0",
+		"replacementBlock": "silentgems:essenceore:0",	
+		"damage": "1",
+		"particleType": "largesmoke",
+		"particleCount": "10:20"                                     
+	},
+	{
+		"targetBlock": "silentgems:essenceore:0",                   
+		"heldItem": "powderpower:powderiron:0",
+		"replacementBlock": "minecraft:iron_ore:0",	
+		"damage": "1",
+		"particleType": "largesmoke",
+		"particleCount": "10:20"                                      
+	},
+	{
+		"targetBlock": "silentgems:essenceore:0",                   
+		"heldItem": "powderpower:powdergold:0",
+		"replacementBlock": "minecraft:gold_ore:0",	
+		"damage": "1",
+		"particleType": "largesmoke",
+		"particleCount": "10:20"                                      
+	},
+	{
+		"targetBlock": "silentgems:essenceore:0",                   
+		"heldItem": "powderpower:powderlapis:0",
+		"replacementBlock": "minecraft:lapis_ore:0",	
+		"damage": "1",
+		"particleType": "largesmoke",
+		"particleCount": "10:20"                                      
+	},
+	{
+		"targetBlock": "silentgems:essenceore:0",                   
+		"heldItem": "chisel:block_charcoal2:1",
+		"replacementBlock": "minecraft:coal_ore:0",	
+		"damage": "1",
+		"particleType": "largesmoke",
+		"particleCount": "10:20"                                      
+	},
+	{
+		"targetBlock": "silentgems:essenceore:0",                   
+		"heldItem": "powderpower:powderdiamond:0",
+		"replacementBlock": "minecraft:diamond_ore:0",	
+		"damage": "1",
+		"particleType": "largesmoke",
+		"particleCount": "10:20"                                      
+	},
+	{
+		"targetBlock": "silentgems:essenceore:0",                   
+		"heldItem": "powderpower:powdernetherquartz:0",
+		"replacementBlock": "minecraft:quartz_ore:0",	
+		"damage": "1",
+		"particleType": "largesmoke",
+		"particleCount": "10:20"                                      
+	},
+	{
+		"targetBlock": "silentgems:essenceore:0",                   
+		"heldItem": "powderpower:powderemerald:0",
+		"replacementBlock": "minecraft:emerald_ore:0",	
+		"damage": "1",
+		"particleType": "largesmoke",
+		"particleCount": "10:20"                                      
+	},
+	{
+		"targetBlock": "silentgems:essenceore:0",                   
+		"heldItem": "powderpower:powderredstone:0",
+		"replacementBlock": "minecraft:redstone_ore:0",	
+		"damage": "1",
+		"particleType": "largesmoke",
+		"particleCount": "10:20"                                      
+	},
+	{
+		"targetBlock": "silentgems:essenceore:0",                   
+		"heldItem": "silentgems:craftingmaterial:0",
+		"replacementBlock": "mysticalagriculture:prosperity_ore:0",	
+		"damage": "1",
+		"particleType": "largesmoke",
+		"particleCount": "10:20"                                      
+	},
+	{
+		"targetBlock": "silentgems:essenceore:0",                   
+		"heldItem": "silentgems:glowrosefertilizer:0",
+		"replacementBlock": "silentgems:multi_gem_ore_classic:0",	
+		"damage": "1",
+		"particleType": "largesmoke",
+		"particleCount": "10:20"                                      
+	},
+	{
+		"targetBlock": "silentgems:multi_gem_ore_classic:0",                   
+		"heldItem": "silentgems:craftingmaterial:27",
+		"replacementBlock": "silentgems:multi_gem_ore_dark:0",	
+		"damage": "1",
+		"particleType": "largesmoke",
+		"particleCount": "10:20"                                      
+	},
+	{
+		"targetBlock": "silentgems:multi_gem_ore_dark:0",                   
+		"heldItem": "boneappetit:ender_bone_meal:0",
+		"replacementBlock": "silentgems:multi_gem_ore_light:0",	
+		"damage": "1",
+		"particleType": "largesmoke",
+		"particleCount": "10:20"                                      
+	},
+	{
+		"targetBlock": "minecraft:end_stone:0",                   
+		"heldItem": "silentgems:craftingmaterial:0",
+		"replacementBlock": "contenttweaker:chaos_endstone:0",	
+		"damage": "1",
+		"particleType": "largesmoke",
+		"particleCount": "5:10"                                      
+	},
+	{
+		"targetBlock": "contenttweaker:chaos_endstone:0",                   
+		"heldItem": "powderpower:powderender:0",
+		"replacementBlock": "silentgems:essenceore:1",	
+		"damage": "1",
+		"particleType": "largesmoke",
+		"particleCount": "5:10"
+	},
+	{
+		"targetBlock": "silentgems:essenceore:1",
+		"heldItem": "silentgems:craftingmaterial:3",
+		"replacementBlock": "mysticalagriculture:end_inferium_ore",
+		"damage": "1",
+		"particleType": "largesmoke",
+		"particleCount": "5:10"
+	}
+	
+  
+  
+  
+  
+  
+  
+]
