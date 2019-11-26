@@ -1,0 +1,12 @@
+{
+  "minimumVersion" : 1,
+  "packages" : [
+    {
+      "title" : "Skyblock Billionaire",
+      "name" : "Billionaire",
+      "version" : "1.4.1-HOTFIX",
+      "location" : "billionaire.json",
+      "priority" : 0
+    }
+  ]
+}
