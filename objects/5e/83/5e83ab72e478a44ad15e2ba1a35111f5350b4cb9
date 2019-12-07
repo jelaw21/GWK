@@ -1,0 +1,506 @@
+<book title="Employee Handbook" cover="gbook:company_logo" fontSize="0.6" home="0:0">
+
+    <conditions>
+        <stage-unlocked name="employee" stage="EMPLOYEE"/>
+        <stage-unlocked name="shift" stage="SHIFT_MANAGER"/>
+        <stage-unlocked name="assistant" stage="ASSISTANT_MANAGER"/>
+        <stage-unlocked name="general" stage="GENERAL_MANAGER"/>
+        <stage-unlocked name="regional" stage="REGIONAL_MANAGER"/>
+        <stage-unlocked name="executive" stage="EXECUTIVE_DIRECTOR"/>
+        <stage-unlocked name="ceo" stage="CEO"/>
+        <stage-unlocked name="board" stage="BOARD_MEMBER"/>
+        <stage-unlocked name="chairman" stage="CHAIRMAN"/>
+        <stage-unlocked name="philanthropist" stage="PHILANTHROPIST"/>
+        <stage-unlocked name="tycoon" stage="BUSINESS_TYCOON"/>
+        <stage-unlocked name="mogul" stage="FINANCE_MOGUL"/>
+        <stage-unlocked name="world_bank" stage="WORLD_BANK"/>
+        <stage-unlocked name="un" stage="SECRETARY_GENERAL"/>
+        <stage-unlocked name="president" stage="WORLD_PRESIDENT"/>
+    </conditions>
+
+    <chapter id="table_contents">
+        <page>
+            <title space='30'>Skyblock Billionaire</title>
+            <link ref="trainee">Trainee</link>
+            <link condition="employee" ref="employee">Employee</link>
+            <link condition="shift" ref="shift">Shift Manager</link>
+            <link condition="assistant" ref="assistant">Assistant Manager</link>
+            <link condition="general" ref="general">General Manager</link>
+            <link condition="regional" ref="regional">Regional Manager</link>
+            <link condition="executive" ref="executive">Executive Director</link>
+            <link condition="ceo" ref="ceo">Chief Executive Officer</link>
+            <link condition="board" ref="board">Board Member</link>
+            <link condition="chairman" ref="chairman">Chairman of the Board</link>
+            <link condition="philanthropist" ref="philanthropist">Philanthropist</link>
+            <link condition="tycoon" ref="tycoon">Business Tycoon</link>
+            <link condition="mogul" ref="mogul">Finance Mogul</link>
+            <link condition="world_bank" ref="world_bank">President of World Bank</link>
+            <link condition="un" ref="un">Secretary-General of the U.N.</link>
+            <link condition="president" ref="president">President of the World</link>
+        </page>
+        <page>
+            <p space='10'>Good Morning.</p>
+            <p space='10'>This is your guide to becoming a BILLIONAIRE and even possibly PRESIDENT OF THE WORLD.</p>
+            <p space='10'>If this is your first time with us, please click on the Trainee link to begin your training.</p>
+            <p space='10'>Those of you who are already acquainted with the system, please click your desired link to see
+                more information on what is required of you.</p>
+            <p space='10'>You may also notice that many of our products or our partners' products are not available to you, at first. You must earn or purchase them.</p>
+            <p space='10'>Thank you for choosing, GWK, Inc. We hope you enjoy becoming a Billionaire.</p>
+        </page>
+    </chapter>
+    <chapter id="trainee">
+        <page>
+            <title space='20'>TRAINEE</title>
+            <p color="#4f5f98" space='10'>Ah, I've been lookin' for ya. Didn't know I'd find ya next to the pond.</p>
+            <p color="#4f5f98" space='10'>I'll cut right to the chase. I'm looking for some entrepreneur to look after
+                my company, GWK, Inc. when I'm gone.</p>
+            <p color="#4f5f98" space='10'>I've got a nice little thing going here, but I need someone to take it to the
+                next level. I made a comfortable million dollars its time for someone else to take over.</p>
+            <p color="#4f5f98" space='10'>So this is your chance kid. Impress me, and you may just wind up with keys to
+                the kingdom.</p>
+            <p color="#4f5f98" space='10'>However, you aren't the only one vying for position. There are others wanting
+                to run my company, all very good candidates. If you're lucky, you might make it. Doubtful, though.</p>
+        </page>
+        <page>
+            <title space="20">REQUIREMENTS</title>
+            <p color="#4f5f98" space='10'>Well, since you're just standing here staring at this pond, might as well do
+                something while we're here.</p>
+            <p color="#4f5f98" space='10'>Prove you got what it takes kid and fish us up some supplies. We're going to
+                need a lot of dirt, some food, some sticks and a few droplets of water. We also gonna need some
+                saplings. You writing this all down?</p>
+            <title space='10'>GATHER</title>
+            <p space="10">
+                <stack item="minecraft:dirt" count="16"/>
+                <stack item="minecraft:apple" count="8"/>
+                <stack item="minecraft:fish" count="4"/>
+                <stack item="contenttweaker:item_water" count="4"/>
+                <stack item="minecraft:sapling" count="2"/>
+            </p>
+            <title space='10'>HINTS</title>
+            <p space="10">You can keep track of your progress from the Advancement Menu. And probably should keybind
+                that to 'L' or something.</p>
+            <p space="10">You can hold down shift to help plants and saplings grow. But be careful not to have an
+                accident!</p>
+            <p space="10">You might wanna fish a whole stack of dirt. Save ya some time later.</p>
+        </page>
+
+    </chapter>
+    <chapter id="employee" condition="employee">
+        <page>
+            <title space='20'>Employee</title>
+            <p color="#4f5f98" space='10'>Well done, kid. But that was just the beginning. The hard work begins.</p>
+            <p color="#4f5f98" space='20'>Now that you're an employee, you are going to have to learn to work. Grease those
+                elbows.</p>
+            <title space='20'>REQUIREMENTS</title>
+            <p color="#4f5f98" space='10'>First off, you're gonna need one of them cobble gens, which is just lava and
+                water.</p>
+            <p color="#4f5f98" space='10'>Next, is the gems. Those things are your ticket to greatness. Take some time
+                and learn how they work, or you are gonna regret it.</p>
+            <p color="#4f5f98" space='10'>Lastly, you're gonna be working in the dirt, making food to fill our bellies,
+                and later, line our pockets. I suggest crafting a Dirt Smasher and a Stone Smasher</p>
+        </page>
+        <page>
+            <title space='20'>GATHER</title>
+            <p space="20">
+                <stack item="minecraft:cobblestone" count="64"/>
+                <stack item="harvestcraft:vegetablesoupitem" count="4"/>
+                <stack item="minecraft:bread" count="8"/>
+                <stack item="silentgems:gem" count="4"/>
+                <span>(4 of the same gem)</span>
+            </p>
+            <title space='20'>UNLOCKS</title>
+            <p space="20">
+                <stack item="flintmod:knife_flint"/>
+                <stack item="flintmod:hoe_flint"/>
+                <stack item="flintmod:axe_flint"/>
+                <stack item="flintmod:pickaxe_flint"/>
+                <stack item="flintmod:spade_flint"/>
+                <stack item="contenttweaker:stone_hammer"/>
+                <stack item="harvestcraft:bakewareitem"/>
+                <stack item="harvestcraft:potitem"/>
+                <stack item="harvestcraft:mixingbowlitem"/>
+            </p>
+            <title space='10'>HINTS</title>
+            <p space="10">There are a few ways to get dirt, be sure to read the information tab in the JEI when you look
+                at the dirt recipe.</p>
+            <p space="10">Glowrose flowers can be grown with Glow Rose Fertilizer used on Grass. Check the JEI on how to
+                make grass!</p>
+            <p space="10">Mortars take a lot of work. You may not be able to operate them if you are too hungry.</p>
+            <p space="10">Bonemealing sand is like bonemealing grass. One piece will work on a small area.</p>
+        </page>
+
+    </chapter>
+    <chapter id="shift" condition="shift">
+        <page>
+            <title space='20'>Shift Manager</title>
+            <p color="#4f5f98" space='10'>Nice job, you're starting to smell like a good worker now. You know how to
+                hustle, but can you motivate others to work as hard?</p>
+            <p color="#4f5f98" space='10'>You've been promoted to a shift manager, which means you'll be overseeing
+                other employees to keep our industries running. I've given you enough capital to hire three employees
+                and a few industries. You'll also need to manage those angry customers, real zombies those are.</p>
+            <title space='10'>REQUIREMENTS</title>
+            <p color="#4f5f98" space='10'>You'll need to figure out how to summon some livestock for our production
+                lines and to feed the employees.</p>
+            <p color="#4f5f98" space='10'>To find more diverse foods, I've given you access to the local grocer. They've
+                agreed to a small exchange. It may take a bit for your supplies to arrive, just keep your eyes to the
+                skies!</p>
+        </page>
+        <page>
+            <p color="#4f5f98" space='10'>Finally, we'll need some rare materials from one of the hottest places I
+                know.</p>
+            <p color="#4f5f98" space='20'>What are you standing around reading for, get moving!</p>
+            <title space='20'>GATHER</title>
+            <p space="30">
+                <stack item="harvestcraft:pbandjitem" count="16"/>
+                <stack item="ancientwarfarenpc:food_bundle" count="8"/>
+                <stack item="harvestcraft:zombiejerkyitem" count="8"/>
+                <stack item="soulus:bone_normal" count="4"/>
+                <stack item="minecraft:nether_wart" count="16"/>
+                <stack item="soulus:bone_meal_nether" count="24"/>
+            </p>
+            <title space='20'>UNLOCKS</title>
+            <p space="10">Local Markets - very limited.</p>
+            <p space="10">Summoners to spawn mobs.</p>
+            <p space="20">Access to the Employee page to purchase workers and combat personnel.</p>
+            <p>Hints on next page ...</p>
+        </page>
+        <page>
+
+            <title space='20'>HINTS</title>
+            <p space="10">The miner can mine the cobblegen if set-up correctly.</p>
+            <p space="10">The Breakroom is the only place employees will go to get food, and they won't work without food.</p>
+            <p space="10">Work your way through the Soulus book to spawn mobs. The better the Summoner the faster it spawns.</p>
+            <p space="10">To make ingots and other resources, you will need to craft their powdered form in the
+                mortars. Then stick the powder in the furnace.</p>
+            <p space="10">Always keep an eye on the Specials tab in the store. You never know when something good
+                appears.</p>
+            <p space="10">You don't have to spend the cash on employees, you can always save it and use the automation
+                tools provided by Ancient Warefare. All the machines run on RF as well.</p>
+        </page>
+        <page>
+            <p space="10">Farmers can work many different stations when provided appropriate work orders. See the Ancient Warefare book for more details.</p>
+        </page>
+
+    </chapter>
+    <chapter id="assistant" condition="assistant">
+        <page>
+            <title space='20'>Assistant Manager</title>
+            <p color="#4f5f98" space='10'>Well, that wasn't so hard. You've kept your employees fed and dealt with the angry customers. But that's not
+                going to be enough. The landscape is money, you have a long way to go if you want to be a
+                Billionaire.</p>
+            <p color="#4f5f98" space='10'>You are going to need to ramp up resource production and learn to interact
+                more fully with the local markets. For this purpose, I've given you a coupon to purchase a resource
+                industry. Choose wisely, as these are more expensive to unlock later. Each one has its pros and cons,
+                but they all produce the same resources.</p>
+            <p  color="#4f5f98" space='10'> I've also given you a shipping bin, which you can use to
+                sell the goods you produce. You can buy them too, but why bother when you can just produce em. And a wallet to store all that cheddar!</p>
+            <p color="#4f5f98" space='10'>Enough chit-chattering, go make some money. Earn that bacon! Money don't
+                fall from trees. You reap what you sow.</p>
+
+        </page>
+        <page>
+            <title space='20'>GATHER</title>
+            <p space="20">
+                <stack item="minecraft:iron_ingot" count="64"/>
+                <stack item="minecraft:diamond" count="16"/>
+                <stack item="minecraft:emerald" count="16"/>
+                <stack item="minecraft:gold_ingot" count="32"/>
+                <stack item="modcurrency:banknote" meta="5" count="25"/>
+            </p>
+            <title space='10'>UNLOCKS</title>
+            <p space='10'>Choice of Resource Gathering Industry in Industries Market</p>
+            <p space='10'>Use of Shipping Bin to ship goods and recieve payment. Right-click the bin with the
+                correct amount of items and wait for your payment. The table below gives stack-size per price:</p>
+                <p><span>$1 - 32 items -</span><span>- $2 - 16 items</span></p>
+                <p><span>$3 - 16 items -</span><span>- $5 - 16 items</span></p>
+                <p><span>$6 - 10 items -</span><span>- $10 - 8 items</span></p>
+                <p><span>$20 - 8 items -</span><span>- $30 - 8 items</span></p>
+                <p><span>$50 - 2 items -</span><span>- $100 - 2 items</span></p>
+                <p space='10'><span>$200 - 2 items -</span><span indent="2">- $500+ - 1 items</span></p>
+            <p space="10">Example: Diamond is worth $1 so it will take a stack of 32 to trade with the shipping bin.
+            </p>
+        </page>
+        <page>
+            <title space='10'>MORE UNLOCKS</title>
+			<p space='5'>Nether unlocked!</p>
+            <p space="5">Full Access to the Local Market.</p>
+            <p space="5">Access to the Warehouse Market.</p>
+            <p space="20">Access to The Labyrinth, a mob dimension with awesome loot and terrifying mobs.</p>
+            <title space='20'>HINTS</title>
+            <p space="10">A crafted item tends to yield more profit.</p>
+            <p space="10">Use your employees, sometimes it takes money to make money.</p>
+            <p space="10">Check out the Special Equipment tab, it make be worth an investment.</p>
+        </page>
+    </chapter>
+    <chapter id="general" condition="general">
+        <page>
+            <title space='20'>General Manager</title>
+            <p color="#4f5f98" space='10'>I think you may be getting the hang of this. But don't get too cocky, the
+                worst is yet to come. You are now the General Manager of GWK, Inc and are responsible for overseeing
+                all operations of our company and interacting with the finances. I have given you a few things to
+                help manage your money.</p>
+            <title space='20'>REQUIREMENTS</title>
+            <p color="#4f5f98" space='10'>You are going to need to make use of your Piggy Bank to store money
+                long-term and your wallet to store money short term.</p>
+            <p color="#4f5f98" space='10'>You can extract money from your Piggy Bank with "Withdraw" currency.
+                Withdraw currency is made with a Money Switcher. You can also combine banks and split them 50/50
+                using the Money Switcher.</p>
+        </page>
+        <page>
+            <title space='20'>GATHER</title>
+                <p space="10"><stack item="contenttweaker:bank_item"/><span> with EXACTLY $10,000</span></p>
+            <title space='20'>UNLOCKS</title>
+            <p space="10">Access to the Mining Dimension. Look in Utilities tab in the store.</p>
+            <p space="10">More mods are now available for purchase. You need a Piggy Bank with the EXACT amount.</p>
+        </page>
+        <page>
+            <title space='20'>HINTS</title>
+            <p space="10">The Labyrinth is full of goodies and if you have skills, you can make some quick cash in there
+                .</p>
+            <p space="10">Automation is the key.</p>
+            <p space="10">Don't go overboard to buy all the mods. Be choosey. Two strategies that may work well: buy
+                1 big mod to get a big increase, or buy a bunch of smaller ones to to gradually increase production.</p>
+            <p space="10">Spend some time researching the mods on what they do. Most mods also come with an in-game
+                guide.</p>
+            <p space="10">Selling to the markets is time consuming, soon you will be able to sell to the global
+                market.</p>
+
+        </page>
+    </chapter>
+    <chapter id="regional" condition="regional">
+        <page>
+            <title space='20'>Regional Manager</title>
+            <p color="#4f5f98" space='10'>One rung higher on the ladder to success! Now, you have some decisions to
+                make. You have a lot of new technologies and industries available to you. As a Regional Manager, you
+            get to decide which new systems you will install in GWK,Inc. to maximize profits. It possible to be able
+            to purchase them all, but the price tag on that would be steep. Although, it takes money to make money.
+                I kinda like ya kid, I hope you succeed, though there are others working just as hard.</p>
+            <title space='20'>REQUIREMENTS</title>
+            <p color="#4f5f98" space='10'>Its all about that money. Use your resources and make some fat cash!</p>
+            <p color="#4f5f98" space='10'>You may purchase one of the three new systems to install in GWK, Agriculture, Industrial and Utilities. Each one will could increase your overall productivity. </p>
+        </page>
+        <page>
+            <title space='20'>GATHER</title>
+            <p space="10"><stack item="contenttweaker:bank_item"/><span> with EXACTLY $25,000</span></p>
+            <title space='20'>UNLOCKS</title>
+            <p space="10">All other mods are available for purchase.</p>
+            <p space="10">The other systems you didn't choose will be available in their respective categories in the shop.</p>
+            <p space="10">The ability to make Redium and Lapium Armor and Weapons.</p>
+			<p space="10">END unlocked!</p>
+        </page>
+        <page>
+            <title space='20'>HINTS</title>
+            <p space ="10">Some mods require bedrock. This can be found in abundance in the Labyrinth or at the bottom of the mining world.</p>
+        </page>
+    </chapter>
+    <chapter id="executive" condition="executive">
+        <page>
+            <title space='20'>Executive Director</title>
+            <p color="#4f5f98" space='10'>Well, kid, things are really getting going now. But it takes a lot of work to sell goods to the local market. I think our infrastruture is at a point where we can make use of the Global Markets and sell goods and services there. However, there is an entry price into those markets, its not a bad price, but you're going to want a few of those machines. </p>
+            <p color="#4f5f98" space='10'>Other than the obvious advantage of the Global Markets, another benefit is that you can sell ALL ITEMS, no matter their price. And you can sell them one at a time. It may take some time to find an appropriate buyer, but with more efficient traders and brokers, you should be able to speed those devices up. In the future, you can even dedicate yourself to one market and rank in even more profit.</p>
+            <p color="#4f5f98" space='10'>I never compliment anyone. It lets their guard down. Many others are already trading on the Global Markets, so the more we stand here, the less money you are making!</p>
+        </page>
+        <page>
+            <title space='20'>REQUIREMENTS</title>
+            <p space="10">Purchase at least one of each Global Markets and earn an income of $100,000.</p>
+            <title space='20'>GATHER</title>
+            <p space="10"><stack item="contenttweaker:bank_item"/><span> with EXACTLY $100,000</span></p>
+            <p space="20">
+                <stack item="contenttweaker:global_items_kit"/>
+                <stack item="contenttweaker:global_fluids_kit"/>
+                <stack item="contenttweaker:global_energy_kit"/>
+            </p>
+            <title space='20'>UNLOCKS</title>
+            <p space="10">Access to the Global Markets via the Special Equipment tab in the store.</p>
+        </page>
+        <page>
+            <title space='20'>HINTS</title>
+            <p space="10">TBA</p>
+        </page>
+    </chapter>
+    <chapter id="ceo" condition="ceo">
+        <page>
+            <title space='20'>Chief Executive Officer</title>
+            <p color="#4f5f98" space='10'>Well, the company recognized your greatness and moved you up to CEO. I advised against this, but they don't like listening to an old man. But here we are, so we gotta make due with what we have. If I were you, I would try and get myself on the Board of Directors and be a part of the decision making. You can easily contorl the major decisions of the company from there.</p>
+            <p color="#4f5f98" space='10'>If they moved you to CEO, they must need some serious guidance on the Board.</p>
+            <title space='20'>REQUIREMENTS</title>
+            <p color="#4f5f98" space='10'>To acquire a seat on the Board of Directors you must acquire 100,000 shares of the company. You can purchase 10,000 shares at a time. </p>
+            <p color="#4f5f98" space='10'>You will also need to prove you are financially responsible and continue to rake in the profits. </p>
+        </page>
+        <page>
+            <title space='20'>GATHER</title>
+            <p space="10"><stack item="contenttweaker:bank_item"/><span> with EXACTLY $250,000</span></p>
+            <p space="10">
+                <stack item="contenttweaker:share" count="10"/>
+            </p>
+            <title space='20'>UNLOCKS</title>
+        </page>
+        <page>
+            <title space='20'>HINTS</title>
+
+        </page>
+    </chapter>
+    <chapter id="board" condition="board">
+        <page>
+            <title space='20'>Board Member</title>
+            <p color="#4f5f98" space='10'>Well look at you. A big head hauncho. Sitting at the big table. I know you're proud, but wouldn't you like to be "THE MAN" at the head of the table. That's right, you should set your sights on being the Chairman. Then you would have full authority of what the company says or does.</p>
+            <title space='20'>REQUIREMENTS</title>
+            <p color="#4f5f98" space='10'>To become Chairman of the Board you will need to "persuade" a few current board members, 6 to be precise, to vote you to Chairman. They each have different demands, some want goods, some want money and others want you to endorse their programs.</p>
+        </page>
+        <page>
+            <title space='20'>GATHER</title>
+            <p space="10"><stack item="contenttweaker:bank_item"/><span> with EXACTLY $500,000</span></p>
+            <p space="10">
+                <stack item="contenttweaker:vote_1"/>
+                <stack item="contenttweaker:vote_2"/>
+                <stack item="contenttweaker:vote_3"/>
+                <stack item="contenttweaker:vote_4"/>
+                <stack item="contenttweaker:vote_5"/>
+                <stack item="contenttweaker:vote_6"/>
+            </p>
+            <title space='20'>UNLOCKS</title>
+        </page>
+        <page>
+            <title space='20'>HINTS</title>
+
+        </page>
+    </chapter>
+    <chapter id="chairman" condition="chairman">
+        <page>
+            <title space='20'>Chairman of the Board</title>
+            <p color="#4f5f98" space='10'>Congratulations, you've made it. This is as far as I can take you. You have now just replaced me as Chairman of the Board and the company is yours. Where you go from here, the skies the limit. But it would be cool to be a Billionaire. I just ask that you do one thing, something I do frequently. Donate to charities. There are three charities I would like you to consider, and if you support them, you may find they give back to you!</p>
+            <title space='20'>REQUIREMENTS</title>
+            <p color="#4f5f98" space='10'>Select a charity from the Special Equipment tab to support. You can support all three, if you have the funds. Each charity will provide a bonus to YOUR company.</p>
+        </page>
+        <page>
+            <title space='20'>GATHER</title>
+            <p space="10"><stack item="contenttweaker:bank_item"/><span> with EXACTLY $1,000,000</span></p>
+            <p space="10"><stack item="contenttweaker:charity_1"/>
+                <stack item="contenttweaker:charity_2"/>
+                <stack item="contenttweaker:charity_3"/> You only have to choose ONE of these.</p>
+            <title space='20'>UNLOCKS</title>
+        </page>
+        <page>
+            <title space='20'>HINTS</title>
+
+        </page>
+    </chapter>
+    <chapter id="philanthropist" condition="philanthropist">
+        <page>
+            <title space='20'>Philanthropist</title>
+            <p color="#4f5f98" space='10'>I'm back kid, cause frankly, you need me. You need a good advisor. Listen kid, money is where its at. If you have money, you have power. We got a good thing here but we are going to need to expand. Get our fingers in a whole lot more honey pots.</p>
+
+            <p color="#4f5f98" space='10'>To make more money, we're going to buy companies and businesses and sell their goods to our global markets. But there's always a risk, and some companies don't want to merge. Here's how this works. We're going to propose a merger, and if its successful, we can apply that business to our global markets. There are three categories of businesses, low-risk/low-income, normal risk/normal income, and high risk/high income.</p>
+
+        </page>
+        <page>
+            <title space='20'>REQUIREMENTS</title>
+            <p color="#4f5f98" space='10'>Purchase the Global Upgrades Construction Pack from the store and put a proposal into it. After a bit of time, companies will accept your offer and you can use those companies to upgrade your Global Markets. However, it is possible that no companies want to sell, and you will get nothing. The high income businesses are risky, and many don't want to be bought out, while the low income businesses are more willing.</p>
+            <title space='20'>GATHER</title>
+            <p space="10"><stack item="contenttweaker:twenty-fivemillion"/>
+                <stack item="contenttweaker:low_income_new"/>
+                <stack item="contenttweaker:mid_income_new"/>
+                <stack item="contenttweaker:high_income_new"/></p>
+        </page>
+        <page>
+            <title space='20'>UNLOCKS</title>
+            <p space="10">You can now upgrade your Global Markets to get increased outputs.</p>
+
+            <title space='20'>HINTS</title>
+
+        </page>
+    </chapter>
+    <chapter id="tycoon" condition="tycoon">
+        <page>
+            <title space='20'>Business Tycoon</title>
+            <p color="#4f5f98" space='10'>Welp, our little company here has hit the big time. Money is rolling in from all our businesses and global accounts. We just have to sit back and watch it all pour in. But ya know what kid? You don't look like the type to just sit back? Honestly, our industries are doing well and almost autonomous, which means we can turn our eyes to other venues. </p>
+            <p color="#4f5f98" space='10'>One thing has always bothered me about businesses, why do they entrust they're entire livelihood to other institutions? That's right, I'm talking about BANKS. We make money, then place it in banks. They use our money to get more money. WE should use OUR money to get richer. Let's fund a bank, the Bank of GWK. Then, we approve some loans, give people credit cards and maybe invest, and just sit back and let the hundreds fall from the sky.</p>
+        </page>
+        <page>
+            <title space='20'>REQUIREMENTS</title>
+            <p color="#4f5f98" space='10'>Firstly, buy a bank from the store's special equipment tab. After that approve a loan, a line of credit and an investment. You may only have ONE of each active at any time. If you activate an approval, while one is still active, it will stop the previous one and start the new one, and you will have lost money.</p>
+            <title space='20'>GATHER</title>
+            <p space="10"><stack item="contenttweaker:hundredmillion"/></p>
+            <p><stack item="contenttweaker:approval_loan"/><span>-></span><stack item="contenttweaker:loanclosed"/></p>
+            <p><stack item="contenttweaker:approval_credit"/><span>-></span><stack item="contenttweaker:creditclosed"/></p>
+            <p><stack item="contenttweaker:approval_investment"/><span>-></span><stack item="contenttweaker:investmentclosed"/></p>
+            <title space='20'>UNLOCKS</title>
+        </page>
+        <page>
+            <title space='20'>HINTS</title>
+        </page>
+    </chapter>
+    <chapter id="mogul" condition="mogul">
+        <page>
+            <title space='20'>Finance Mogul</title>
+            <p color="#4f5f98" space='10'>Now that we own some banks, let's give up some cheese and establish them world-wide. But here's the catch, kiddo. If people don't have money, they can't pay their loans, which means we don't get interest. Or they don't get credit cards, and we don't get interest.</p>
+            <p color="#4f5f98" space='10'> So what we need to do, is dump money into under-funded communities and countries around the world and help them establish a decent economy, then plop The Bank of GWK, right in the middle. GOLD MINE! Everyone wins, we make money, communities prosper and people are happy.</p>
+
+        </page>
+        <page>
+            <title space='20'>REQUIREMENTS</title>
+            <p color="#4f5f98" space='10'>This is going to be a bit tricky kid. First thing you have to do is purchase an Economic Development Charter. This purchases lands and rights to build in an under-funded community. After that, you must purchase a residential zone and apply it to the charter. More people is more money, and more likely to spend it if they have a nice house. Once you've applied a residential zone to a charter, you will get a Community Plan.</p>
+            <p color="#4f5f98" space='10'>A Community Plan has two values, Building Points and Worth. As you apply businesses we own, and our own banks, the worth goes up and the building points goes down. Once you are out of building points, you can no longer add any more zones. When you are satisfied with the worth of a community plan, you will need to get a Economic Construction Approval from our bank. This will give you a Construction Plan and you will apply it to our Global Upgrades and wait for payday!</p>
+        </page>
+        <page>
+            <p color="#4f5f98" space='10'></p>
+            <p color="#4f5f98" space='10'>There are a few things to consider as you think on how to build up these communities. A higher tier business or residential cannot be applied to a lower tiered one. In order to increase a communities profitability, you must educate them and give them more choices of residential zones to live. All upgrades and building items are available in the construction tab of the store.</p>
+            <title space='20'>GATHER</title>
+            <p space="10"><stack item="contenttweaker:two-fiftymillion"/>
+                <stack item="contenttweaker:low_income_community"/>
+                <stack item="contenttweaker:mid_income_community"/>
+                <stack item="contenttweaker:high_income_community"/></p>
+            <title space='20'>UNLOCKS</title>
+            <title space='20'>HINTS</title>
+        </page>
+    </chapter>
+    <chapter id="world_bank" condition="world_bank">
+        <page>
+            <title space='20'>President of the World Bank</title>
+            <p color="#4f5f98" space='10'>.</p>
+            <title space='20'>REQUIREMENTS</title>
+        </page>
+        <page>
+            <title space='20'>GATHER</title>
+            <p space="10"><stack item="contenttweaker:fivehundredmillion"/></p>
+            <title space='20'>UNLOCKS</title>
+        </page>
+        <page>
+            <title space='20'>HINTS</title>
+
+        </page>
+    </chapter>
+    <chapter id="un" condition="un">
+        <page>
+            <title space='20'>Secretary-General of the United Nations</title>
+            <p color="#4f5f98" space='10'>.</p>
+            <title space='20'>REQUIREMENTS</title>
+        </page>
+        <page>
+            <title space='20'>GATHER</title>
+            <p space="10"><stack item="contenttweaker:onebillion"/></p>
+            <title space='20'>UNLOCKS</title>
+        </page>
+        <page>
+            <title space='20'>HINTS</title>
+
+        </page>
+    </chapter>
+    <chapter id="president" condition="president">
+        <page>
+            <title space='20'>President of the World</title>
+            <p color="#4f5f98" space='10'>.</p>
+            <title space='20'>REQUIREMENTS</title>
+        </page>
+        <page>
+            <title space='20'>GATHER</title>
+            <title space='20'>UNLOCKS</title>
+        </page>
+        <page>
+            <title space='20'>HINTS</title>
+
+        </page>
+    </chapter>
+
+
+</book>
