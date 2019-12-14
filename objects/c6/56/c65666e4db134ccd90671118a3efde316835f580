@@ -1,0 +1,20 @@
+setTitle("Global Market: Fluids")
+
+setIcon(<contenttweaker:global_fluids_kit>)
+
+setDescription("Purchase Global Market: Fluids")
+
+addParent("triumph:billionaire/executivedirector/root")
+setRequiresParents()
+
+
+//Criteria
+criteria = addCriteria("promotion", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:global_fluids_kit>)
+
+setShowToast(true)
+setAnnounceToChat(false)
+
+//Rewards
+
+visibleIf("triumph:billionaire/executivedirector/root")

@@ -1,0 +1,19 @@
+setTitle("$1,000,000")
+
+setIcon(<contenttweaker:onemillion>)
+
+setDescription("Collect $1,000,000")
+
+addParent("triumph:billionaire/chairman/root")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("promotion", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:onemillion, count:1~>)
+
+setShowToast(true)
+setAnnounceToChat(false)
+
+//Rewards
+
+visibleIf("triumph:billionaire/chairman/root")
