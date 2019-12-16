@@ -1,0 +1,15 @@
+T:{id:"contenttweaker:hundredmillion",Count:1b,Damage:0s}
+T:{id:"bigreactors:turbinecontroller",Count:1b,Damage:0s}
+T:{id:"mekanismgenerators:generator",Count:1b,Damage:3s}
+T:{id:"techreborn:dynamiccell",Count:1b,tag:{Fluid:{FluidName:"syngas",Amount:1000}},Damage:0s}
+T:{id:"bigreactors:reactorcontroller",Count:1b,Damage:0s}
+T:{id:"solarflux:solar_panel_8",Count:1b,Damage:0s}
+T:{id:"ic2:quantum_helmet",Count:1b,tag:{},Damage:26s}
+T:{id:"ic2:te",Count:1b,Damage:79s}
+T:{id:"ic2:cable",Count:1b,tag:{type:1b,insulation:0b},Damage:1s}
+T:{id:"ic2:crafting",Count:1b,Damage:2s}
+T:{id:"advanced_solar_panels:machines",Count:1b,Damage:3s}
+T:{id:"minecraft:redstone",Count:1b,Damage:0s}
+T:{id:"minecraft:light_weighted_pressure_plate",Count:1b,Damage:0s}
+T:{id:"minecraft:iron_ingot",Count:1b,Damage:0s}
+T:{id:"minecraft:glass",Count:1b,Damage:0s}
