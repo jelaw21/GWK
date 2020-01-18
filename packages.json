@@ -7,6 +7,13 @@
       "version" : "1.8.2",
       "location" : "billionaire.json",
       "priority" : 0
+    },
+    {
+      "title" : "Geekpack 2",
+      "name" : "Geekpack",
+      "version" : "1.0.4",
+      "location" : "geekpack.json",
+      "priority" : 0
     }
   ]
 }
