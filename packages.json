@@ -4,14 +4,14 @@
     {
       "title" : "Skyblock Billionaire",
       "name" : "Billionaire",
-      "version" : "1.8.2",
+      "version" : "2.0.0",
       "location" : "billionaire.json",
       "priority" : 0
     },
     {
       "title" : "Geekpack 2",
       "name" : "Geekpack",
-      "version" : "1.0.6",
+      "version" : "1.1.1",
       "location" : "geekpack.json",
       "priority" : 0
     }
