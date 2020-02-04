@@ -1,0 +1,3078 @@
+# Configuration file
+
+##########################################################################################################
+# block_heat_conversions
+#--------------------------------------------------------------------------------------------------------#
+# Conversion of one block into another when a lot of heat is added. 'Air' as an entry means the block turned into dust
+##########################################################################################################
+
+block_heat_conversions {
+}
+
+
+general {
+    # Heat map handles interaction of heat based energy and the world. Disable only if it causes issues or you want to reduce world file size. If disabled it can prevent machines from working. [default: true]
+    B:EnabledHeatMap=true
+}
+
+
+heat_conversions {
+    #  [default: minecraft:air]
+    S:"ArchitectureCraft:sawbench"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"ArchitectureCraft:shape"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"BiblioCraft:Armor Stand"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"BiblioCraft:BiblioBorderlessPainting"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiblioCraft:BiblioCase"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiblioCraft:BiblioClipboard"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiblioCraft:BiblioClock"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiblioCraft:BiblioDesk"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiblioCraft:BiblioFancyPainting"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiblioCraft:BiblioFancySign"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiblioCraft:BiblioFlatPainting"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiblioCraft:BiblioLabel"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiblioCraft:BiblioMapFrames"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiblioCraft:BiblioMiddlePainting"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiblioCraft:BiblioPaneler"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiblioCraft:BiblioPotionShelf"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiblioCraft:BiblioRack"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiblioCraft:BiblioSeats"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiblioCraft:BiblioShelf"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiblioCraft:BiblioSimplePainting"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"BiblioCraft:BiblioStuffs"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"BiblioCraft:BiblioSwordPedestal"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"BiblioCraft:BiblioTable"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiblioCraft:BiblioWorkbench"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiblioCraft:Bibliotheca"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiblioCraft:BookcaseFilled"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiblioCraft:Typesetting Machine"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiblioCraft:tile.BiblioFramedChest"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiblioWoodsBoP:BiblioWoodBookcase"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiblioWoodsBoP:BiblioWoodClock"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiblioWoodsBoP:BiblioWoodFancySign"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiblioWoodsBoP:BiblioWoodFancyWorkbench"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiblioWoodsBoP:BiblioWoodMapFrame"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiblioWoodsBoP:BiblioWoodPaintingT0"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiblioWoodsBoP:BiblioWoodPaintingT1"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiblioWoodsBoP:BiblioWoodPaintingT2"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiblioWoodsBoP:BiblioWoodPaintingT3"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiblioWoodsBoP:BiblioWoodPaintingT4"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiblioWoodsBoP:BiblioWoodSeat"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiblioWoodsBoP:BiblioWoodcase"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiblioWoodsBoP:BiblioWooddesk"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiblioWoodsBoP:BiblioWoodlabel"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiblioWoodsBoP:BiblioWoodpotshelf"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiblioWoodsBoP:BiblioWoodrack"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiblioWoodsBoP:BiblioWoodshelf"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiblioWoodsBoP:BiblioWoodtable"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"BigReactors:YelloriteOre"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"BiomesOPlenty:appleLeaves"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"BiomesOPlenty:ashStone"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"BiomesOPlenty:bones"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"BiomesOPlenty:cherryStairs"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiomesOPlenty:colorizedLeaves1"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiomesOPlenty:colorizedLeaves2"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"BiomesOPlenty:cragRock"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"BiomesOPlenty:darkStairs"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"BiomesOPlenty:driedDirt"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"BiomesOPlenty:etherealStairs"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiomesOPlenty:firStairs"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiomesOPlenty:flowerVine"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"BiomesOPlenty:gemOre"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"BiomesOPlenty:grave"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"BiomesOPlenty:hardDirt"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"BiomesOPlenty:hardIce"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"BiomesOPlenty:hellBarkStairs"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiomesOPlenty:hive"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiomesOPlenty:ivy"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiomesOPlenty:jacarandaStairs"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiomesOPlenty:leaves1"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiomesOPlenty:leaves2"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiomesOPlenty:leaves3"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiomesOPlenty:leaves4"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiomesOPlenty:logs1"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiomesOPlenty:logs2"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiomesOPlenty:logs3"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiomesOPlenty:logs4"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiomesOPlenty:magicStairs"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiomesOPlenty:mahoganyStairs"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiomesOPlenty:mangroveStairs"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiomesOPlenty:moss"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"BiomesOPlenty:mudBricks"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"BiomesOPlenty:mudBricksStairs"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"BiomesOPlenty:overgrownNetherrack"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"BiomesOPlenty:palmStairs"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiomesOPlenty:persimmonLeaves"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiomesOPlenty:petals"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiomesOPlenty:pineStairs"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiomesOPlenty:planks"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiomesOPlenty:redwoodStairs"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"BiomesOPlenty:rocks"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"BiomesOPlenty:sacredoakStairs"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"BiomesOPlenty:stoneDoubleSlab"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"BiomesOPlenty:stoneFormations"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"BiomesOPlenty:stoneSingleSlab"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"BiomesOPlenty:treeMoss"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiomesOPlenty:willow"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiomesOPlenty:willowStairs"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiomesOPlenty:wisteria"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiomesOPlenty:woodenDoubleSlab1"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiomesOPlenty:woodenDoubleSlab2"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiomesOPlenty:woodenSingleSlab1"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"BiomesOPlenty:woodenSingleSlab2"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"CCTweaks:networkedBlock"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"ComputerCraft:CC-Cable"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"ComputerCraft:CC-Computer"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"ComputerCraft:CC-Peripheral"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"EnderIO:blockPaintedCarpet"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"EnderIO:blockPaintedDoubleSlab"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"EnderIO:blockPaintedFence"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"EnderIO:blockPaintedFenceGate"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"EnderIO:blockPaintedSlab"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"EnderIO:blockPaintedStair"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"EnderIO:blockPaintedWall"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"EnderIO:blockReinforcedObsidian"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"EnderIO:blockReservoir"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"ExtraUtilities:angelBlock"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"ExtraUtilities:chestFull"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"ExtraUtilities:chestMini"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"ExtraUtilities:cobblestone_compressed"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"ExtraUtilities:colorStoneBrick"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"ExtraUtilities:colorWoodPlanks"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"ExtraUtilities:color_blockCoal"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"ExtraUtilities:color_brick"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"ExtraUtilities:color_obsidian"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"ExtraUtilities:color_quartzBlock"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"ExtraUtilities:color_stone"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"ExtraUtilities:color_stonebrick"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"ExtraUtilities:curtains"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"ExtraUtilities:dark_portal"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"ExtraUtilities:decorativeBlock1"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"ExtraUtilities:drum"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"ExtraUtilities:endConstructor"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"ExtraUtilities:enderCollector"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"ExtraUtilities:enderQuarry"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"ExtraUtilities:enderQuarryUpgrade"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"ExtraUtilities:enderThermicPump"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"ExtraUtilities:filing"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"ExtraUtilities:generator"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"ExtraUtilities:generator.64"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"ExtraUtilities:generator.8"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"ExtraUtilities:greenscreen"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"ExtraUtilities:peaceful_table_top"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"ExtraUtilities:sound_muffler"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"ExtraUtilities:spike_base_wood"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"ExtraUtilities:timer"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"ExtraUtilities:trading_post"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"ExtraUtilities:trashcan"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"FCTweaks:camoSmoker"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"Forestry:fences"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"Forestry:fencesFireproof"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"Forestry:ffarm"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"Forestry:leaves"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"Forestry:logs"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"Forestry:logsFireproof"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"Forestry:planks"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"Forestry:planksFireproof"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"Forestry:resources"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"Forestry:slabs"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"Forestry:slabsDouble"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"Forestry:slabsDoubleFireproof"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"Forestry:slabsFireproof"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"Forestry:stairs"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"Forestry:stairsFireproof"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"ForgeMultipart:block"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"GalacticraftCore:slabGCDouble"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"GalacticraftCore:slabGCHalf"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"GalacticraftCore:tile.airLockFrame"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"GalacticraftCore:tile.aluminumWire"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"GalacticraftCore:tile.cargo"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"GalacticraftCore:tile.distributor"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"GalacticraftCore:tile.fallenMeteor"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"GalacticraftCore:tile.fuelLoader"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"GalacticraftCore:tile.gcBlockCore"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"GalacticraftCore:tile.landingPadFull"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"GalacticraftCore:tile.moonBlock"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"GalacticraftCore:tile.moonBricksStairs"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"GalacticraftCore:tile.moonStoneStairs"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"GalacticraftCore:tile.oxygenCollector"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"GalacticraftCore:tile.oxygenCompressor"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"GalacticraftCore:tile.parachest"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"GalacticraftCore:tile.refinery"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"GalacticraftCore:tile.sealer"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"GalacticraftCore:tile.spaceStationBase"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"GalacticraftCore:tile.tinStairs1"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"GalacticraftCore:tile.tinStairs2"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"GalacticraftCore:tile.treasureChest"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"GalacticraftCore:tile.wallGC"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"GalacticraftMars:tile.asteroidsBlock"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"GalacticraftMars:tile.cavernVines"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"GalacticraftMars:tile.mars"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"GalacticraftMars:tile.marsCobblestoneStairs"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"GalacticraftMars:tile.marsDungeonBricksStairs"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"GalacticraftMars:tile.minerBase"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"GalacticraftMars:tile.minerBaseFull"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"GalacticraftMars:tile.slimelingEgg"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"GalacticraftMars:tile.treasureT2"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"GalacticraftMars:tile.treasureT3"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"IC2:blockBarrel"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"IC2:blockBasalt"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"IC2:blockDynamite"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"IC2:blockDynamiteRemote"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"IC2:blockFoam"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"IC2:blockITNT"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"IC2:blockNuke"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"IC2:blockOreCopper"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"IC2:blockOreLead"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"IC2:blockOreTin"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"IC2:blockOreUran"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"IC2:blockReinforcedFoam"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"IC2:blockRubLeaves"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"IC2:blockRubWood"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"IC2:blockRubber"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"IC2:blockScaffold"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"IC2:blockWall"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"Mekanism:CardboardBox"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"Mekanism:GlowPlasticBlock"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"Mekanism:ObsidianTNT"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"Mekanism:OreBlock"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"Mekanism:PlasticBlock"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"Mekanism:ReinforcedPlasticBlock"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"Mekanism:RoadPlasticBlock"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"Mekanism:SlickPlasticBlock"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"MoCreatures:MoCLeaves"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"MoCreatures:MoCLog"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"MoCreatures:MoCStone"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"MoCreatures:MoCTallGrass"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"MoCreatures:MoCWoodPlank"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:alien_fence"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:alien_fence_gate"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:alien_leaves"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:alien_log"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:alien_planks"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:alien_wood_stairs"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:alphere_ore"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:ancient_dark_door_block"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:ancient_dark_fence_gate"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:ancient_dark_leaves"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:ancient_dark_wood_stairs"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:candy_cane1"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:candy_cane2"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:candy_extractor_active"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:candy_extractor_idle"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:caramel_block"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:cheese_gas"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:cheese_sandstone_stairs"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:chiseled_quontonium_stairs"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:chondrite_block"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:coconut_block"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:coconut_door_block"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:coconut_fence_gate"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:coconut_wood_stairs"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:crystal_door_block"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:crystal_fence"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:crystal_fence_gate"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:crystal_leaves"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:crystal_log"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:crystal_planks"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:crystal_segment"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:crystal_wood_stairs"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:dark_asteroid_block"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:deimos_block"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:diona_ancient_chest"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:diona_block"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:diona_cobblestone_stairs"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:diona_dungeon_brick_stairs"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:diona_treasure_chest"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:double_europa_sandstone_slab"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:double_fronos_sandstone_slab"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:double_venus_sandstone_slab"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:dungeon_brick_double_slab1"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:dungeon_brick_double_slab2"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:dungeon_brick_half_slab1"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:dungeon_brick_half_slab2"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:eledos_egg"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:europa_door_block"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:europa_fence"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:europa_fence_gate"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:europa_geyser"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:europa_leaves"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:europa_log"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:europa_planks"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:europa_salt"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:europa_sandstone"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:europa_sandstone_stairs"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:europa_water_bomb"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:europa_wood_stairs"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:fallen_koentus_meteor"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:fallen_polongnius_meteor"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:fronisium_tnt"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:fronos_ancient_chest"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:fronos_block"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:fronos_block1"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:fronos_cloud"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:fronos_cobblestone_stairs"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:fronos_cracked_stone_brick_stairs"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:fronos_dungeon_brick_stairs"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:fronos_fence"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:fronos_leaves"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:fronos_leaves2"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:fronos_log"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:fronos_ore"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:fronos_ore_block"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:fronos_sandstone"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:fronos_sandstone_stairs"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:fronos_stone_brick_stairs"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:fronos_treasure_chest"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:fronos_wooden_planks"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:frozen_water_geyser"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:half_europa_sandstone_slab"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:half_fronos_sandstone_slab"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:half_venus_sandstone_slab"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:helium_block"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:huge_sky_mushroom"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:infected_cavernous_vine"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:infected_vine"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:infected_worm_egg"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:io_block"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:io_magma_rock"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:jelly_block"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:kapteyn-b_ancient_chest"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:kapteyn-b_ancient_chest_temp"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:kapteyn-b_block"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:kapteyn-b_cobblestone_stairs"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:kapteyn-b_dungeon_brick_stairs"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:kapteyn-b_treasure_chest"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:koentus_ancient_brick_stairs"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:koentus_ancient_chest"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:koentus_ancient_stone_stairs"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:koentus_block"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:koentus_cobblestone_stairs"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:koentus_dungeon_brick_stairs"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:koentus_treasure_chest"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:magma_rock"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:maple_ivy"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:mercury_ancient_chest"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:mercury_block"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:mercury_cobblestone_stairs"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:mercury_dungeon_brick_stairs"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:mercury_treasure_chest"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:metallic_rock"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:mossy_fronos_cobblestone"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:mp_dungeon_brick_wall"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:mp_stone_double_slab1"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:mp_stone_double_slab2"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:mp_stone_half_slab1"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:mp_stone_half_slab2"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:mp_wall"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:mp_wood_double_slab"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:mp_wood_half_slab"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:nibiru_ancient_chest"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:nibiru_block"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:nibiru_cobblestone_stairs"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:nibiru_dungeon_brick_stairs"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:nibiru_fence"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:nibiru_log"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:nibiru_planks"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:nibiru_treasure_chest"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:oil_rock"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:orange_door_block"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:orange_fence_gate"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:orange_leaves"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:orange_wood_stairs"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:phobos_block"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:pluto_ancient_chest"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:pluto_block"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:pluto_cobblestone_stairs"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:pluto_dungeon_brick_stairs"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:pluto_treasure_chest"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:polongnius_ancient_chest"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:polongnius_block"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:polongnius_cobblestone_stairs"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:polongnius_dungeon_brick_stairs"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:polongnius_treasure_chest"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:quontonium_brick_stairs"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:red_maple_door_block"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:red_maple_fence_gate"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:red_maple_wood_stairs"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:rocky_soild_water"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:sirius-b_ancient_chest"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:sirius-b_cobblestone_stairs"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:sirius-b_dungeon_brick_stairs"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:sirius-b_treasure_chest"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:sirius_block"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:sirius_obsidian"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:space_decoration_block"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:space_mossy_cobblestone"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:uranium_bomb"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"MorePlanet:venus_ancient_chest"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:venus_block"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:venus_cobblestone_stairs"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:venus_dungeon_brick_stairs"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:venus_magma_rock"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:venus_redstone_ore"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:venus_redstone_ore_active"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:venus_sandstone"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:venus_sandstone_stairs"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:venus_smoke_geyser"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:venus_treasure_chest"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"MorePlanet:white_sandstone_stairs"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"OpenBlocks:autoenchantmenttable"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"OpenBlocks:beartrap"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"OpenBlocks:blockPlacer"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"OpenBlocks:blockbreaker"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"OpenBlocks:builder_guide"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"OpenBlocks:cannon"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"OpenBlocks:donationStation"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"OpenBlocks:drawingtable"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"OpenBlocks:elevator"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"OpenBlocks:elevator_rotating"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"OpenBlocks:guide"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"OpenBlocks:heal"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"OpenBlocks:itemDropper"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"OpenBlocks:ladder"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"OpenBlocks:paintcan"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"OpenBlocks:paintmixer"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"OpenBlocks:scaffolding"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"OpenBlocks:tank"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"OpenBlocks:target"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"OpenBlocks:trophy"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"OpenBlocks:vacuumhopper"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"OpenBlocks:village_highlighter"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"OpenBlocks:xpbottler"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"OpenBlocks:xpshower"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"StorageDrawers:compDrawers"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"StorageDrawers:controller"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"StorageDrawers:controllerSlave"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"StorageDrawers:framingTable"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"StorageDrawers:fullCustom1"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"StorageDrawers:fullCustom2"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"StorageDrawers:fullCustom4"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"StorageDrawers:fullDrawers1"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"StorageDrawers:fullDrawers2"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"StorageDrawers:fullDrawers4"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"StorageDrawers:halfCustom2"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"StorageDrawers:halfCustom4"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"StorageDrawers:halfDrawers2"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"StorageDrawers:halfDrawers4"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"StorageDrawers:trim"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"StorageDrawers:trimCustom"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"TConstruct:Armor.DryingRack"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"TConstruct:BattleSignBlock"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"TConstruct:CastingChannel"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"TConstruct:CraftingSlab"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"TConstruct:CraftingStation"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"TConstruct:FurnaceSlab"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"TConstruct:HeldItemBlock"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"TConstruct:LavaTank"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"TConstruct:LavaTankNether"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"TConstruct:MeatBlock"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"TConstruct:Redstone.Landmine"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"TConstruct:SearedBlock"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"TConstruct:SearedBlockNether"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"TConstruct:SearedBrick"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"TConstruct:SearedSlab"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"TConstruct:Smeltery"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"TConstruct:SmelteryNether"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"TConstruct:SpeedBlock"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"TConstruct:SpeedSlab"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"TConstruct:ToolStationBlock"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"TConstruct:WoolSlab1"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"TConstruct:WoolSlab2"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"TConstruct:decoration.multibrick"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"TConstruct:decoration.multibrickfancy"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"TConstruct:explosive.slime"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"TConstruct:ore.berries.one"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"TConstruct:ore.berries.two"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"TConstruct:slime.grass.tall"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"TConstruct:slime.leaves"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"TConstruct:slime.pad"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"TConstruct:trap.barricade.birch"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"TConstruct:trap.barricade.jungle"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"TConstruct:trap.barricade.oak"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"TConstruct:trap.barricade.spruce"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"ThermalFoundation:Ore"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"TwilightForest:tile.CastleBrick"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"TwilightForest:tile.CastleMagic"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"TwilightForest:tile.DarkLeaves"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"TwilightForest:tile.GiantCobble"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"TwilightForest:tile.GiantLeaves"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"TwilightForest:tile.GiantLog"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"TwilightForest:tile.GiantObsidian"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"TwilightForest:tile.HugeGloomBlock"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"TwilightForest:tile.HugeStalk"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"TwilightForest:tile.TFBossSpawner"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"TwilightForest:tile.TFBurntThorns"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"TwilightForest:tile.TFDeadrock"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"TwilightForest:tile.TFFireJet"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"TwilightForest:tile.TFLeaves"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"TwilightForest:tile.TFLeaves3"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"TwilightForest:tile.TFLog"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"TwilightForest:tile.TFMagicLeaves"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"TwilightForest:tile.TFMagicLog"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"TwilightForest:tile.TFMagicLogSpecial"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"TwilightForest:tile.TFMazestone"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"TwilightForest:tile.TFNagastone"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"TwilightForest:tile.TFRoots"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"TwilightForest:tile.TFShield"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"TwilightForest:tile.TFThorns"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"TwilightForest:tile.TFTowerDevice"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"TwilightForest:tile.TFTowerStone"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"TwilightForest:tile.TFTrophyPedestal"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"TwilightForest:tile.TFUncraftingTable"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"TwilightForest:tile.TFUnderBrick"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"TwilightForest:tile.TrollSteinn"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"WarpDrive:blockAirShield"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull1_plain"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull1_slab_black"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull1_slab_blue"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull1_slab_brown"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull1_slab_cyan"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull1_slab_gray"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull1_slab_green"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull1_slab_lightBlue"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull1_slab_lime"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull1_slab_magenta"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull1_slab_orange"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull1_slab_pink"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull1_slab_purple"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull1_slab_red"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull1_slab_silver"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull1_slab_white"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull1_slab_yellow"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull1_stairs_black"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull1_stairs_blue"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull1_stairs_brown"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull1_stairs_cyan"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull1_stairs_gray"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull1_stairs_green"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull1_stairs_lightBlue"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull1_stairs_lime"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull1_stairs_magenta"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull1_stairs_orange"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull1_stairs_pink"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull1_stairs_purple"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull1_stairs_red"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull1_stairs_silver"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull1_stairs_white"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull1_stairs_yellow"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull1_tiled"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull2_plain"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull2_slab_black"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull2_slab_blue"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull2_slab_brown"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull2_slab_cyan"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull2_slab_gray"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull2_slab_green"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull2_slab_lightBlue"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull2_slab_lime"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull2_slab_magenta"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull2_slab_orange"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull2_slab_pink"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull2_slab_purple"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull2_slab_red"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull2_slab_silver"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull2_slab_white"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull2_slab_yellow"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull2_stairs_black"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull2_stairs_blue"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull2_stairs_brown"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull2_stairs_cyan"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull2_stairs_gray"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull2_stairs_green"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull2_stairs_lightBlue"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull2_stairs_lime"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull2_stairs_magenta"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull2_stairs_orange"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull2_stairs_pink"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull2_stairs_purple"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull2_stairs_red"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull2_stairs_silver"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull2_stairs_white"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull2_stairs_yellow"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull2_tiled"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull3_plain"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull3_slab_black"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull3_slab_blue"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull3_slab_brown"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull3_slab_cyan"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull3_slab_gray"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull3_slab_green"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull3_slab_lightBlue"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull3_slab_lime"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull3_slab_magenta"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull3_slab_orange"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull3_slab_pink"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull3_slab_purple"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull3_slab_red"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull3_slab_silver"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull3_slab_white"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull3_slab_yellow"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull3_stairs_black"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull3_stairs_blue"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull3_stairs_brown"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull3_stairs_cyan"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull3_stairs_gray"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull3_stairs_green"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull3_stairs_lightBlue"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull3_stairs_lime"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull3_stairs_magenta"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull3_stairs_orange"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull3_stairs_pink"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull3_stairs_purple"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull3_stairs_red"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull3_stairs_silver"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull3_stairs_white"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull3_stairs_yellow"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"WarpDrive:blockHull3_tiled"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"appliedenergistics2:tile.BlockCrank"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"appliedenergistics2:tile.BlockFluix"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"appliedenergistics2:tile.BlockGrinder"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"appliedenergistics2:tile.BlockQuartz"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"appliedenergistics2:tile.BlockQuartzChiseled"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"appliedenergistics2:tile.BlockQuartzGrowthAccelerator"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"appliedenergistics2:tile.BlockQuartzPillar"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"appliedenergistics2:tile.BlockSkyChest"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"appliedenergistics2:tile.BlockSkyStone"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"appliedenergistics2:tile.BlockTinyTNT"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"appliedenergistics2:tile.ChiseledQuartzSlabBlock"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"appliedenergistics2:tile.ChiseledQuartzSlabBlock.double"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"appliedenergistics2:tile.ChiseledQuartzStairBlock"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"appliedenergistics2:tile.FluixSlabBlock"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"appliedenergistics2:tile.FluixSlabBlock.double"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"appliedenergistics2:tile.FluixStairBlock"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"appliedenergistics2:tile.OreQuartz"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"appliedenergistics2:tile.OreQuartzCharged"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"appliedenergistics2:tile.QuartzPillarSlabBlock"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"appliedenergistics2:tile.QuartzPillarSlabBlock.double"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"appliedenergistics2:tile.QuartzPillarStairBlock"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"appliedenergistics2:tile.QuartzSlabBlock"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"appliedenergistics2:tile.QuartzSlabBlock.double"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"appliedenergistics2:tile.QuartzStairBlock"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"appliedenergistics2:tile.SkyStoneBlockSlabBlock"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"appliedenergistics2:tile.SkyStoneBlockSlabBlock.double"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"appliedenergistics2:tile.SkyStoneBlockStairBlock"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"appliedenergistics2:tile.SkyStoneBrickSlabBlock"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"appliedenergistics2:tile.SkyStoneBrickSlabBlock.double"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"appliedenergistics2:tile.SkyStoneBrickStairBlock"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"appliedenergistics2:tile.SkyStoneSlabBlock"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"appliedenergistics2:tile.SkyStoneSlabBlock.double"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"appliedenergistics2:tile.SkyStoneSmallBrickSlabBlock"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"appliedenergistics2:tile.SkyStoneSmallBrickSlabBlock.double"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"appliedenergistics2:tile.SkyStoneSmallBrickStairBlock"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"appliedenergistics2:tile.SkyStoneStairBlock"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"armourersWorkshop:block.awBoundingBox6"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"armourersWorkshop:block.doll"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"armourersWorkshop:block.mannequin"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"cfm:barstool"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"cfm:basin"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"cfm:bath1"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"cfm:bath2"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"cfm:bedsidecabinet"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"cfm:bin"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"cfm:birdbath"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"cfm:blindon"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"cfm:cabinet"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"cfm:chairstone"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"cfm:chairwood"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"cfm:choppingboard"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"cfm:coffetablestone"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"cfm:coffetablewood"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"cfm:couch"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"cfm:counterdoored"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"cfm:countersink"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"cfm:curtainoff"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"cfm:curtainon"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"cfm:dishwasher"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"cfm:doorbell"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"cfm:electricfence"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"cfm:firealarmoff"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"cfm:firealarmon"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"cfm:freezer"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"cfm:hedge"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"cfm:hey"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"cfm:kitchencabinet"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"cfm:mailbox"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"cfm:microwave"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"cfm:nyan"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"cfm:oven"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"cfm:ovenoverhead"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"cfm:pattern"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"cfm:present"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"cfm:showerbottom"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"cfm:showerheadoff"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"cfm:showerheadon"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"cfm:showertop"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"cfm:stereo"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"cfm:stonepath"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"cfm:tablestone"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"cfm:tablewood"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"cfm:tap"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"cfm:toaster"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"cfm:toilet"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"cfm:tree"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"cfm:tv"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"cfm:wallcabinet"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"cfm:washingmachine"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"cfm:whiteGlass"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"cfm:whitefence"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"cfm:yellowGlow"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"chisel:acacia_planks"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"chisel:andesite"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:antiBlock"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:autoChisel"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"chisel:birch_planks"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"chisel:bookshelf"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"chisel:brickCustom"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"chisel:carpet"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"chisel:carpet_block"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"chisel:cobblestone"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:concrete"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"chisel:dark_oak_planks"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"chisel:diamond_block"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:diorite"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:emerald_block"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:end_Stone"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:fantasyblock"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:fantasyblock2"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:futura"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:futuraCircuit"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:gold_block"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:granite"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:grimstone"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:hexLargePlating"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:hexPlating"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:holystone"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:iron_block"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"chisel:jungle_planks"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"chisel:lapis_block"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:lavastone"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"chisel:leaves"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"chisel:limestone"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:limestone_slab"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:limestone_slab_top"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:limestone_stairs.0"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:limestone_stairs.1"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:limestone_stairs.2"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:limestone_stairs.3"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:limestone_stairs.4"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:limestone_stairs.5"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:limestone_stairs.6"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:limestone_stairs.7"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:marble"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:marble_pillar"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:marble_pillar_slab"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:marble_pillar_slab_top"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:marble_slab"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:marble_slab_top"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:marble_stairs.0"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:marble_stairs.1"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:marble_stairs.2"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:marble_stairs.3"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:marble_stairs.4"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:marble_stairs.5"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:marble_stairs.6"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:marble_stairs.7"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:mossy_cobblestone"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:mossy_templeblock"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:nation"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:nether_brick"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:netherrack"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"chisel:oak_planks"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"chisel:obsidian"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:obsidian_snakestone"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"chisel:present"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"chisel:purpur"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:rebel"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:sand_snakestone"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:sandstone"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:sandstone2"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:sandstone_scribbles"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"chisel:spruce_planks"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"chisel:stone_snakestone"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:stonebricksmooth"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:technical"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:technical3"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:technical4"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:templeblock"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"chisel:valentines"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"chisel:voidstone"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:voidstone2"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:voidstonePillar"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:voidstonePillar2"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:voidstoneRunic"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"chisel:waterstone"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"cookingbook:cookingtable"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"cookingbook:sink"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"cookingbook:toolrack"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"cuchaz.ships:blockBerth"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"cuchaz.ships:blockHelm"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"deconstruction:table"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"harvestcraft:animaltrap"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"harvestcraft:apiary"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"harvestcraft:churn"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"harvestcraft:churnon"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"harvestcraft:cuttingboard"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"harvestcraft:fishtrap"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"harvestcraft:market"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"harvestcraft:pamCinnamon"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"harvestcraft:pamMaple"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"harvestcraft:pamPaperbark"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"harvestcraft:presser"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"harvestcraft:salt"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"harvestcraft:sink"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"harvestcraft:spamcompressedsaltBlockalt"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"harvestthenether:netherBed"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"harvestthenether:netherLeaves"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"harvestthenether:netherLog"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"lightsabers:dark_activated_forcestone_pillar"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"lightsabers:dark_forcestone"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"lightsabers:dark_forcestone_stairs"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"lightsabers:forcestone_double_slab"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"lightsabers:forcestone_slab"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"lightsabers:light_activated_forcestone_pillar"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"lightsabers:light_forcestone"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"lightsabers:light_forcestone_stairs"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"lightsabers:sith_coffin"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"lightsabers:sith_stone_coffin"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"malisisdoors:acaciaFenceGate"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"malisisdoors:birchFenceGate"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"malisisdoors:camoFenceGate"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"malisisdoors:carriage_door"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"malisisdoors:curtain_black"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"malisisdoors:curtain_blue"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"malisisdoors:curtain_brown"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"malisisdoors:curtain_cyan"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"malisisdoors:curtain_gray"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"malisisdoors:curtain_green"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"malisisdoors:curtain_light_blue"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"malisisdoors:curtain_lime"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"malisisdoors:curtain_magenta"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"malisisdoors:curtain_orange"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"malisisdoors:curtain_pink"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"malisisdoors:curtain_purple"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"malisisdoors:curtain_red"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"malisisdoors:curtain_silver"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"malisisdoors:curtain_white"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"malisisdoors:curtain_yellow"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"malisisdoors:darkOakFenceGate"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"malisisdoors:door_acacia"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"malisisdoors:door_birch"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"malisisdoors:door_dark_oak"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"malisisdoors:door_jungle"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"malisisdoors:door_spruce"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"malisisdoors:garage_door"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"malisisdoors:jungleFenceGate"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"malisisdoors:medieval_door"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"malisisdoors:mixed_block"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"malisisdoors:null"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"malisisdoors:saloon"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"malisisdoors:shoji_door"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"malisisdoors:spruceFenceGate"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"malisisdoors:trapdoor_acacia"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"malisisdoors:trapdoor_birch"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"malisisdoors:trapdoor_dark_oak"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"malisisdoors:trapdoor_jungle"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"malisisdoors:trapdoor_spruce"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"malisisdoors:vanishing_block"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"malisisdoors:vanishing_block_diamond"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"malisisdoors:wood_sliding_door"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"minecraft:acacia_stairs"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"minecraft:bed"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"minecraft:bedrock"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"minecraft:birch_stairs"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"minecraft:bookshelf"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"minecraft:brick_block"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"minecraft:brick_stairs"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"minecraft:brown_mushroom_block"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"minecraft:carpet"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"minecraft:chest"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"minecraft:coal_block"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"minecraft:coal_ore"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"minecraft:cobblestone"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"minecraft:cobblestone_wall"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"minecraft:crafting_table"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"minecraft:dark_oak_stairs"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"minecraft:daylight_detector"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"minecraft:deadbush"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"minecraft:diamond_ore"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"minecraft:dispenser"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"minecraft:double_stone_slab"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"minecraft:double_wooden_slab"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"minecraft:dropper"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"minecraft:emerald_ore"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"minecraft:enchanting_table"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"minecraft:end_portal_frame"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"minecraft:end_stone"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"minecraft:ender_chest"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"minecraft:fence"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"minecraft:fence_gate"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"minecraft:furnace"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"minecraft:gold_ore"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"minecraft:hardened_clay"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"minecraft:iron_ore"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"minecraft:jukebox"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"minecraft:jungle_stairs"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"minecraft:lapis_ore"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"minecraft:leaves"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"minecraft:leaves2"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"minecraft:lit_furnace"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"minecraft:lit_redstone_ore"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"minecraft:log"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"minecraft:log2"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"minecraft:mob_spawner"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"minecraft:mossy_cobblestone"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"minecraft:nether_brick"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"minecraft:nether_brick_fence"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"minecraft:nether_brick_stairs"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"minecraft:netherrack"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"minecraft:noteblock"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"minecraft:oak_stairs"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"minecraft:obsidian"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"minecraft:planks"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"minecraft:quartz_block"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"minecraft:quartz_ore"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"minecraft:quartz_stairs"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"minecraft:red_mushroom_block"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"minecraft:redstone_ore"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"minecraft:sandstone"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"minecraft:sandstone_stairs"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"minecraft:spruce_stairs"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"minecraft:stained_hardened_clay"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"minecraft:standing_sign"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"minecraft:stone"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"minecraft:stone_brick_stairs"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"minecraft:stone_pressure_plate"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"minecraft:stone_slab"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"minecraft:stone_stairs"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"minecraft:stonebrick"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"minecraft:tallgrass"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"minecraft:tnt"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"minecraft:trapdoor"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"minecraft:trapped_chest"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"minecraft:vine"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"minecraft:wall_sign"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"minecraft:wooden_door"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"minecraft:wooden_pressure_plate"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"minecraft:wooden_slab"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"minecraft:wool"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"mo:dilithium_ore"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"mo:tritanium_ore"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"openmodularturrets:baseTierFourBlock"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"openmodularturrets:baseTierOneBlock"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"openmodularturrets:baseTierThreeBlock"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"openmodularturrets:baseTierTwoBlock"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"openmodularturrets:baseTierWood"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"openmodularturrets:expanderInvTierFive"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"openmodularturrets:expanderInvTierFour"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"openmodularturrets:expanderInvTierOne"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"openmodularturrets:expanderInvTierThree"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"openmodularturrets:expanderInvTierTwo"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"openmodularturrets:expanderPowerTierFive"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"openmodularturrets:expanderPowerTierFour"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"openmodularturrets:expanderPowerTierOne"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"openmodularturrets:expanderPowerTierThree"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"openmodularturrets:expanderPowerTierTwo"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"openmodularturrets:fenceTierFive"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"openmodularturrets:fenceTierFour"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"openmodularturrets:fenceTierOne"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"openmodularturrets:fenceTierThree"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"openmodularturrets:fenceTierTwo"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"openmodularturrets:hardWallTierFive"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"openmodularturrets:hardWallTierFour"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"openmodularturrets:hardWallTierOne"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"openmodularturrets:hardWallTierThree"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"openmodularturrets:hardWallTierTwo"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"openmodularturrets:leverBlock"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"props:blockFake"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"props:blockProps"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"voltzengine:veGemOre"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"voltzengine:veStoneOre"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"witchery:alderwooddoor"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"witchery:altar"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"witchery:bloodcrucible"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"witchery:bloodedwool"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"witchery:circle"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"witchery:circleglyphinfernal"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"witchery:circleglyphotherwhere"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"witchery:circleglyphritual"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"witchery:coffinblock"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"witchery:cstonepressureplate"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"witchery:cwoodendoor"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"witchery:cwoodpressureplate"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"witchery:decursedirected"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"witchery:decurseteleport"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"witchery:dreamcatcher"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"witchery:force"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"witchery:icefencegate"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"witchery:leechchest"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"witchery:mirrorwall"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"witchery:poppetshelf"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"witchery:refillingchest"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"witchery:rowanwooddoor"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"witchery:scarecrow"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"witchery:shadedglass_active"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"witchery:spanishmoss"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"witchery:spinningwheel"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"witchery:stairswoodalder"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"witchery:stairswoodhawthorn"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"witchery:stairswoodrowan"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"witchery:statuegoddess"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"witchery:statueofworship"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"witchery:stockade"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"witchery:tormentstone"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"witchery:trent"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"witchery:vine"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"witchery:wallgen"=minecraft:lava
+
+    #  [default: minecraft:air]
+    S:"witchery:web"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"witchery:wickerbundle"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"witchery:witchleaves"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"witchery:witchlog"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"witchery:witchsladder"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"witchery:witchwood"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"witchery:witchwooddoubleslab"=minecraft:air
+
+    #  [default: minecraft:air]
+    S:"witchery:witchwoodslab"=minecraft:air
+
+    #  [default: minecraft:lava]
+    S:"witchery:wolfaltar"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"wizardry:arcane_workbench"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"wizardry:crystal_ore"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"wizardry:meteor"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"wizardry:petrified_stone"=minecraft:lava
+
+    #  [default: minecraft:lava]
+    S:"wizardry:transportation_stone"=minecraft:lava
+}
+
+
