@@ -1,0 +1,8 @@
+//This file was created via CT-GUI! Editing it is not advised!
+//Don't touch me!
+//#Remove
+//Don't touch me!
+//#Add
+recipes.addShaped(<minecraft:totem_of_undying>, [[<powderpower:ingottrilium>, <soulus:ingot_niobium>, <powderpower:ingottrilium>],[<soulus:ingot_niobium>, <minecraft:nether_star>, <soulus:ingot_niobium>], [<powderpower:ingottrilium>, <soulus:ingot_niobium>, <powderpower:ingottrilium>]]);
+recipes.addShaped(<poweradapters:mj>, [[<minecraft:iron_block>, <minecraft:ender_pearl>, <minecraft:iron_block>],[<minecraft:ender_pearl>, <minecraft:redstone_block>, <minecraft:ender_pearl>], [<minecraft:iron_block>, <minecraft:ender_pearl>, <minecraft:iron_block>]]);
+//File End

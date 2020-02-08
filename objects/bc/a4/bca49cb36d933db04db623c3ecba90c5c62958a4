@@ -1,0 +1,137 @@
+[
+  {
+    "targetBlock": "minecraft:dirt:0",                   
+    "heldItem": "boneappetit:wet_bone_meal:0",          
+    "replacementBlock": "minecraft:grass:0",           
+    "replacementChance": "1:5",                              
+    "damage": "1",
+	"particleType": "slime",
+    "particleCount": "30:60"	
+  },
+  {
+    "targetBlock": "minecraft:cobblestone:0",       
+    "heldItem": "minecraft:blaze_powder:0",          
+    "replacementBlock": "minecraft:lava:0",	
+    "damage": "1",
+	"particleType": "explode",
+    "particleCount": "30:60"                                     
+  },
+  {
+    "targetBlock": "minecraft:sapling:0",                   
+    "heldItem": "boneappetit:wet_bone_meal:0",          
+    "replacementBlock": "minecraft:sapling:5",                              
+    "damage": "1",
+	"particleType": "splash",
+    "particleCount": "10:30"                                     
+  },
+  {
+    "targetBlock": "minecraft:sapling:2",                   
+    "heldItem": "boneappetit:wet_bone_meal:0",          
+    "replacementBlock": "extrautils2:ironwood_sapling:0",                              
+    "damage": "1",
+	"particleType": "splash",
+    "particleCount": "10:30"                                     
+  },
+  {
+    "targetBlock": "extrautils2:ironwood_sapling:0",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "techreborn:rubber_sapling:0",
+    "damage": "1",
+    "particleType": "splash",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "techreborn:rubber_sapling:0",
+    "heldItem": "boneappetit:wet_bone_meal:0",
+    "replacementBlock": "ic2:sapling:0",
+    "damage": "1",
+    "particleType": "splash",
+    "particleCount": "10:30"
+  },
+  {
+    "targetBlock": "minecraft:sapling:3",                   
+    "heldItem": "boneappetit:wet_bone_meal:0",          
+    "replacementBlock": "minecraft:sapling:4",                              
+    "damage": "1",
+	"particleType": "splash",
+    "particleCount": "10:30"                                     
+  },
+  {
+    "targetBlock": "minecraft:sand:0",                   
+    "heldItem": "earthworks:item_dirt:0",          
+    "replacementBlock": "minecraft:dirt:0",                              
+    "damage": "1",
+	"particleType": "mobSpell",
+    "particleCount": "30:60"                                     
+  },
+  {
+    "targetBlock": "minecraft:red_flower:0",                   
+    "heldItem": "boneappetit:wet_bone_meal:0",          
+    "replacementBlock": "minecraft:yellow_flower:0",                              
+    "damage": "1",
+	"particleType": "splash",
+    "particleCount": "10:30"                                     
+  },
+  {
+    "targetBlock": "minecraft:yellow_flower:0",                   
+    "heldItem": "boneappetit:wet_bone_meal:0",          
+    "replacementBlock": "minecraft:red_flower:0",                              
+    "damage": "1",
+	"particleType": "splash",
+    "particleCount": "10:30"                                     
+  },
+  {
+    "targetBlock": "minecraft:gravel:0",                   
+    "heldItem": "minecraft:blaze_powder:0",
+	"replacementBlock": "minecraft:air:0",
+	"dropItem": "minecraft:blaze_powder:0",
+	"dropCount": "2",	                              
+    "damage": "1",
+	"particleType": "flame",
+    "particleCount": "10:30"                                    
+  },
+  {
+    "targetBlock": "minecraft:dirt:0",                   
+    "heldItem": "minecraft:dye:15",
+	"replacementBlock": "minecraft:mycelium:0",                              
+    "damage": "1",
+	"particleType": "mobSpell",
+    "particleCount": "15:45"                                     
+  },
+  {
+    "targetBlock": "minecraft:cobblestone:0",                   
+    "heldItem": "silentgems:craftingmaterial:27",
+	"replacementBlock": "minecraft:netherrack:0",                              
+    "damage": "1",
+	"particleType": "lava",
+    "particleCount": "40:60"                                     
+  },
+  {
+    "targetBlock": "minecraft:netherrack:0",                   
+    "heldItem": "boneappetit:fiery_bone_meal:0",
+	"replacementBlock": "soulus:fossil_netherrack:0",                              
+    "damage": "1",
+	"particleType": "witchMagic",
+    "particleCount": "40:60"                                     
+  },
+  {
+    "targetBlock": "minecraft:sand:0",                   
+    "heldItem": "silentgems:craftingmaterial:27",
+	"replacementBlock": "minecraft:soul_sand:0",                              
+    "damage": "1",
+	"particleType": "mobSpell",
+    "particleCount": "15:30"                                     
+  },
+  {
+    "targetBlock": "minecraft:glass:0",                   
+    "heldItem": "silentgems:craftingmaterial:27",
+	"replacementBlock": "minecraft:air:0",
+	"replacementChance": "1:2",
+	"dropItem": "minecraft:glowstone_dust:0",
+	"dropOnlyOnSuccess": "true",
+	"dropCount": "4",
+    "damage": "1",
+	"particleType": "reddust",
+    "particleCount": "15:30"                                     
+  }
+]
