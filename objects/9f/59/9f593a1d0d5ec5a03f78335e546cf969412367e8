@@ -1,0 +1,1301 @@
+# Configuration file
+
+africanlion {
+    #  [default: [minecraft:desert], [minecraft:desert_hills], [minecraft:jungle], [minecraft:jungle_hills], [minecraft:jungle_edge], [minecraft:savanna], [minecraft:savanna_rock], [moreplanets:infected dead savanna], [moreplanets:infected desert], [moreplanets:infected jungle], [moreplanets:green vein], [tolkienmobs:haradwaith], [tolkienmobs:mordor], [aether:aether_magnetic_hills], [aether:aether_irradiated_forests], [twilightforest:fire_swamp], [galacticraftplanets:outer space 1], [galacticraftplanets:outer space 2], [moreplanets:outer space 11], [erebus:underground_jungle], [erebus:volcanic_desert], [erebus:ulterior_outback], [erebus:submerged_swamp], [minecraft:mutated_desert], [erebus:petrified_forest], [fp:menelaus], [fp:menelaus_sea], [fp:menelaus_flat], [fp:tyros], [fp:tyros_swamp], [fp:tyros_mountain], [fp:tyros_rockdesert], [fp:tyros_rockdesertflat], [minecraft:mutated_jungle], [minecraft:mutated_jungle_edge], [minecraft:mutated_savanna], [minecraft:mutated_savanna_rock], [minecraft:mutated_mesa], [minecraft:mutated_mesa_rock], [minecraft:mutated_mesa_clear_rock], [minecraft:extreme_hills_with_trees], [minecraft:mesa_rock], [tolkienmobs:iron hills], [twilightforest:twilight_clearing], [twilightforest:oak_savannah], [galacticraftcore:outer space], [minecraft:mutated_extreme_hills], [minecraft:mutated_extreme_hills_with_trees], [minecraft:hell], [minecraft:mesa], [minecraft:mesa_clear_rock], [moreplanets:diona], [moreplanets:slimely wasteland], [tolkienmobs:the brown lands], [twilightforest:highlands_center], [twilightforest:thornlands], [galaxyspace:space], [galaxyspace:spacelowplains], [galaxyspace:spacemidplains], [galaxyspace:spacelowhills], [galaxyspace:spacemidhills], [fp:envia], [erebus:subterranean_savannah], [minecraft:plains], [moreplanets:chalos plains], [moreplanets:infected plains], [moreplanets:infected river], [moreplanets:infected ocean], [moreplanets:infected forest], [moreplanets:infected deep ocean], [moreplanets:infected dead roofed forest], [moreplanets:infected dead taiga], [moreplanets:infected ice plains], [tolkienmobs:tyrn gorthad], [tolkienmobs:lorinand], [tolkienmobs:the shire], [tolkienmobs:gladden fields], [aether:aether_highlands], [appliedenergistics2:storage_biome], [erebus:elysian_fields], [minecraft:mutated_plains], [betteragriculture:farmlandbiome]]
+    S:Biomes <
+        minecraft:jungle
+        minecraft:jungle_hills
+        minecraft:jungle_edge
+        minecraft:savanna
+        minecraft:savanna_rock
+        tolkienmobs:haradwaith
+        minecraft:mutated_desert
+        minecraft:mutated_jungle
+        minecraft:mutated_jungle_edge
+        minecraft:mutated_savanna
+        minecraft:mutated_savanna_rock
+        minecraft:mesa_rock
+        tolkienmobs:the brown lands
+     >
+    B:Enabled=true
+    I:"Max Group"=2
+    I:"Min Group"=1
+    I:"Spawn Chance"=5
+}
+
+
+albatross {
+    #  [default: [minecraft:taiga], [minecraft:frozen_ocean], [minecraft:frozen_river], [minecraft:ice_flats], [minecraft:ice_mountains], [minecraft:taiga_hills], [minecraft:cold_beach], [minecraft:taiga_cold], [minecraft:taiga_cold_hills], [minecraft:redwood_taiga], [minecraft:redwood_taiga_hills], [moreplanets:diona], [moreplanets:infected dead taiga], [moreplanets:infected ice plains], [aether:aether_arctic_peaks], [appliedenergistics2:storage_biome], [twilightforest:snowy_forest], [twilightforest:twilight_glacier], [galaxyspace:space], [galaxyspace:spacelowplains], [galaxyspace:spacemidplains], [galaxyspace:spacelowhills], [galaxyspace:spacemidhills], [moreplanets:outer space 10], [moreplanets:outer space 12], [minecraft:mutated_taiga], [minecraft:mutated_ice_flats], [fp:envia], [plants2:crystal_forest], [minecraft:mutated_taiga_cold], [minecraft:extreme_hills_with_trees], [minecraft:savanna], [minecraft:savanna_rock], [minecraft:mesa_rock], [moreplanets:infected dead savanna], [tolkienmobs:haradwaith], [tolkienmobs:iron hills], [aether:aether_magnetic_hills], [twilightforest:twilight_clearing], [twilightforest:oak_savannah], [galacticraftcore:outer space], [minecraft:mutated_extreme_hills], [fp:tyros_rockdesert], [fp:tyros_rockdesertflat], [minecraft:mutated_jungle_edge], [minecraft:mutated_extreme_hills_with_trees], [minecraft:mutated_savanna], [minecraft:mutated_savanna_rock], [minecraft:mutated_mesa], [minecraft:mutated_mesa_rock], [minecraft:mutated_mesa_clear_rock], [minecraft:swampland], [minecraft:jungle], [minecraft:jungle_hills], [minecraft:jungle_edge], [moreplanets:infected swampland], [moreplanets:infected jungle], [moreplanets:green vein], [twilightforest:twilight_swamp], [moreplanets:outer space 9], [moreplanets:outer space 11], [erebus:submerged_swamp], [minecraft:mutated_swampland], [fp:tyros], [fp:tyros_swamp], [fp:tyros_mountain], [minecraft:mutated_jungle], [minecraft:mushroom_island_shore], [minecraft:beaches], [minecraft:stone_beach], [fp:menelaus_sea]]
+    S:Biomes <
+        minecraft:taiga
+        minecraft:frozen_ocean
+        minecraft:frozen_river
+        minecraft:ice_flats
+        minecraft:ice_mountains
+        minecraft:taiga_hills
+        minecraft:cold_beach
+        minecraft:taiga_cold
+        minecraft:taiga_cold_hills
+        minecraft:redwood_taiga
+        minecraft:redwood_taiga_hills
+        minecraft:mutated_taiga
+        minecraft:mutated_ice_flats
+        plants2:crystal_forest
+        minecraft:mutated_taiga_cold
+        minecraft:extreme_hills_with_trees
+        minecraft:savanna
+        minecraft:savanna_rock
+        minecraft:mesa_rock
+        tolkienmobs:hithaeglir
+        tolkienmobs:haradwaith
+        tolkienmobs:iron hills
+        minecraft:mutated_extreme_hills
+        minecraft:mutated_jungle_edge
+        minecraft:mutated_extreme_hills_with_trees
+        minecraft:mutated_savanna
+        minecraft:mutated_savanna_rock
+        minecraft:mutated_mesa
+        minecraft:mutated_mesa_rock
+        minecraft:mutated_mesa_clear_rock
+        minecraft:swampland
+        minecraft:jungle
+        minecraft:jungle_hills
+        minecraft:jungle_edge
+        minecraft:mutated_swampland
+        minecraft:mutated_jungle
+        minecraft:mushroom_island_shore
+        minecraft:beaches
+        minecraft:stone_beach
+     >
+    B:Enabled=true
+    I:"Max Group"=2
+    I:"Min Group"=1
+    I:"Spawn Chance"=5
+}
+
+
+amurleopard {
+    #  [default: [minecraft:extreme_hills], [minecraft:ice_mountains], [minecraft:smaller_extreme_hills], [minecraft:extreme_hills_with_trees], [moreplanets:chalos hills], [moreplanets:infected extreme hills], [tolkienmobs:iron hills], [aether:aether_arctic_peaks], [twilightforest:twilight_highlands], [moreplanets:outer space 8], [minecraft:mutated_extreme_hills], [minecraft:mutated_taiga], [fp:tyros_mountain], [minecraft:mutated_jungle], [minecraft:mutated_birch_forest_hills], [minecraft:mutated_roofed_forest], [minecraft:mutated_taiga_cold], [minecraft:mutated_extreme_hills_with_trees], [minecraft:mutated_savanna], [minecraft:taiga_cold], [minecraft:taiga_cold_hills], [moreplanets:infected ice plains], [twilightforest:snowy_forest], [twilightforest:twilight_glacier], [moreplanets:outer space 12], [minecraft:taiga], [minecraft:taiga_hills], [minecraft:redwood_taiga], [minecraft:redwood_taiga_hills], [moreplanets:infected dead taiga], [moreplanets:outer space 10], [minecraft:jungle], [minecraft:jungle_hills], [minecraft:roofed_forest], [moreplanets:infected dead roofed forest], [moreplanets:infected jungle], [aether:aether_forgotten_highlands], [aether:aether_irradiated_forests], [twilightforest:dense_twilight_forest], [twilightforest:dark_forest], [twilightforest:dark_forest_center], [twilightforest:spooky_forest], [moreplanets:outer space 7], [moreplanets:outer space 11], [erebus:underground_jungle], [erebus:fungal_forest], [minecraft:mutated_birch_forest], [minecraft:mutated_redwood_taiga], [minecraft:mutated_redwood_taiga_hills], [minecraft:frozen_ocean], [minecraft:frozen_river], [minecraft:ice_flats], [minecraft:cold_beach], [moreplanets:diona], [appliedenergistics2:storage_biome], [galaxyspace:space], [galaxyspace:spacelowplains], [galaxyspace:spacemidplains], [galaxyspace:spacelowhills], [galaxyspace:spacemidhills], [minecraft:mutated_ice_flats], [fp:envia], [plants2:crystal_forest]]
+    S:Biomes <
+        minecraft:mutated_taiga
+        minecraft:mutated_jungle
+        minecraft:mutated_taiga_cold
+        minecraft:taiga_cold
+        minecraft:taiga_cold_hills
+        minecraft:taiga
+        minecraft:taiga_hills
+        minecraft:redwood_taiga
+        minecraft:redwood_taiga_hills
+        minecraft:mutated_redwood_taiga
+        minecraft:mutated_redwood_taiga_hills
+        plants2:crystal_forest
+     >
+    B:Enabled=true
+    I:"Max Group"=1
+    I:"Min Group"=1
+    I:"Spawn Chance"=5
+}
+
+
+andeancondor {
+    #  [default: [minecraft:taiga], [minecraft:frozen_ocean], [minecraft:frozen_river], [minecraft:ice_flats], [minecraft:ice_mountains], [minecraft:taiga_hills], [minecraft:cold_beach], [minecraft:taiga_cold], [minecraft:taiga_cold_hills], [minecraft:redwood_taiga], [minecraft:redwood_taiga_hills], [moreplanets:diona], [moreplanets:infected dead taiga], [moreplanets:infected ice plains], [aether:aether_arctic_peaks], [appliedenergistics2:storage_biome], [twilightforest:snowy_forest], [twilightforest:twilight_glacier], [galaxyspace:space], [galaxyspace:spacelowplains], [galaxyspace:spacemidplains], [galaxyspace:spacelowhills], [galaxyspace:spacemidhills], [moreplanets:outer space 10], [moreplanets:outer space 12], [minecraft:mutated_taiga], [minecraft:mutated_ice_flats], [fp:envia], [plants2:crystal_forest], [minecraft:mutated_taiga_cold], [twilightforest:twilight_highlands], [minecraft:extreme_hills], [minecraft:smaller_extreme_hills], [minecraft:extreme_hills_with_trees], [moreplanets:chalos hills], [moreplanets:infected extreme hills], [tolkienmobs:iron hills], [moreplanets:outer space 8], [minecraft:mutated_extreme_hills], [fp:tyros_mountain], [minecraft:mutated_jungle], [minecraft:mutated_birch_forest_hills], [minecraft:mutated_roofed_forest], [minecraft:mutated_extreme_hills_with_trees], [minecraft:mutated_savanna], [minecraft:mutated_mesa], [minecraft:mutated_mesa_clear_rock]]
+    S:Biomes <
+        minecraft:ice_mountains
+        minecraft:extreme_hills
+        minecraft:smaller_extreme_hills
+        minecraft:extreme_hills_with_trees
+        minecraft:mutated_extreme_hills
+        minecraft:mutated_birch_forest_hills
+        minecraft:mutated_roofed_forest
+        minecraft:mutated_extreme_hills_with_trees
+        minecraft:mutated_mesa
+        minecraft:mutated_mesa_clear_rock
+     >
+    B:Enabled=true
+    I:"Max Group"=2
+    I:"Min Group"=1
+    I:"Spawn Chance"=5
+}
+
+
+animaltrader {
+    #  [default: [minecraft:ocean], [minecraft:plains], [minecraft:desert], [minecraft:extreme_hills], [minecraft:forest], [minecraft:taiga], [minecraft:swampland], [minecraft:river], [minecraft:frozen_ocean], [minecraft:frozen_river], [minecraft:ice_flats], [minecraft:ice_mountains], [minecraft:mushroom_island], [minecraft:mushroom_island_shore], [minecraft:beaches], [minecraft:desert_hills], [minecraft:forest_hills], [minecraft:taiga_hills], [minecraft:smaller_extreme_hills], [minecraft:jungle], [minecraft:jungle_hills], [minecraft:jungle_edge], [minecraft:deep_ocean], [minecraft:stone_beach], [minecraft:cold_beach], [minecraft:birch_forest], [minecraft:birch_forest_hills], [minecraft:roofed_forest], [minecraft:taiga_cold], [minecraft:taiga_cold_hills], [minecraft:redwood_taiga], [minecraft:redwood_taiga_hills], [minecraft:extreme_hills_with_trees], [minecraft:savanna], [minecraft:savanna_rock], [minecraft:mesa], [minecraft:mesa_rock], [minecraft:mesa_clear_rock], [minecraft:void], [minecraft:mutated_plains], [minecraft:mutated_desert], [minecraft:mutated_extreme_hills], [minecraft:mutated_forest], [minecraft:mutated_taiga], [minecraft:mutated_swampland], [minecraft:mutated_ice_flats], [minecraft:mutated_jungle], [minecraft:mutated_jungle_edge], [minecraft:mutated_birch_forest], [minecraft:mutated_birch_forest_hills], [minecraft:mutated_roofed_forest], [minecraft:mutated_taiga_cold], [minecraft:mutated_redwood_taiga], [minecraft:mutated_redwood_taiga_hills], [minecraft:mutated_extreme_hills_with_trees], [minecraft:mutated_savanna], [minecraft:mutated_savanna_rock], [minecraft:mutated_mesa], [minecraft:mutated_mesa_rock], [minecraft:mutated_mesa_clear_rock], [moreplanets:diona], [moreplanets:chalos plains], [moreplanets:chalos hills], [moreplanets:slimely wasteland], [moreplanets:infected plains], [moreplanets:infected dead savanna], [moreplanets:infected desert], [moreplanets:infected river], [moreplanets:infected ocean], [moreplanets:infected forest], [moreplanets:infected deep ocean], [moreplanets:infected dead roofed forest], [moreplanets:infected extreme hills], [moreplanets:infected swampland], [moreplanets:infected dead taiga], [moreplanets:infected jungle], [moreplanets:infected ice plains], [moreplanets:green vein], [tolkienmobs:tyrn gorthad], [tolkienmobs:lorinand], [tolkienmobs:haradwaith], [tolkienmobs:the brown lands], [tolkienmobs:fangorn forest], [tolkienmobs:mordor], [tolkienmobs:nindalf marshes], [tolkienmobs:old forest], [tolkienmobs:the shire], [tolkienmobs:gladden fields], [tolkienmobs:iron hills], [tolkienmobs:firien wood], [aether:aether_highlands], [aether:aether_magnetic_hills], [aether:aether_arctic_peaks], [aether:aether_forgotten_highlands], [aether:aether_irradiated_forests], [aether:aether_void], [aether:instanced_zone], [appliedenergistics2:storage_biome], [thaumcraft:magical_forest], [thaumcraft:eerie], [thaumcraft:eldritch], [twilightforest:twilight_lake], [twilightforest:twilight_forest], [twilightforest:dense_twilight_forest], [twilightforest:twilight_highlands], [twilightforest:mushroom_forest], [twilightforest:twilight_swamp], [twilightforest:twilight_stream], [twilightforest:snowy_forest], [twilightforest:twilight_glacier], [twilightforest:twilight_clearing], [twilightforest:oak_savannah], [twilightforest:firefly_forest], [twilightforest:deep_mushroom_forest], [twilightforest:dark_forest], [twilightforest:enchanted_forest], [twilightforest:fire_swamp], [twilightforest:dark_forest_center], [twilightforest:highlands_center], [twilightforest:thornlands], [twilightforest:spooky_forest], [galacticraftcore:outer space], [galacticraftplanets:outer space 1], [galacticraftplanets:outer space 2], [galaxyspace:space], [galaxyspace:spacelowplains], [galaxyspace:spacemidplains], [galaxyspace:spacelowhills], [galaxyspace:spacemidhills], [moreplanets:outer space 3], [moreplanets:outer space 4], [moreplanets:outer space 5], [moreplanets:outer space 6], [moreplanets:outer space 7], [moreplanets:outer space 8], [moreplanets:outer space 9], [moreplanets:outer space 10], [moreplanets:outer space 11], [moreplanets:outer space 12], [moreplanets:outer space 13], [erebus:underground_jungle], [erebus:volcanic_desert], [erebus:subterranean_savannah], [erebus:elysian_fields], [erebus:ulterior_outback], [erebus:fungal_forest], [erebus:submerged_swamp], [erebus:fields_sub_forest], [erebus:petrified_forest], [fossil:lair of darkness], [fossil:treasure], [fp:menelaus], [fp:menelaus_sea], [fp:menelaus_flat], [fp:tyros], [fp:tyros_swamp], [fp:tyros_mountain], [fp:tyros_rockdesert], [fp:tyros_rockdesertflat], [fp:envia], [plants2:crystal_forest], [betteragriculture:farmlandbiome]]
+    S:Biomes <
+        minecraft:ocean
+        minecraft:plains
+        minecraft:desert
+        minecraft:extreme_hills
+        minecraft:forest
+        minecraft:taiga
+        minecraft:swampland
+        minecraft:river
+        minecraft:frozen_ocean
+        minecraft:frozen_river
+        minecraft:ice_flats
+        minecraft:ice_mountains
+        minecraft:mushroom_island
+        minecraft:mushroom_island_shore
+        minecraft:beaches
+        minecraft:desert_hills
+        minecraft:forest_hills
+        minecraft:taiga_hills
+        minecraft:smaller_extreme_hills
+        minecraft:jungle
+        minecraft:jungle_hills
+        minecraft:jungle_edge
+        minecraft:deep_ocean
+        minecraft:stone_beach
+        minecraft:cold_beach
+        minecraft:birch_forest
+        minecraft:birch_forest_hills
+        minecraft:roofed_forest
+        minecraft:taiga_cold
+        minecraft:taiga_cold_hills
+        minecraft:redwood_taiga
+        minecraft:redwood_taiga_hills
+        minecraft:extreme_hills_with_trees
+        minecraft:savanna
+        minecraft:savanna_rock
+        minecraft:mesa
+        minecraft:mesa_rock
+        minecraft:mesa_clear_rock
+        minecraft:void
+        minecraft:mutated_plains
+        minecraft:mutated_desert
+        minecraft:mutated_extreme_hills
+        minecraft:mutated_forest
+        minecraft:mutated_taiga
+        minecraft:mutated_swampland
+        minecraft:mutated_ice_flats
+        minecraft:mutated_jungle
+        minecraft:mutated_jungle_edge
+        minecraft:mutated_birch_forest
+        minecraft:mutated_birch_forest_hills
+        minecraft:mutated_roofed_forest
+        minecraft:mutated_taiga_cold
+        minecraft:mutated_redwood_taiga
+        minecraft:mutated_redwood_taiga_hills
+        minecraft:mutated_extreme_hills_with_trees
+        minecraft:mutated_savanna
+        minecraft:mutated_savanna_rock
+        minecraft:mutated_mesa
+        minecraft:mutated_mesa_rock
+        minecraft:mutated_mesa_clear_rock
+        tolkienmobs:tyrn gorthad
+        tolkienmobs:lorinand
+        tolkienmobs:mirkwood
+        tolkienmobs:hithaeglir
+        tolkienmobs:haradwaith
+        tolkienmobs:the brown lands
+        tolkienmobs:fangorn forest
+        tolkienmobs:mordor
+        tolkienmobs:nindalf marshes
+        tolkienmobs:old forest
+        tolkienmobs:the shire
+        tolkienmobs:gladden fields
+        tolkienmobs:iron hills
+        tolkienmobs:firien wood
+        thaumcraft:magical_forest
+        thaumcraft:eerie
+        thaumcraft:eldritch
+        plants2:crystal_forest
+        betteragriculture:farmlandbiome
+     >
+    B:Enabled=true
+    I:"Max Group"=1
+    I:"Min Group"=0
+    I:"Spawn Chance"=2
+}
+
+
+asianelephant {
+    #  [default: [minecraft:jungle], [minecraft:jungle_hills], [minecraft:jungle_edge], [minecraft:savanna], [minecraft:savanna_rock], [moreplanets:infected dead savanna], [moreplanets:infected desert], [moreplanets:infected jungle], [moreplanets:green vein], [tolkienmobs:haradwaith], [tolkienmobs:mordor], [aether:aether_magnetic_hills], [aether:aether_irradiated_forests], [twilightforest:fire_swamp], [galacticraftplanets:outer space 1], [galacticraftplanets:outer space 2], [moreplanets:outer space 11], [erebus:underground_jungle], [erebus:volcanic_desert], [erebus:ulterior_outback], [erebus:submerged_swamp], [erebus:petrified_forest], [fp:menelaus], [fp:menelaus_sea], [fp:menelaus_flat], [fp:tyros], [fp:tyros_swamp], [fp:tyros_mountain], [fp:tyros_rockdesert], [fp:tyros_rockdesertflat], [minecraft:mutated_jungle], [minecraft:mutated_jungle_edge], [minecraft:mutated_savanna], [minecraft:mutated_savanna_rock], [erebus:subterranean_savannah], [tolkienmobs:the brown lands], [tolkienmobs:fangorn forest], [tolkienmobs:nindalf marshes], [tolkienmobs:old forest], [tolkienmobs:the shire], [tolkienmobs:gladden fields], [tolkienmobs:firien wood], [twilightforest:firefly_forest], [erebus:elysian_fields], [erebus:fields_sub_forest], [fp:envia], [minecraft:plains], [moreplanets:diona], [moreplanets:chalos plains], [moreplanets:slimely wasteland], [moreplanets:infected plains], [moreplanets:infected river], [moreplanets:infected ocean], [moreplanets:infected forest], [moreplanets:infected deep ocean], [moreplanets:infected dead roofed forest], [moreplanets:infected dead taiga], [moreplanets:infected ice plains], [tolkienmobs:tyrn gorthad], [tolkienmobs:lorinand], [aether:aether_highlands], [appliedenergistics2:storage_biome], [twilightforest:twilight_clearing], [minecraft:mutated_plains], [betteragriculture:farmlandbiome]]
+    S:Biomes <
+        minecraft:jungle
+        minecraft:jungle_hills
+        minecraft:jungle_edge
+        minecraft:savanna
+        minecraft:savanna_rock
+        minecraft:mutated_jungle
+        minecraft:mutated_jungle_edge
+        minecraft:mutated_savanna
+        minecraft:mutated_savanna_rock
+        erebus:subterranean_savannah
+        tolkienmobs:the brown lands
+        tolkienmobs:nindalf marshes
+        tolkienmobs:old forest
+        tolkienmobs:firien wood
+     >
+    B:Enabled=true
+    I:"Max Group"=3
+    I:"Min Group"=2
+    I:"Spawn Chance"=7
+}
+
+
+bengaltiger {
+    #  [default: [minecraft:desert], [minecraft:desert_hills], [minecraft:jungle], [minecraft:jungle_hills], [minecraft:jungle_edge], [minecraft:savanna], [minecraft:savanna_rock], [moreplanets:infected dead savanna], [moreplanets:infected desert], [moreplanets:infected jungle], [moreplanets:green vein], [tolkienmobs:haradwaith], [tolkienmobs:mordor], [aether:aether_magnetic_hills], [aether:aether_irradiated_forests], [twilightforest:fire_swamp], [galacticraftplanets:outer space 1], [galacticraftplanets:outer space 2], [moreplanets:outer space 11], [erebus:underground_jungle], [erebus:volcanic_desert], [erebus:ulterior_outback], [erebus:submerged_swamp], [minecraft:mutated_desert], [erebus:petrified_forest], [fp:menelaus], [fp:menelaus_sea], [fp:menelaus_flat], [fp:tyros], [fp:tyros_swamp], [fp:tyros_mountain], [fp:tyros_rockdesert], [fp:tyros_rockdesertflat], [minecraft:mutated_jungle], [minecraft:mutated_jungle_edge], [minecraft:mutated_savanna], [minecraft:mutated_savanna_rock], [minecraft:mutated_mesa], [minecraft:mutated_mesa_rock], [minecraft:mutated_mesa_clear_rock], [minecraft:swampland], [moreplanets:infected swampland], [twilightforest:twilight_swamp], [moreplanets:outer space 9], [minecraft:mutated_swampland], [tolkienmobs:the brown lands], [tolkienmobs:fangorn forest], [tolkienmobs:nindalf marshes], [tolkienmobs:old forest], [tolkienmobs:the shire], [tolkienmobs:gladden fields], [tolkienmobs:firien wood], [twilightforest:firefly_forest], [erebus:elysian_fields], [erebus:fields_sub_forest], [fp:envia], [minecraft:plains], [moreplanets:diona], [moreplanets:chalos plains], [moreplanets:slimely wasteland], [moreplanets:infected plains], [moreplanets:infected river], [moreplanets:infected ocean], [moreplanets:infected forest], [moreplanets:infected deep ocean], [moreplanets:infected dead roofed forest], [moreplanets:infected dead taiga], [moreplanets:infected ice plains], [tolkienmobs:tyrn gorthad], [tolkienmobs:lorinand], [aether:aether_highlands], [appliedenergistics2:storage_biome], [twilightforest:twilight_clearing], [minecraft:mutated_plains], [betteragriculture:farmlandbiome]]
+    S:Biomes <
+        minecraft:jungle
+        minecraft:jungle_hills
+        minecraft:jungle_edge
+        minecraft:savanna
+        minecraft:savanna_rock
+        tolkienmobs:mordor
+        minecraft:mutated_jungle
+        minecraft:mutated_jungle_edge
+        minecraft:mutated_savanna
+        minecraft:mutated_savanna_rock
+        minecraft:mutated_mesa
+        minecraft:mutated_mesa_rock
+        minecraft:mutated_mesa_clear_rock
+        minecraft:swampland
+        minecraft:mutated_swampland
+        tolkienmobs:the brown lands
+        tolkienmobs:nindalf marshes
+        tolkienmobs:firien wood
+        tolkienmobs:tyrn gorthad
+     >
+    B:Enabled=true
+    I:"Max Group"=1
+    I:"Min Group"=1
+    I:"Spawn Chance"=5
+}
+
+
+blackrhinoceros {
+    #  [default: [minecraft:desert], [minecraft:desert_hills], [minecraft:jungle], [minecraft:jungle_hills], [minecraft:jungle_edge], [minecraft:savanna], [minecraft:savanna_rock], [moreplanets:infected dead savanna], [moreplanets:infected desert], [moreplanets:infected jungle], [moreplanets:green vein], [tolkienmobs:haradwaith], [tolkienmobs:mordor], [aether:aether_magnetic_hills], [aether:aether_irradiated_forests], [twilightforest:fire_swamp], [galacticraftplanets:outer space 1], [galacticraftplanets:outer space 2], [moreplanets:outer space 11], [erebus:underground_jungle], [erebus:volcanic_desert], [erebus:ulterior_outback], [erebus:submerged_swamp], [minecraft:mutated_desert], [erebus:petrified_forest], [fp:menelaus], [fp:menelaus_sea], [fp:menelaus_flat], [fp:tyros], [fp:tyros_swamp], [fp:tyros_mountain], [fp:tyros_rockdesert], [fp:tyros_rockdesertflat], [minecraft:mutated_jungle], [minecraft:mutated_jungle_edge], [minecraft:mutated_savanna], [minecraft:mutated_savanna_rock], [minecraft:mutated_mesa], [minecraft:mutated_mesa_rock], [minecraft:mutated_mesa_clear_rock], [minecraft:hell], [minecraft:mesa], [minecraft:mesa_rock], [minecraft:mesa_clear_rock], [moreplanets:diona], [moreplanets:slimely wasteland], [tolkienmobs:the brown lands], [twilightforest:highlands_center], [twilightforest:thornlands], [galacticraftcore:outer space], [galaxyspace:space], [galaxyspace:spacelowplains], [galaxyspace:spacemidplains], [galaxyspace:spacelowhills], [galaxyspace:spacemidhills], [fp:envia], [minecraft:extreme_hills_with_trees], [tolkienmobs:iron hills], [twilightforest:twilight_clearing], [twilightforest:oak_savannah], [minecraft:mutated_extreme_hills], [minecraft:mutated_extreme_hills_with_trees], [erebus:subterranean_savannah], [minecraft:plains], [moreplanets:chalos plains], [moreplanets:infected plains], [moreplanets:infected river], [moreplanets:infected ocean], [moreplanets:infected forest], [moreplanets:infected deep ocean], [moreplanets:infected dead roofed forest], [moreplanets:infected dead taiga], [moreplanets:infected ice plains], [tolkienmobs:tyrn gorthad], [tolkienmobs:lorinand], [tolkienmobs:the shire], [tolkienmobs:gladden fields], [aether:aether_highlands], [appliedenergistics2:storage_biome], [erebus:elysian_fields], [minecraft:mutated_plains], [betteragriculture:farmlandbiome]]
+    S:Biomes <
+        minecraft:desert
+        minecraft:desert_hills
+        minecraft:savanna
+        minecraft:savanna_rock
+        tolkienmobs:haradwaith
+        tolkienmobs:mordor
+        minecraft:mutated_desert
+        minecraft:mutated_savanna
+        minecraft:mutated_savanna_rock
+        minecraft:mutated_mesa
+        minecraft:mutated_mesa_rock
+        minecraft:mutated_mesa_clear_rock
+        minecraft:mesa
+        minecraft:mesa_rock
+        minecraft:mesa_clear_rock
+        tolkienmobs:the brown lands
+     >
+    B:Enabled=true
+    I:"Max Group"=1
+    I:"Min Group"=1
+    I:"Spawn Chance"=7
+}
+
+
+blackspidermonkey {
+    #  [default: [minecraft:jungle], [minecraft:jungle_hills], [minecraft:jungle_edge], [minecraft:savanna], [minecraft:savanna_rock], [moreplanets:infected dead savanna], [moreplanets:infected desert], [moreplanets:infected jungle], [moreplanets:green vein], [tolkienmobs:haradwaith], [tolkienmobs:mordor], [aether:aether_magnetic_hills], [aether:aether_irradiated_forests], [twilightforest:fire_swamp], [galacticraftplanets:outer space 1], [galacticraftplanets:outer space 2], [moreplanets:outer space 11], [erebus:underground_jungle], [erebus:volcanic_desert], [erebus:ulterior_outback], [erebus:submerged_swamp], [minecraft:mutated_desert], [erebus:petrified_forest], [fp:menelaus], [fp:menelaus_sea], [fp:menelaus_flat], [fp:tyros], [fp:tyros_swamp], [fp:tyros_mountain], [fp:tyros_rockdesert], [fp:tyros_rockdesertflat], [minecraft:mutated_jungle], [minecraft:mutated_jungle_edge], [minecraft:mutated_savanna], [minecraft:mutated_savanna_rock], [minecraft:swampland], [moreplanets:infected swampland], [twilightforest:twilight_swamp], [moreplanets:outer space 9], [minecraft:mutated_swampland], [minecraft:roofed_forest], [moreplanets:infected dead roofed forest], [aether:aether_arctic_peaks], [aether:aether_forgotten_highlands], [twilightforest:dense_twilight_forest], [twilightforest:dark_forest], [twilightforest:dark_forest_center], [twilightforest:spooky_forest], [moreplanets:outer space 7], [erebus:fungal_forest], [minecraft:mutated_birch_forest], [minecraft:mutated_birch_forest_hills], [minecraft:mutated_roofed_forest], [minecraft:mutated_redwood_taiga], [minecraft:mutated_redwood_taiga_hills], [tolkienmobs:the brown lands], [tolkienmobs:fangorn forest], [tolkienmobs:nindalf marshes], [tolkienmobs:old forest], [tolkienmobs:the shire], [tolkienmobs:gladden fields], [tolkienmobs:firien wood], [twilightforest:firefly_forest], [erebus:elysian_fields], [erebus:fields_sub_forest], [fp:envia]]
+    S:Biomes <
+        minecraft:jungle
+        minecraft:jungle_hills
+        minecraft:jungle_edge
+        minecraft:mutated_jungle
+        minecraft:mutated_jungle_edge
+        minecraft:swampland
+        minecraft:mutated_swampland
+        minecraft:roofed_forest
+     >
+    B:Enabled=true
+    I:"Max Group"=3
+    I:"Min Group"=2
+    I:"Spawn Chance"=7
+}
+
+
+bottlenosedolphin {
+    #  [default: [minecraft:ocean], [minecraft:frozen_ocean], [minecraft:deep_ocean], [moreplanets:infected ocean], [moreplanets:infected deep ocean], [twilightforest:twilight_lake], [moreplanets:outer space 4], [moreplanets:outer space 5]]
+    S:Biomes <
+        minecraft:ocean
+        minecraft:frozen_ocean
+        minecraft:deep_ocean
+     >
+    B:Enabled=true
+    I:"Max Group"=3
+    I:"Min Group"=2
+    I:"Spawn Chance"=4
+}
+
+
+clownfish {
+    #  [default: [minecraft:ocean], [moreplanets:infected ocean], [moreplanets:infected deep ocean], [twilightforest:twilight_lake], [moreplanets:outer space 4], [moreplanets:outer space 5], [minecraft:frozen_ocean], [minecraft:deep_ocean], [moreplanets:infected river], [twilightforest:twilight_stream], [moreplanets:outer space 3], [erebus:submerged_swamp], [minecraft:swampland]]
+    S:Biomes <
+        minecraft:ocean
+        minecraft:frozen_ocean
+        minecraft:deep_ocean
+        minecraft:swampland
+     >
+    B:Enabled=true
+    I:"Max Group"=3
+    I:"Min Group"=1
+    I:"Spawn Chance"=5
+}
+
+
+cockatoo {
+    #  [default: [minecraft:desert], [minecraft:desert_hills], [minecraft:jungle], [minecraft:jungle_hills], [minecraft:jungle_edge], [minecraft:savanna], [minecraft:savanna_rock], [moreplanets:infected dead savanna], [moreplanets:infected desert], [moreplanets:infected jungle], [moreplanets:green vein], [tolkienmobs:haradwaith], [tolkienmobs:mordor], [aether:aether_magnetic_hills], [aether:aether_irradiated_forests], [twilightforest:fire_swamp], [galacticraftplanets:outer space 1], [galacticraftplanets:outer space 2], [moreplanets:outer space 11], [erebus:underground_jungle], [erebus:volcanic_desert], [erebus:ulterior_outback], [erebus:submerged_swamp], [minecraft:mutated_desert], [erebus:petrified_forest], [fp:menelaus], [fp:menelaus_sea], [fp:menelaus_flat], [fp:tyros], [fp:tyros_swamp], [fp:tyros_mountain], [fp:tyros_rockdesert], [fp:tyros_rockdesertflat], [minecraft:mutated_jungle], [minecraft:mutated_jungle_edge], [minecraft:mutated_savanna], [minecraft:mutated_savanna_rock], [minecraft:mutated_mesa], [minecraft:mutated_mesa_rock], [minecraft:mutated_mesa_clear_rock], [minecraft:hell], [minecraft:mesa], [minecraft:mesa_rock], [minecraft:mesa_clear_rock], [moreplanets:diona], [moreplanets:slimely wasteland], [tolkienmobs:the brown lands], [twilightforest:highlands_center], [twilightforest:thornlands], [galacticraftcore:outer space], [galaxyspace:space], [galaxyspace:spacelowplains], [galaxyspace:spacemidplains], [galaxyspace:spacelowhills], [galaxyspace:spacemidhills], [fp:envia], [erebus:subterranean_savannah], [minecraft:swampland], [moreplanets:infected swampland], [tolkienmobs:nindalf marshes], [twilightforest:twilight_swamp], [moreplanets:outer space 9], [minecraft:mutated_swampland], [minecraft:extreme_hills], [minecraft:forest_hills], [minecraft:taiga_hills], [minecraft:birch_forest_hills], [minecraft:taiga_cold_hills], [minecraft:redwood_taiga_hills], [moreplanets:chalos hills], [moreplanets:infected extreme hills], [moreplanets:outer space 8], [minecraft:mutated_forest], [minecraft:mutated_ice_flats], [minecraft:mutated_birch_forest], [minecraft:mutated_redwood_taiga_hills]]
+    S:Biomes <
+        minecraft:desert
+        minecraft:desert_hills
+        minecraft:jungle
+        minecraft:jungle_hills
+        minecraft:jungle_edge
+        minecraft:savanna
+        minecraft:savanna_rock
+        tolkienmobs:haradwaith
+        minecraft:mutated_desert
+        minecraft:mutated_jungle
+        minecraft:mutated_jungle_edge
+        minecraft:mutated_savanna
+        minecraft:mutated_savanna_rock
+        minecraft:forest_hills
+        minecraft:taiga_hills
+        minecraft:birch_forest_hills
+        minecraft:taiga_cold_hills
+        minecraft:redwood_taiga_hills
+        minecraft:mutated_forest
+        minecraft:mutated_ice_flats
+        minecraft:mutated_birch_forest
+        minecraft:mutated_redwood_taiga_hills
+     >
+    B:Enabled=true
+    I:"Max Group"=3
+    I:"Min Group"=2
+    I:"Spawn Chance"=6
+}
+
+
+feedtrader {
+    #  [default: [minecraft:ocean], [minecraft:plains], [minecraft:desert], [minecraft:extreme_hills], [minecraft:forest], [minecraft:taiga], [minecraft:swampland], [minecraft:river], [minecraft:frozen_ocean], [minecraft:frozen_river], [minecraft:ice_flats], [minecraft:ice_mountains], [minecraft:mushroom_island], [minecraft:mushroom_island_shore], [minecraft:beaches], [minecraft:desert_hills], [minecraft:forest_hills], [minecraft:taiga_hills], [minecraft:smaller_extreme_hills], [minecraft:jungle], [minecraft:jungle_hills], [minecraft:jungle_edge], [minecraft:deep_ocean], [minecraft:stone_beach], [minecraft:cold_beach], [minecraft:birch_forest], [minecraft:birch_forest_hills], [minecraft:roofed_forest], [minecraft:taiga_cold], [minecraft:taiga_cold_hills], [minecraft:redwood_taiga], [minecraft:redwood_taiga_hills], [minecraft:extreme_hills_with_trees], [minecraft:savanna], [minecraft:savanna_rock], [minecraft:mesa], [minecraft:mesa_rock], [minecraft:mesa_clear_rock], [minecraft:void], [minecraft:mutated_plains], [minecraft:mutated_desert], [minecraft:mutated_extreme_hills], [minecraft:mutated_forest], [minecraft:mutated_taiga], [minecraft:mutated_swampland], [minecraft:mutated_ice_flats], [minecraft:mutated_jungle], [minecraft:mutated_jungle_edge], [minecraft:mutated_birch_forest], [minecraft:mutated_birch_forest_hills], [minecraft:mutated_roofed_forest], [minecraft:mutated_taiga_cold], [minecraft:mutated_redwood_taiga], [minecraft:mutated_redwood_taiga_hills], [minecraft:mutated_extreme_hills_with_trees], [minecraft:mutated_savanna], [minecraft:mutated_savanna_rock], [minecraft:mutated_mesa], [minecraft:mutated_mesa_rock], [minecraft:mutated_mesa_clear_rock], [moreplanets:diona], [moreplanets:chalos plains], [moreplanets:chalos hills], [moreplanets:slimely wasteland], [moreplanets:infected plains], [moreplanets:infected dead savanna], [moreplanets:infected desert], [moreplanets:infected river], [moreplanets:infected ocean], [moreplanets:infected forest], [moreplanets:infected deep ocean], [moreplanets:infected dead roofed forest], [moreplanets:infected extreme hills], [moreplanets:infected swampland], [moreplanets:infected dead taiga], [moreplanets:infected jungle], [moreplanets:infected ice plains], [moreplanets:green vein], [tolkienmobs:tyrn gorthad], [tolkienmobs:lorinand], [tolkienmobs:haradwaith], [tolkienmobs:the brown lands], [tolkienmobs:fangorn forest], [tolkienmobs:mordor], [tolkienmobs:nindalf marshes], [tolkienmobs:old forest], [tolkienmobs:the shire], [tolkienmobs:gladden fields], [tolkienmobs:iron hills], [tolkienmobs:firien wood], [aether:aether_highlands], [aether:aether_magnetic_hills], [aether:aether_arctic_peaks], [aether:aether_forgotten_highlands], [aether:aether_irradiated_forests], [aether:aether_void], [aether:instanced_zone], [appliedenergistics2:storage_biome], [thaumcraft:magical_forest], [thaumcraft:eerie], [thaumcraft:eldritch], [twilightforest:twilight_lake], [twilightforest:twilight_forest], [twilightforest:dense_twilight_forest], [twilightforest:twilight_highlands], [twilightforest:mushroom_forest], [twilightforest:twilight_swamp], [twilightforest:twilight_stream], [twilightforest:snowy_forest], [twilightforest:twilight_glacier], [twilightforest:twilight_clearing], [twilightforest:oak_savannah], [twilightforest:firefly_forest], [twilightforest:deep_mushroom_forest], [twilightforest:dark_forest], [twilightforest:enchanted_forest], [twilightforest:fire_swamp], [twilightforest:dark_forest_center], [twilightforest:highlands_center], [twilightforest:thornlands], [twilightforest:spooky_forest], [galacticraftcore:outer space], [galacticraftplanets:outer space 1], [galacticraftplanets:outer space 2], [galaxyspace:space], [galaxyspace:spacelowplains], [galaxyspace:spacemidplains], [galaxyspace:spacelowhills], [galaxyspace:spacemidhills], [moreplanets:outer space 3], [moreplanets:outer space 4], [moreplanets:outer space 5], [moreplanets:outer space 6], [moreplanets:outer space 7], [moreplanets:outer space 8], [moreplanets:outer space 9], [moreplanets:outer space 10], [moreplanets:outer space 11], [moreplanets:outer space 12], [moreplanets:outer space 13], [erebus:underground_jungle], [erebus:volcanic_desert], [erebus:subterranean_savannah], [erebus:elysian_fields], [erebus:ulterior_outback], [erebus:fungal_forest], [erebus:submerged_swamp], [erebus:fields_sub_forest], [erebus:petrified_forest], [fossil:lair of darkness], [fossil:treasure], [fp:menelaus], [fp:menelaus_sea], [fp:menelaus_flat], [fp:tyros], [fp:tyros_swamp], [fp:tyros_mountain], [fp:tyros_rockdesert], [fp:tyros_rockdesertflat], [fp:envia], [plants2:crystal_forest], [betteragriculture:farmlandbiome]]
+    S:Biomes <
+        minecraft:ocean
+        minecraft:plains
+        minecraft:desert
+        minecraft:extreme_hills
+        minecraft:forest
+        minecraft:taiga
+        minecraft:swampland
+        minecraft:river
+        minecraft:frozen_ocean
+        minecraft:frozen_river
+        minecraft:ice_flats
+        minecraft:ice_mountains
+        minecraft:mushroom_island
+        minecraft:mushroom_island_shore
+        minecraft:beaches
+        minecraft:desert_hills
+        minecraft:forest_hills
+        minecraft:taiga_hills
+        minecraft:smaller_extreme_hills
+        minecraft:jungle
+        minecraft:jungle_hills
+        minecraft:jungle_edge
+        minecraft:deep_ocean
+        minecraft:stone_beach
+        minecraft:cold_beach
+        minecraft:birch_forest
+        minecraft:birch_forest_hills
+        minecraft:roofed_forest
+        minecraft:taiga_cold
+        minecraft:taiga_cold_hills
+        minecraft:redwood_taiga
+        minecraft:redwood_taiga_hills
+        minecraft:extreme_hills_with_trees
+        minecraft:savanna
+        minecraft:savanna_rock
+        minecraft:mesa
+        minecraft:mesa_rock
+        minecraft:mesa_clear_rock
+        minecraft:void
+        minecraft:mutated_plains
+        minecraft:mutated_desert
+        minecraft:mutated_extreme_hills
+        minecraft:mutated_forest
+        minecraft:mutated_taiga
+        minecraft:mutated_swampland
+        minecraft:mutated_ice_flats
+        minecraft:mutated_jungle
+        minecraft:mutated_jungle_edge
+        minecraft:mutated_birch_forest
+        minecraft:mutated_birch_forest_hills
+        minecraft:mutated_roofed_forest
+        minecraft:mutated_taiga_cold
+        minecraft:mutated_redwood_taiga
+        minecraft:mutated_redwood_taiga_hills
+        minecraft:mutated_extreme_hills_with_trees
+        minecraft:mutated_savanna
+        minecraft:mutated_savanna_rock
+        minecraft:mutated_mesa
+        minecraft:mutated_mesa_rock
+        minecraft:mutated_mesa_clear_rock
+        tolkienmobs:tyrn gorthad
+        tolkienmobs:lorinand
+        tolkienmobs:mirkwood
+        tolkienmobs:hithaeglir
+        tolkienmobs:haradwaith
+        tolkienmobs:the brown lands
+        tolkienmobs:fangorn forest
+        tolkienmobs:mordor
+        tolkienmobs:nindalf marshes
+        tolkienmobs:old forest
+        tolkienmobs:the shire
+        tolkienmobs:gladden fields
+        tolkienmobs:iron hills
+        tolkienmobs:firien wood
+        thaumcraft:magical_forest
+        thaumcraft:eerie
+        thaumcraft:eldritch
+        plants2:crystal_forest
+        betteragriculture:farmlandbiome
+     >
+    B:Enabled=true
+    I:"Max Group"=1
+    I:"Min Group"=0
+    I:"Spawn Chance"=2
+}
+
+
+fijibandediguana {
+    #  [default: [minecraft:desert], [minecraft:desert_hills], [minecraft:jungle], [minecraft:jungle_hills], [minecraft:jungle_edge], [minecraft:savanna], [minecraft:savanna_rock], [moreplanets:infected dead savanna], [moreplanets:infected desert], [moreplanets:infected jungle], [moreplanets:green vein], [tolkienmobs:haradwaith], [tolkienmobs:mordor], [aether:aether_magnetic_hills], [aether:aether_irradiated_forests], [twilightforest:fire_swamp], [galacticraftplanets:outer space 1], [galacticraftplanets:outer space 2], [moreplanets:outer space 11], [erebus:underground_jungle], [erebus:volcanic_desert], [erebus:ulterior_outback], [erebus:submerged_swamp], [minecraft:mutated_desert], [erebus:petrified_forest], [fp:menelaus], [fp:menelaus_sea], [fp:menelaus_flat], [fp:tyros], [fp:tyros_swamp], [fp:tyros_mountain], [fp:tyros_rockdesert], [fp:tyros_rockdesertflat], [minecraft:mutated_jungle], [minecraft:mutated_jungle_edge], [minecraft:mutated_savanna], [minecraft:mutated_savanna_rock], [minecraft:mutated_mesa], [minecraft:mutated_mesa_rock], [minecraft:mutated_mesa_clear_rock], [minecraft:roofed_forest], [moreplanets:infected dead roofed forest], [aether:aether_arctic_peaks], [aether:aether_forgotten_highlands], [twilightforest:dense_twilight_forest], [twilightforest:dark_forest], [twilightforest:dark_forest_center], [twilightforest:spooky_forest], [moreplanets:outer space 7], [erebus:fungal_forest], [minecraft:mutated_birch_forest], [minecraft:mutated_birch_forest_hills], [minecraft:mutated_roofed_forest], [minecraft:mutated_redwood_taiga], [minecraft:mutated_redwood_taiga_hills], [tolkienmobs:the brown lands], [tolkienmobs:fangorn forest], [tolkienmobs:nindalf marshes], [tolkienmobs:old forest], [tolkienmobs:the shire], [tolkienmobs:gladden fields], [tolkienmobs:firien wood], [twilightforest:firefly_forest], [erebus:elysian_fields], [erebus:fields_sub_forest], [fp:envia], [minecraft:mushroom_island_shore], [minecraft:beaches], [minecraft:stone_beach], [minecraft:cold_beach]]
+    S:Biomes <
+        minecraft:desert
+        minecraft:desert_hills
+        minecraft:jungle
+        minecraft:jungle_hills
+        minecraft:jungle_edge
+        minecraft:savanna
+        minecraft:savanna_rock
+        tolkienmobs:haradwaith
+        tolkienmobs:mordor
+        minecraft:mutated_desert
+        minecraft:mutated_jungle
+        minecraft:mutated_jungle_edge
+        minecraft:mutated_savanna
+        minecraft:mutated_savanna_rock
+        minecraft:mutated_mesa
+        minecraft:mutated_mesa_rock
+        minecraft:mutated_mesa_clear_rock
+        minecraft:roofed_forest
+        minecraft:mutated_birch_forest
+        minecraft:mutated_birch_forest_hills
+        minecraft:mutated_roofed_forest
+        minecraft:mutated_redwood_taiga
+        minecraft:mutated_redwood_taiga_hills
+        tolkienmobs:the brown lands
+        tolkienmobs:fangorn forest
+        tolkienmobs:nindalf marshes
+        minecraft:mushroom_island_shore
+        minecraft:beaches
+        minecraft:stone_beach
+        minecraft:cold_beach
+     >
+    B:Enabled=true
+    I:"Max Group"=1
+    I:"Min Group"=1
+    I:"Spawn Chance"=2
+}
+
+
+fish {
+    #  [default: [minecraft:ocean], [minecraft:frozen_ocean], [minecraft:deep_ocean], [moreplanets:infected ocean], [moreplanets:infected deep ocean], [twilightforest:twilight_lake], [moreplanets:outer space 4], [moreplanets:outer space 5], [minecraft:river], [minecraft:frozen_river], [moreplanets:infected river], [twilightforest:twilight_stream], [moreplanets:outer space 3], [erebus:submerged_swamp], [minecraft:swampland]]
+    S:Biomes <
+        minecraft:ocean
+        minecraft:frozen_ocean
+        minecraft:deep_ocean
+        minecraft:river
+        minecraft:frozen_river
+        minecraft:swampland
+     >
+    B:Enabled=true
+    I:"Max Group"=3
+    I:"Min Group"=1
+    I:"Spawn Chance"=5
+}
+
+
+gaur {
+    #  [default: [minecraft:forest], [minecraft:taiga], [minecraft:forest_hills], [minecraft:taiga_hills], [minecraft:jungle_edge], [minecraft:birch_forest], [minecraft:birch_forest_hills], [minecraft:roofed_forest], [minecraft:taiga_cold], [minecraft:taiga_cold_hills], [minecraft:redwood_taiga], [minecraft:redwood_taiga_hills], [minecraft:extreme_hills_with_trees], [moreplanets:infected forest], [moreplanets:infected dead roofed forest], [moreplanets:green vein], [tolkienmobs:lorinand], [tolkienmobs:fangorn forest], [tolkienmobs:old forest], [tolkienmobs:firien wood], [aether:aether_irradiated_forests], [thaumcraft:magical_forest], [twilightforest:twilight_forest], [twilightforest:dense_twilight_forest], [twilightforest:twilight_highlands], [twilightforest:mushroom_forest], [twilightforest:snowy_forest], [twilightforest:oak_savannah], [twilightforest:firefly_forest], [twilightforest:deep_mushroom_forest], [twilightforest:dark_forest], [twilightforest:enchanted_forest], [twilightforest:dark_forest_center], [twilightforest:spooky_forest], [moreplanets:outer space 6], [moreplanets:outer space 7], [moreplanets:outer space 13], [erebus:fields_sub_forest], [minecraft:mutated_forest], [minecraft:mutated_taiga], [plants2:crystal_forest], [minecraft:mutated_birch_forest], [minecraft:mutated_birch_forest_hills], [minecraft:mutated_roofed_forest], [minecraft:mutated_taiga_cold], [minecraft:mutated_redwood_taiga], [minecraft:mutated_redwood_taiga_hills], [minecraft:desert], [minecraft:desert_hills], [minecraft:jungle], [minecraft:jungle_hills], [minecraft:savanna], [minecraft:savanna_rock], [moreplanets:infected dead savanna], [moreplanets:infected desert], [moreplanets:infected jungle], [tolkienmobs:haradwaith], [tolkienmobs:mordor], [aether:aether_magnetic_hills], [twilightforest:fire_swamp], [galacticraftplanets:outer space 1], [galacticraftplanets:outer space 2], [moreplanets:outer space 11], [erebus:underground_jungle], [erebus:volcanic_desert], [erebus:ulterior_outback], [erebus:submerged_swamp], [minecraft:mutated_desert], [erebus:petrified_forest], [fp:menelaus], [fp:menelaus_sea], [fp:menelaus_flat], [fp:tyros], [fp:tyros_swamp], [fp:tyros_mountain], [fp:tyros_rockdesert], [fp:tyros_rockdesertflat], [minecraft:mutated_jungle], [minecraft:mutated_jungle_edge], [minecraft:mutated_savanna], [minecraft:mutated_savanna_rock], [minecraft:mutated_mesa], [minecraft:mutated_mesa_rock], [minecraft:mutated_mesa_clear_rock], [minecraft:plains], [moreplanets:diona], [moreplanets:chalos plains], [moreplanets:slimely wasteland], [moreplanets:infected plains], [moreplanets:infected river], [moreplanets:infected ocean], [moreplanets:infected deep ocean], [moreplanets:infected dead taiga], [moreplanets:infected ice plains], [tolkienmobs:tyrn gorthad], [tolkienmobs:the brown lands], [tolkienmobs:the shire], [tolkienmobs:gladden fields], [aether:aether_highlands], [appliedenergistics2:storage_biome], [twilightforest:twilight_clearing], [erebus:elysian_fields], [minecraft:mutated_plains], [betteragriculture:farmlandbiome], [aether:aether_arctic_peaks], [aether:aether_forgotten_highlands], [erebus:fungal_forest], [tolkienmobs:nindalf marshes], [fp:envia]]
+    S:Biomes <
+        minecraft:forest
+        minecraft:taiga
+        minecraft:forest_hills
+        minecraft:taiga_hills
+        minecraft:jungle_edge
+        minecraft:birch_forest
+        minecraft:birch_forest_hills
+        minecraft:roofed_forest
+        minecraft:taiga_cold
+        minecraft:taiga_cold_hills
+        minecraft:redwood_taiga
+        minecraft:redwood_taiga_hills
+        minecraft:extreme_hills_with_trees
+        tolkienmobs:fangorn forest
+        tolkienmobs:old forest
+        tolkienmobs:firien wood
+        minecraft:mutated_forest
+        minecraft:mutated_taiga
+        minecraft:mutated_birch_forest
+        minecraft:mutated_birch_forest_hills
+        minecraft:mutated_roofed_forest
+        minecraft:mutated_taiga_cold
+        minecraft:mutated_redwood_taiga
+        minecraft:mutated_redwood_taiga_hills
+        minecraft:desert
+        minecraft:desert_hills
+        minecraft:jungle
+        minecraft:jungle_hills
+        minecraft:savanna
+        minecraft:savanna_rock
+        minecraft:mutated_desert
+        minecraft:mutated_jungle
+        minecraft:mutated_jungle_edge
+        minecraft:mutated_savanna
+        minecraft:mutated_savanna_rock
+        minecraft:mutated_mesa
+        minecraft:mutated_mesa_rock
+        minecraft:mutated_mesa_clear_rock
+        minecraft:plains
+        tolkienmobs:tyrn gorthad
+        tolkienmobs:the brown lands
+        tolkienmobs:the shire
+        tolkienmobs:gladden fields
+        minecraft:mutated_plains
+     >
+    B:Enabled=true
+    I:"Max Group"=3
+    I:"Min Group"=2
+    I:"Spawn Chance"=7
+}
+
+
+greenanaconda {
+    #  [default: [minecraft:desert], [minecraft:desert_hills], [minecraft:jungle], [minecraft:jungle_hills], [minecraft:jungle_edge], [minecraft:savanna], [minecraft:savanna_rock], [moreplanets:infected dead savanna], [moreplanets:infected desert], [moreplanets:infected jungle], [moreplanets:green vein], [tolkienmobs:haradwaith], [tolkienmobs:mordor], [aether:aether_magnetic_hills], [aether:aether_irradiated_forests], [twilightforest:fire_swamp], [galacticraftplanets:outer space 1], [galacticraftplanets:outer space 2], [moreplanets:outer space 11], [erebus:underground_jungle], [erebus:volcanic_desert], [erebus:ulterior_outback], [erebus:submerged_swamp], [minecraft:mutated_desert], [erebus:petrified_forest], [fp:menelaus], [fp:menelaus_sea], [fp:menelaus_flat], [fp:tyros], [fp:tyros_swamp], [fp:tyros_mountain], [fp:tyros_rockdesert], [fp:tyros_rockdesertflat], [minecraft:mutated_jungle], [minecraft:mutated_jungle_edge], [minecraft:mutated_savanna], [minecraft:mutated_savanna_rock], [minecraft:mutated_mesa], [minecraft:mutated_mesa_rock], [minecraft:mutated_mesa_clear_rock], [minecraft:swampland], [moreplanets:infected swampland], [twilightforest:twilight_swamp], [moreplanets:outer space 9], [minecraft:mutated_swampland], [minecraft:roofed_forest], [moreplanets:infected dead roofed forest], [aether:aether_arctic_peaks], [aether:aether_forgotten_highlands], [twilightforest:dense_twilight_forest], [twilightforest:dark_forest], [twilightforest:dark_forest_center], [twilightforest:spooky_forest], [moreplanets:outer space 7], [erebus:fungal_forest], [minecraft:mutated_birch_forest], [minecraft:mutated_birch_forest_hills], [minecraft:mutated_roofed_forest], [minecraft:mutated_redwood_taiga], [minecraft:mutated_redwood_taiga_hills], [minecraft:river], [minecraft:frozen_river], [moreplanets:infected river], [twilightforest:twilight_stream], [moreplanets:outer space 3], [tolkienmobs:the brown lands], [tolkienmobs:fangorn forest], [tolkienmobs:nindalf marshes], [tolkienmobs:old forest], [tolkienmobs:the shire], [tolkienmobs:gladden fields], [tolkienmobs:firien wood], [twilightforest:firefly_forest], [erebus:elysian_fields], [erebus:fields_sub_forest], [fp:envia]]
+    S:Biomes <
+        minecraft:desert
+        minecraft:desert_hills
+        minecraft:jungle
+        minecraft:jungle_hills
+        minecraft:jungle_edge
+        minecraft:savanna
+        minecraft:savanna_rock
+        tolkienmobs:mordor
+        minecraft:mutated_desert
+        minecraft:mutated_jungle
+        minecraft:mutated_jungle_edge
+        minecraft:mutated_savanna
+        minecraft:mutated_savanna_rock
+        minecraft:mutated_mesa
+        minecraft:mutated_mesa_rock
+        minecraft:mutated_mesa_clear_rock
+        minecraft:swampland
+        minecraft:mutated_swampland
+        minecraft:river
+        minecraft:frozen_river
+        tolkienmobs:the brown lands
+        tolkienmobs:fangorn forest
+        tolkienmobs:nindalf marshes
+        tolkienmobs:old forest
+        tolkienmobs:the shire
+        tolkienmobs:gladden fields
+        tolkienmobs:firien wood
+     >
+    B:Enabled=true
+    I:"Max Group"=1
+    I:"Min Group"=1
+    I:"Spawn Chance"=5
+}
+
+
+grevyzebra {
+    #  [default: [minecraft:desert], [minecraft:desert_hills], [minecraft:jungle], [minecraft:jungle_hills], [minecraft:jungle_edge], [minecraft:savanna], [minecraft:savanna_rock], [moreplanets:infected dead savanna], [moreplanets:infected desert], [moreplanets:infected jungle], [moreplanets:green vein], [tolkienmobs:haradwaith], [tolkienmobs:mordor], [aether:aether_magnetic_hills], [aether:aether_irradiated_forests], [twilightforest:fire_swamp], [galacticraftplanets:outer space 1], [galacticraftplanets:outer space 2], [moreplanets:outer space 11], [erebus:underground_jungle], [erebus:volcanic_desert], [erebus:ulterior_outback], [erebus:submerged_swamp], [minecraft:mutated_desert], [erebus:petrified_forest], [fp:menelaus], [fp:menelaus_sea], [fp:menelaus_flat], [fp:tyros], [fp:tyros_swamp], [fp:tyros_mountain], [fp:tyros_rockdesert], [fp:tyros_rockdesertflat], [minecraft:mutated_jungle], [minecraft:mutated_jungle_edge], [minecraft:mutated_savanna], [minecraft:mutated_savanna_rock], [minecraft:mutated_mesa], [minecraft:mutated_mesa_rock], [minecraft:mutated_mesa_clear_rock], [minecraft:hell], [minecraft:mesa], [minecraft:mesa_rock], [minecraft:mesa_clear_rock], [moreplanets:diona], [moreplanets:slimely wasteland], [tolkienmobs:the brown lands], [twilightforest:highlands_center], [twilightforest:thornlands], [galacticraftcore:outer space], [galaxyspace:space], [galaxyspace:spacelowplains], [galaxyspace:spacemidplains], [galaxyspace:spacelowhills], [galaxyspace:spacemidhills], [fp:envia], [minecraft:extreme_hills_with_trees], [tolkienmobs:iron hills], [twilightforest:twilight_clearing], [twilightforest:oak_savannah], [minecraft:mutated_extreme_hills], [minecraft:mutated_extreme_hills_with_trees], [erebus:subterranean_savannah]]
+    S:Biomes <
+        minecraft:desert
+        minecraft:desert_hills
+        minecraft:jungle
+        minecraft:jungle_hills
+        minecraft:jungle_edge
+        minecraft:savanna
+        minecraft:savanna_rock
+        tolkienmobs:haradwaith
+        tolkienmobs:mordor
+        minecraft:mutated_desert
+        minecraft:mutated_jungle
+        minecraft:mutated_jungle_edge
+        minecraft:mutated_savanna
+        minecraft:mutated_savanna_rock
+        minecraft:mutated_mesa
+        minecraft:mutated_mesa_rock
+        minecraft:mutated_mesa_clear_rock
+        minecraft:mesa
+        minecraft:mesa_rock
+        minecraft:mesa_clear_rock
+        tolkienmobs:the brown lands
+        minecraft:extreme_hills_with_trees
+        minecraft:mutated_extreme_hills
+        minecraft:mutated_extreme_hills_with_trees
+     >
+    B:Enabled=true
+    I:"Max Group"=3
+    I:"Min Group"=2
+    I:"Spawn Chance"=6
+}
+
+
+hawksbillseaturtle {
+    #  [default: [minecraft:ocean], [minecraft:frozen_ocean], [minecraft:deep_ocean], [moreplanets:infected ocean], [moreplanets:infected deep ocean], [twilightforest:twilight_lake], [moreplanets:outer space 4], [moreplanets:outer space 5], [minecraft:mushroom_island_shore], [minecraft:beaches], [minecraft:stone_beach], [minecraft:cold_beach], [fp:menelaus_sea], [minecraft:river], [minecraft:frozen_river], [moreplanets:infected river], [twilightforest:twilight_stream], [moreplanets:outer space 3], [erebus:submerged_swamp]]
+    S:Biomes <
+        minecraft:ocean
+        minecraft:frozen_ocean
+        minecraft:deep_ocean
+        minecraft:mushroom_island_shore
+        minecraft:beaches
+        minecraft:stone_beach
+        minecraft:cold_beach
+     >
+    B:Enabled=true
+    I:"Max Group"=1
+    I:"Min Group"=1
+    I:"Spawn Chance"=2
+}
+
+
+indiangharial {
+    #  [default: [minecraft:swampland], [minecraft:jungle], [minecraft:jungle_hills], [minecraft:jungle_edge], [moreplanets:infected swampland], [moreplanets:infected jungle], [moreplanets:green vein], [twilightforest:twilight_swamp], [moreplanets:outer space 9], [moreplanets:outer space 11], [erebus:submerged_swamp], [minecraft:mutated_swampland], [fp:tyros], [fp:tyros_swamp], [fp:tyros_mountain], [minecraft:mutated_jungle], [erebus:underground_jungle], [minecraft:mutated_jungle_edge], [minecraft:taiga], [minecraft:taiga_hills], [minecraft:taiga_cold], [minecraft:taiga_cold_hills], [minecraft:redwood_taiga], [minecraft:redwood_taiga_hills], [moreplanets:infected dead taiga], [twilightforest:twilight_highlands], [twilightforest:snowy_forest], [moreplanets:outer space 10], [minecraft:mutated_taiga], [minecraft:mutated_taiga_cold], [minecraft:river], [minecraft:frozen_river], [moreplanets:infected river], [twilightforest:twilight_stream], [moreplanets:outer space 3], [minecraft:extreme_hills], [minecraft:ice_mountains], [minecraft:smaller_extreme_hills], [minecraft:extreme_hills_with_trees], [moreplanets:chalos hills], [moreplanets:infected extreme hills], [tolkienmobs:iron hills], [aether:aether_arctic_peaks], [moreplanets:outer space 8], [minecraft:mutated_extreme_hills], [minecraft:mutated_birch_forest_hills], [minecraft:mutated_roofed_forest], [minecraft:mutated_extreme_hills_with_trees], [minecraft:mutated_savanna], [minecraft:mutated_mesa], [minecraft:mutated_mesa_clear_rock]]
+    S:Biomes <
+        minecraft:swampland
+        minecraft:mutated_swampland
+        minecraft:mutated_jungle
+        minecraft:mutated_jungle_edge
+        minecraft:river
+        minecraft:mutated_mesa
+        minecraft:mutated_mesa_clear_rock
+     >
+    B:Enabled=true
+    I:"Max Group"=1
+    I:"Min Group"=1
+    I:"Spawn Chance"=5
+}
+
+
+indianpangolin {
+    #  [default: [minecraft:desert], [minecraft:desert_hills], [minecraft:jungle], [minecraft:jungle_hills], [minecraft:jungle_edge], [minecraft:savanna], [minecraft:savanna_rock], [moreplanets:infected dead savanna], [moreplanets:infected desert], [moreplanets:infected jungle], [moreplanets:green vein], [tolkienmobs:haradwaith], [tolkienmobs:mordor], [aether:aether_magnetic_hills], [aether:aether_irradiated_forests], [twilightforest:fire_swamp], [galacticraftplanets:outer space 1], [galacticraftplanets:outer space 2], [moreplanets:outer space 11], [erebus:underground_jungle], [erebus:volcanic_desert], [erebus:ulterior_outback], [erebus:submerged_swamp], [minecraft:mutated_desert], [erebus:petrified_forest], [fp:menelaus], [fp:menelaus_sea], [fp:menelaus_flat], [fp:tyros], [fp:tyros_swamp], [fp:tyros_mountain], [fp:tyros_rockdesert], [fp:tyros_rockdesertflat], [minecraft:mutated_jungle], [minecraft:mutated_jungle_edge], [minecraft:mutated_savanna], [minecraft:mutated_savanna_rock], [minecraft:mutated_mesa], [minecraft:mutated_mesa_rock], [minecraft:mutated_mesa_clear_rock], [minecraft:swampland], [moreplanets:infected swampland], [twilightforest:twilight_swamp], [moreplanets:outer space 9], [minecraft:mutated_swampland], [minecraft:roofed_forest], [moreplanets:infected dead roofed forest], [aether:aether_arctic_peaks], [aether:aether_forgotten_highlands], [twilightforest:dense_twilight_forest], [twilightforest:dark_forest], [twilightforest:dark_forest_center], [twilightforest:spooky_forest], [moreplanets:outer space 7], [erebus:fungal_forest], [minecraft:mutated_birch_forest], [minecraft:mutated_birch_forest_hills], [minecraft:mutated_roofed_forest], [minecraft:mutated_redwood_taiga], [minecraft:mutated_redwood_taiga_hills], [tolkienmobs:the brown lands], [tolkienmobs:fangorn forest], [tolkienmobs:nindalf marshes], [tolkienmobs:old forest], [tolkienmobs:the shire], [tolkienmobs:gladden fields], [tolkienmobs:firien wood], [twilightforest:firefly_forest], [erebus:elysian_fields], [erebus:fields_sub_forest], [fp:envia], [minecraft:forest], [minecraft:taiga], [minecraft:forest_hills], [minecraft:taiga_hills], [minecraft:birch_forest], [minecraft:birch_forest_hills], [minecraft:taiga_cold], [minecraft:taiga_cold_hills], [minecraft:redwood_taiga], [minecraft:redwood_taiga_hills], [minecraft:extreme_hills_with_trees], [moreplanets:infected forest], [tolkienmobs:lorinand], [thaumcraft:magical_forest], [twilightforest:twilight_forest], [twilightforest:twilight_highlands], [twilightforest:mushroom_forest], [twilightforest:snowy_forest], [twilightforest:oak_savannah], [twilightforest:deep_mushroom_forest], [twilightforest:enchanted_forest], [moreplanets:outer space 6], [moreplanets:outer space 13], [minecraft:mutated_forest], [minecraft:mutated_taiga], [plants2:crystal_forest], [minecraft:mutated_taiga_cold], [minecraft:plains], [moreplanets:diona], [moreplanets:chalos plains], [moreplanets:slimely wasteland], [moreplanets:infected plains], [moreplanets:infected river], [moreplanets:infected ocean], [moreplanets:infected deep ocean], [moreplanets:infected dead taiga], [moreplanets:infected ice plains], [tolkienmobs:tyrn gorthad], [aether:aether_highlands], [appliedenergistics2:storage_biome], [twilightforest:twilight_clearing], [minecraft:mutated_plains], [betteragriculture:farmlandbiome]]
+    S:Biomes <
+        minecraft:desert
+        minecraft:desert_hills
+        minecraft:jungle
+        minecraft:jungle_hills
+        minecraft:jungle_edge
+        minecraft:savanna
+        minecraft:savanna_rock
+        minecraft:mutated_desert
+        minecraft:mutated_jungle
+        minecraft:mutated_jungle_edge
+        minecraft:mutated_savanna
+        minecraft:mutated_savanna_rock
+        thaumcraft:magical_forest
+        tolkienmobs:tyrn gorthad
+     >
+    B:Enabled=true
+    I:"Max Group"=1
+    I:"Min Group"=1
+    I:"Spawn Chance"=7
+}
+
+
+japanesegiantsalamander {
+    #  [default: [minecraft:taiga], [minecraft:frozen_ocean], [minecraft:frozen_river], [minecraft:ice_flats], [minecraft:ice_mountains], [minecraft:taiga_hills], [minecraft:cold_beach], [minecraft:taiga_cold], [minecraft:taiga_cold_hills], [minecraft:redwood_taiga], [minecraft:redwood_taiga_hills], [moreplanets:diona], [moreplanets:infected dead taiga], [moreplanets:infected ice plains], [aether:aether_arctic_peaks], [appliedenergistics2:storage_biome], [twilightforest:snowy_forest], [twilightforest:twilight_glacier], [galaxyspace:space], [galaxyspace:spacelowplains], [galaxyspace:spacemidplains], [galaxyspace:spacelowhills], [galaxyspace:spacemidhills], [moreplanets:outer space 10], [moreplanets:outer space 12], [minecraft:mutated_taiga], [minecraft:mutated_ice_flats], [fp:envia], [plants2:crystal_forest], [minecraft:mutated_taiga_cold], [minecraft:extreme_hills_with_trees], [minecraft:savanna], [minecraft:savanna_rock], [minecraft:mesa_rock], [moreplanets:infected dead savanna], [tolkienmobs:haradwaith], [tolkienmobs:iron hills], [aether:aether_magnetic_hills], [twilightforest:twilight_clearing], [twilightforest:oak_savannah], [galacticraftcore:outer space], [minecraft:mutated_extreme_hills], [fp:tyros_rockdesert], [fp:tyros_rockdesertflat], [minecraft:mutated_jungle_edge], [minecraft:mutated_extreme_hills_with_trees], [minecraft:mutated_savanna], [minecraft:mutated_savanna_rock], [minecraft:mutated_mesa], [minecraft:mutated_mesa_rock], [minecraft:mutated_mesa_clear_rock], [twilightforest:twilight_highlands], [minecraft:river], [moreplanets:infected river], [twilightforest:twilight_stream], [moreplanets:outer space 3]]
+    S:Biomes <
+        minecraft:taiga
+        minecraft:frozen_ocean
+        minecraft:frozen_river
+        minecraft:ice_flats
+        minecraft:ice_mountains
+        minecraft:taiga_hills
+        minecraft:cold_beach
+        minecraft:taiga_cold
+        minecraft:taiga_cold_hills
+        minecraft:redwood_taiga
+        minecraft:redwood_taiga_hills
+        minecraft:mutated_taiga
+        minecraft:mutated_ice_flats
+        plants2:crystal_forest
+        minecraft:mutated_taiga_cold
+        minecraft:extreme_hills_with_trees
+        minecraft:savanna
+        minecraft:savanna_rock
+        minecraft:mesa_rock
+        tolkienmobs:hithaeglir
+        tolkienmobs:haradwaith
+        tolkienmobs:iron hills
+        minecraft:mutated_extreme_hills
+        minecraft:mutated_jungle_edge
+        minecraft:mutated_extreme_hills_with_trees
+        minecraft:mutated_savanna
+        minecraft:mutated_savanna_rock
+        minecraft:mutated_mesa
+        minecraft:mutated_mesa_rock
+        minecraft:mutated_mesa_clear_rock
+        minecraft:river
+     >
+    B:Enabled=true
+    I:"Max Group"=1
+    I:"Min Group"=1
+    I:"Spawn Chance"=2
+}
+
+
+koala {
+    #  [default: [minecraft:forest], [minecraft:forest_hills], [minecraft:jungle_edge], [minecraft:birch_forest], [minecraft:birch_forest_hills], [minecraft:roofed_forest], [moreplanets:infected forest], [moreplanets:infected dead roofed forest], [moreplanets:green vein], [tolkienmobs:lorinand], [tolkienmobs:fangorn forest], [tolkienmobs:old forest], [tolkienmobs:firien wood], [aether:aether_irradiated_forests], [thaumcraft:magical_forest], [twilightforest:twilight_forest], [twilightforest:dense_twilight_forest], [twilightforest:twilight_highlands], [twilightforest:mushroom_forest], [twilightforest:snowy_forest], [twilightforest:oak_savannah], [twilightforest:firefly_forest], [twilightforest:deep_mushroom_forest], [twilightforest:dark_forest], [twilightforest:enchanted_forest], [twilightforest:dark_forest_center], [twilightforest:spooky_forest], [moreplanets:outer space 6], [moreplanets:outer space 7], [moreplanets:outer space 13], [erebus:fields_sub_forest], [minecraft:mutated_forest], [plants2:crystal_forest], [minecraft:mutated_birch_forest], [minecraft:mutated_birch_forest_hills], [minecraft:mutated_roofed_forest], [minecraft:jungle], [minecraft:jungle_hills], [minecraft:savanna], [minecraft:savanna_rock], [moreplanets:infected dead savanna], [moreplanets:infected desert], [moreplanets:infected jungle], [tolkienmobs:haradwaith], [tolkienmobs:mordor], [aether:aether_magnetic_hills], [twilightforest:fire_swamp], [galacticraftplanets:outer space 1], [galacticraftplanets:outer space 2], [moreplanets:outer space 11], [erebus:underground_jungle], [erebus:volcanic_desert], [erebus:ulterior_outback], [erebus:submerged_swamp], [minecraft:mutated_desert], [erebus:petrified_forest], [fp:menelaus], [fp:menelaus_sea], [fp:menelaus_flat], [fp:tyros], [fp:tyros_swamp], [fp:tyros_mountain], [fp:tyros_rockdesert], [fp:tyros_rockdesertflat], [minecraft:mutated_jungle], [minecraft:mutated_jungle_edge], [minecraft:mutated_savanna], [minecraft:mutated_savanna_rock], [aether:aether_arctic_peaks], [aether:aether_forgotten_highlands], [erebus:fungal_forest], [minecraft:mutated_redwood_taiga], [minecraft:mutated_redwood_taiga_hills], [tolkienmobs:the brown lands], [tolkienmobs:nindalf marshes], [tolkienmobs:the shire], [tolkienmobs:gladden fields], [erebus:elysian_fields], [fp:envia], [minecraft:swampland], [moreplanets:infected swampland], [twilightforest:twilight_swamp], [moreplanets:outer space 9], [minecraft:mutated_swampland]]
+    S:Biomes <
+        minecraft:forest
+        minecraft:forest_hills
+        minecraft:jungle_edge
+        minecraft:birch_forest
+        minecraft:birch_forest_hills
+        minecraft:roofed_forest
+        tolkienmobs:lorinand
+        tolkienmobs:mirkwood
+        tolkienmobs:fangorn forest
+        tolkienmobs:old forest
+        tolkienmobs:firien wood
+        thaumcraft:magical_forest
+        plants2:crystal_forest
+        minecraft:mutated_birch_forest
+        minecraft:mutated_birch_forest_hills
+        minecraft:mutated_roofed_forest
+        minecraft:jungle
+        minecraft:jungle_hills
+        minecraft:savanna
+        minecraft:savanna_rock
+        minecraft:mutated_desert
+        minecraft:mutated_jungle
+        minecraft:mutated_jungle_edge
+        minecraft:mutated_savanna
+        minecraft:mutated_savanna_rock
+        minecraft:mutated_redwood_taiga
+        minecraft:mutated_redwood_taiga_hills
+        tolkienmobs:the brown lands
+        tolkienmobs:nindalf marshes
+        tolkienmobs:the shire
+        tolkienmobs:gladden fields
+        minecraft:swampland
+        minecraft:mutated_swampland
+     >
+    B:Enabled=true
+    I:"Max Group"=1
+    I:"Min Group"=1
+    I:"Spawn Chance"=12
+}
+
+
+lowlandgorilla {
+    #  [default: [minecraft:desert], [minecraft:desert_hills], [minecraft:jungle], [minecraft:jungle_hills], [minecraft:jungle_edge], [minecraft:savanna], [minecraft:savanna_rock], [moreplanets:infected dead savanna], [moreplanets:infected desert], [moreplanets:infected jungle], [moreplanets:green vein], [tolkienmobs:haradwaith], [tolkienmobs:mordor], [aether:aether_magnetic_hills], [aether:aether_irradiated_forests], [twilightforest:fire_swamp], [galacticraftplanets:outer space 1], [galacticraftplanets:outer space 2], [moreplanets:outer space 11], [erebus:underground_jungle], [erebus:volcanic_desert], [erebus:ulterior_outback], [erebus:submerged_swamp], [minecraft:mutated_desert], [erebus:petrified_forest], [fp:menelaus], [fp:menelaus_sea], [fp:menelaus_flat], [fp:tyros], [fp:tyros_swamp], [fp:tyros_mountain], [fp:tyros_rockdesert], [fp:tyros_rockdesertflat], [minecraft:mutated_jungle], [minecraft:mutated_jungle_edge], [minecraft:mutated_savanna], [minecraft:mutated_savanna_rock], [minecraft:mutated_mesa], [minecraft:mutated_mesa_rock], [minecraft:mutated_mesa_clear_rock], [minecraft:swampland], [moreplanets:infected swampland], [twilightforest:twilight_swamp], [moreplanets:outer space 9], [minecraft:mutated_swampland], [minecraft:roofed_forest], [moreplanets:infected dead roofed forest], [aether:aether_arctic_peaks], [aether:aether_forgotten_highlands], [twilightforest:dense_twilight_forest], [twilightforest:dark_forest], [twilightforest:dark_forest_center], [twilightforest:spooky_forest], [moreplanets:outer space 7], [erebus:fungal_forest], [minecraft:mutated_birch_forest], [minecraft:mutated_birch_forest_hills], [minecraft:mutated_roofed_forest], [minecraft:mutated_redwood_taiga], [minecraft:mutated_redwood_taiga_hills], [tolkienmobs:the brown lands], [tolkienmobs:fangorn forest], [tolkienmobs:nindalf marshes], [tolkienmobs:old forest], [tolkienmobs:the shire], [tolkienmobs:gladden fields], [tolkienmobs:firien wood], [twilightforest:firefly_forest], [erebus:elysian_fields], [erebus:fields_sub_forest], [fp:envia], [minecraft:extreme_hills], [minecraft:forest_hills], [minecraft:taiga_hills], [minecraft:birch_forest_hills], [minecraft:taiga_cold_hills], [minecraft:redwood_taiga_hills], [moreplanets:chalos hills], [moreplanets:infected extreme hills], [twilightforest:thornlands], [moreplanets:outer space 8], [minecraft:mutated_forest], [minecraft:mutated_ice_flats]]
+    S:Biomes <
+        minecraft:jungle
+        minecraft:jungle_hills
+        minecraft:jungle_edge
+        minecraft:mutated_jungle
+        minecraft:mutated_jungle_edge
+     >
+    B:Enabled=true
+    I:"Max Group"=3
+    I:"Min Group"=2
+    I:"Spawn Chance"=5
+}
+
+
+macaw {
+    #  [default: [minecraft:desert], [minecraft:desert_hills], [minecraft:jungle], [minecraft:jungle_hills], [minecraft:jungle_edge], [minecraft:savanna], [minecraft:savanna_rock], [moreplanets:infected dead savanna], [moreplanets:infected desert], [moreplanets:infected jungle], [moreplanets:green vein], [tolkienmobs:haradwaith], [tolkienmobs:mordor], [aether:aether_magnetic_hills], [aether:aether_irradiated_forests], [twilightforest:fire_swamp], [galacticraftplanets:outer space 1], [galacticraftplanets:outer space 2], [moreplanets:outer space 11], [erebus:underground_jungle], [erebus:volcanic_desert], [erebus:ulterior_outback], [erebus:submerged_swamp], [minecraft:mutated_desert], [erebus:petrified_forest], [fp:menelaus], [fp:menelaus_sea], [fp:menelaus_flat], [fp:tyros], [fp:tyros_swamp], [fp:tyros_mountain], [fp:tyros_rockdesert], [fp:tyros_rockdesertflat], [minecraft:mutated_jungle], [minecraft:mutated_jungle_edge], [minecraft:mutated_savanna], [minecraft:mutated_savanna_rock], [minecraft:mutated_mesa], [minecraft:mutated_mesa_rock], [minecraft:mutated_mesa_clear_rock], [minecraft:swampland], [moreplanets:infected swampland], [twilightforest:twilight_swamp], [moreplanets:outer space 9], [minecraft:mutated_swampland], [minecraft:roofed_forest], [moreplanets:infected dead roofed forest], [aether:aether_arctic_peaks], [aether:aether_forgotten_highlands], [twilightforest:dense_twilight_forest], [twilightforest:dark_forest], [twilightforest:dark_forest_center], [twilightforest:spooky_forest], [moreplanets:outer space 7], [erebus:fungal_forest], [minecraft:mutated_birch_forest], [minecraft:mutated_birch_forest_hills], [minecraft:mutated_roofed_forest], [minecraft:mutated_redwood_taiga], [minecraft:mutated_redwood_taiga_hills], [tolkienmobs:the brown lands], [tolkienmobs:fangorn forest], [tolkienmobs:nindalf marshes], [tolkienmobs:old forest], [tolkienmobs:the shire], [tolkienmobs:gladden fields], [tolkienmobs:firien wood], [twilightforest:firefly_forest], [erebus:elysian_fields], [erebus:fields_sub_forest], [fp:envia]]
+    S:Biomes <
+        minecraft:jungle
+        minecraft:jungle_hills
+        minecraft:jungle_edge
+        minecraft:savanna
+        minecraft:savanna_rock
+        minecraft:mutated_jungle
+        minecraft:mutated_jungle_edge
+        minecraft:mutated_savanna
+        minecraft:mutated_savanna_rock
+        minecraft:mutated_mesa
+        minecraft:mutated_mesa_rock
+        minecraft:mutated_mesa_clear_rock
+        
+     >
+    B:Enabled=true
+    I:"Max Group"=3
+    I:"Min Group"=2
+    I:"Spawn Chance"=7
+}
+
+
+meerkat {
+    #  [default: [minecraft:desert], [minecraft:desert_hills], [minecraft:savanna], [minecraft:savanna_rock], [moreplanets:infected dead savanna], [moreplanets:infected desert], [moreplanets:infected jungle], [moreplanets:green vein], [tolkienmobs:haradwaith], [tolkienmobs:mordor], [aether:aether_magnetic_hills], [aether:aether_irradiated_forests], [twilightforest:fire_swamp], [galacticraftplanets:outer space 1], [galacticraftplanets:outer space 2], [moreplanets:outer space 11], [erebus:underground_jungle], [erebus:volcanic_desert], [erebus:ulterior_outback], [erebus:submerged_swamp], [minecraft:mutated_desert], [erebus:petrified_forest], [fp:menelaus], [fp:menelaus_sea], [fp:menelaus_flat], [fp:tyros], [fp:tyros_swamp], [fp:tyros_mountain], [fp:tyros_rockdesert], [fp:tyros_rockdesertflat], [minecraft:mutated_savanna], [minecraft:mutated_savanna_rock], [minecraft:mutated_mesa], [minecraft:mutated_mesa_rock], [minecraft:mutated_mesa_clear_rock], [minecraft:mesa_rock], [tolkienmobs:iron hills], [twilightforest:twilight_clearing], [twilightforest:oak_savannah], [galacticraftcore:outer space], [minecraft:mutated_jungle_edge], [minecraft:hell], [minecraft:mesa], [minecraft:mesa_clear_rock], [moreplanets:diona], [moreplanets:slimely wasteland], [tolkienmobs:the brown lands], [twilightforest:highlands_center], [twilightforest:thornlands], [galaxyspace:space], [galaxyspace:spacelowplains], [galaxyspace:spacemidplains], [galaxyspace:spacelowhills], [galaxyspace:spacemidhills], [fp:envia], [erebus:subterranean_savannah]]
+    S:Biomes <
+        minecraft:savanna
+        minecraft:savanna_rock
+        tolkienmobs:haradwaith
+        minecraft:mutated_savanna
+        minecraft:mutated_savanna_rock
+        tolkienmobs:the brown lands
+     >
+    B:Enabled=true
+    I:"Max Group"=3
+    I:"Min Group"=2
+    I:"Spawn Chance"=10
+}
+
+
+nilehippo {
+    #  [default: [minecraft:savanna], [minecraft:savanna_rock], [moreplanets:infected dead savanna], [moreplanets:infected desert], [erebus:subterranean_savannah], [minecraft:mutated_savanna], [minecraft:mutated_savanna_rock], [minecraft:jungle], [minecraft:jungle_hills], [minecraft:jungle_edge], [moreplanets:infected jungle], [moreplanets:outer space 11], [erebus:underground_jungle], [fp:tyros], [fp:tyros_swamp], [fp:tyros_mountain], [minecraft:mutated_jungle], [minecraft:mutated_jungle_edge], [minecraft:swampland], [moreplanets:infected swampland], [tolkienmobs:nindalf marshes], [twilightforest:twilight_swamp], [twilightforest:fire_swamp], [moreplanets:outer space 9], [erebus:submerged_swamp], [minecraft:mutated_swampland], [minecraft:river], [minecraft:frozen_river], [moreplanets:infected river], [twilightforest:twilight_stream], [moreplanets:outer space 3]]
+    S:Biomes <
+        minecraft:savanna
+        minecraft:savanna_rock
+        minecraft:mutated_savanna
+        minecraft:mutated_savanna_rock
+        minecraft:jungle
+        minecraft:jungle_hills
+        minecraft:jungle_edge
+        minecraft:mutated_jungle
+        minecraft:mutated_jungle_edge
+        minecraft:swampland
+        tolkienmobs:mirkwood
+        tolkienmobs:nindalf marshes
+        minecraft:mutated_swampland
+     >
+    B:Enabled=true
+    I:"Max Group"=3
+    I:"Min Group"=2
+    I:"Spawn Chance"=7
+}
+
+
+okapi {
+    #  [default: [minecraft:swampland], [minecraft:jungle], [minecraft:jungle_hills], [minecraft:jungle_edge], [moreplanets:infected swampland], [moreplanets:infected jungle], [moreplanets:green vein], [twilightforest:twilight_swamp], [moreplanets:outer space 9], [moreplanets:outer space 11], [erebus:submerged_swamp], [minecraft:mutated_swampland], [fp:tyros], [fp:tyros_swamp], [fp:tyros_mountain], [minecraft:mutated_jungle], [erebus:underground_jungle], [minecraft:mutated_jungle_edge], [minecraft:forest], [minecraft:taiga], [minecraft:forest_hills], [minecraft:taiga_hills], [minecraft:birch_forest], [minecraft:birch_forest_hills], [minecraft:roofed_forest], [minecraft:taiga_cold], [minecraft:taiga_cold_hills], [minecraft:redwood_taiga], [minecraft:redwood_taiga_hills], [minecraft:extreme_hills_with_trees], [moreplanets:infected forest], [moreplanets:infected dead roofed forest], [tolkienmobs:lorinand], [tolkienmobs:fangorn forest], [tolkienmobs:old forest], [tolkienmobs:firien wood], [aether:aether_irradiated_forests], [thaumcraft:magical_forest], [twilightforest:twilight_forest], [twilightforest:dense_twilight_forest], [twilightforest:twilight_highlands], [twilightforest:mushroom_forest], [twilightforest:snowy_forest], [twilightforest:oak_savannah], [twilightforest:firefly_forest], [twilightforest:deep_mushroom_forest], [twilightforest:dark_forest], [twilightforest:enchanted_forest], [twilightforest:dark_forest_center], [twilightforest:spooky_forest], [moreplanets:outer space 6], [moreplanets:outer space 7], [moreplanets:outer space 13], [erebus:fields_sub_forest], [minecraft:mutated_forest], [minecraft:mutated_taiga], [plants2:crystal_forest], [minecraft:mutated_birch_forest], [minecraft:mutated_birch_forest_hills], [minecraft:mutated_roofed_forest], [minecraft:mutated_taiga_cold], [minecraft:mutated_redwood_taiga], [minecraft:mutated_redwood_taiga_hills]]
+    S:Biomes <
+        minecraft:swampland
+        minecraft:jungle
+        minecraft:jungle_hills
+        minecraft:jungle_edge
+        minecraft:mutated_swampland
+        minecraft:mutated_jungle
+        minecraft:mutated_jungle_edge
+        minecraft:forest
+        minecraft:taiga
+        minecraft:forest_hills
+        minecraft:taiga_hills
+        minecraft:birch_forest
+        minecraft:birch_forest_hills
+        minecraft:roofed_forest
+        minecraft:taiga_cold
+        minecraft:taiga_cold_hills
+        minecraft:redwood_taiga
+        minecraft:redwood_taiga_hills
+        minecraft:extreme_hills_with_trees
+        tolkienmobs:lorinand
+        tolkienmobs:mirkwood
+        tolkienmobs:fangorn forest
+        tolkienmobs:old forest
+        tolkienmobs:firien wood
+        thaumcraft:magical_forest
+        minecraft:mutated_forest
+        minecraft:mutated_taiga
+        plants2:crystal_forest
+        minecraft:mutated_birch_forest
+        minecraft:mutated_birch_forest_hills
+        minecraft:mutated_roofed_forest
+        minecraft:mutated_taiga_cold
+        minecraft:mutated_redwood_taiga
+        minecraft:mutated_redwood_taiga_hills
+     >
+    B:Enabled=true
+    I:"Max Group"=1
+    I:"Min Group"=1
+    I:"Spawn Chance"=2
+}
+
+
+orca {
+    #  [default: [minecraft:ocean], [minecraft:frozen_ocean], [minecraft:deep_ocean], [moreplanets:infected ocean], [moreplanets:infected deep ocean], [twilightforest:twilight_lake], [moreplanets:outer space 4], [moreplanets:outer space 5]]
+    S:Biomes <
+        minecraft:ocean
+        minecraft:frozen_ocean
+        minecraft:deep_ocean
+     >
+    B:Enabled=true
+    I:"Max Group"=3
+    I:"Min Group"=2
+    I:"Spawn Chance"=2
+}
+
+
+pacificwalrus {
+    #  [default: [minecraft:ocean], [minecraft:frozen_ocean], [moreplanets:infected ocean], [moreplanets:infected deep ocean], [twilightforest:twilight_lake], [moreplanets:outer space 4], [moreplanets:outer space 5], [minecraft:frozen_river], [minecraft:ice_flats], [minecraft:ice_mountains], [minecraft:cold_beach]]
+    S:Biomes <
+        minecraft:ocean
+        minecraft:frozen_ocean
+        minecraft:frozen_river
+        minecraft:ice_flats
+        minecraft:ice_mountains
+        minecraft:cold_beach
+     >
+    B:Enabled=true
+    I:"Max Group"=3
+    I:"Min Group"=2
+    I:"Spawn Chance"=7
+}
+
+
+polarbear {
+    #  [default: [minecraft:frozen_ocean], [minecraft:frozen_river], [minecraft:ice_flats]]
+    S:Biomes <
+        minecraft:frozen_ocean
+        minecraft:frozen_river
+        minecraft:ice_flats
+     >
+    B:Enabled=true
+    I:"Max Group"=1
+    I:"Min Group"=1
+    I:"Spawn Chance"=5
+}
+
+
+pufferfish {
+    #  [default: [minecraft:ocean], [minecraft:deep_ocean], [moreplanets:infected ocean], [moreplanets:infected deep ocean], [twilightforest:twilight_lake], [moreplanets:outer space 4], [moreplanets:outer space 5], [minecraft:river], [minecraft:frozen_ocean], [moreplanets:infected river], [twilightforest:twilight_stream], [moreplanets:outer space 3], [erebus:submerged_swamp], [minecraft:swampland]]
+    S:Biomes <
+        minecraft:ocean
+        minecraft:deep_ocean
+        minecraft:river
+        minecraft:frozen_ocean
+        minecraft:swampland
+     >
+    B:Enabled=true
+    I:"Max Group"=2
+    I:"Min Group"=1
+    I:"Spawn Chance"=7
+}
+
+
+redkangaroo {
+    #  [default: [minecraft:savanna], [minecraft:savanna_rock], [moreplanets:infected dead savanna], [moreplanets:infected desert], [erebus:subterranean_savannah], [minecraft:mutated_savanna], [minecraft:mutated_savanna_rock], [minecraft:desert], [minecraft:desert_hills], [moreplanets:infected jungle], [moreplanets:green vein], [tolkienmobs:haradwaith], [tolkienmobs:mordor], [aether:aether_magnetic_hills], [aether:aether_irradiated_forests], [twilightforest:fire_swamp], [galacticraftplanets:outer space 1], [galacticraftplanets:outer space 2], [moreplanets:outer space 11], [erebus:underground_jungle], [erebus:volcanic_desert], [erebus:ulterior_outback], [erebus:submerged_swamp], [minecraft:mutated_desert], [erebus:petrified_forest], [fp:menelaus], [fp:menelaus_sea], [fp:menelaus_flat], [fp:tyros], [fp:tyros_swamp], [fp:tyros_mountain], [fp:tyros_rockdesert], [fp:tyros_rockdesertflat], [minecraft:mutated_mesa], [minecraft:mutated_mesa_rock], [minecraft:mutated_mesa_clear_rock], [minecraft:hell], [minecraft:mesa], [minecraft:mesa_rock], [minecraft:mesa_clear_rock], [moreplanets:diona], [moreplanets:slimely wasteland], [tolkienmobs:the brown lands], [twilightforest:highlands_center], [twilightforest:thornlands], [galacticraftcore:outer space], [galaxyspace:space], [galaxyspace:spacelowplains], [galaxyspace:spacemidplains], [galaxyspace:spacelowhills], [galaxyspace:spacemidhills], [fp:envia], [minecraft:extreme_hills_with_trees], [tolkienmobs:iron hills], [twilightforest:twilight_clearing], [twilightforest:oak_savannah], [minecraft:mutated_extreme_hills], [minecraft:mutated_jungle_edge], [minecraft:mutated_extreme_hills_with_trees], [moreplanets:infected plains], [moreplanets:infected river], [moreplanets:infected ocean], [moreplanets:infected forest], [moreplanets:infected deep ocean], [moreplanets:infected dead roofed forest], [moreplanets:infected extreme hills], [moreplanets:infected swampland], [moreplanets:infected dead taiga], [moreplanets:infected ice plains], [tolkienmobs:tyrn gorthad], [tolkienmobs:nindalf marshes], [twilightforest:spooky_forest], [moreplanets:outer space 3], [moreplanets:outer space 4], [moreplanets:outer space 5], [moreplanets:outer space 6], [moreplanets:outer space 7], [moreplanets:outer space 8], [moreplanets:outer space 9], [moreplanets:outer space 10], [moreplanets:outer space 12]]
+    S:Biomes <
+        minecraft:savanna
+        minecraft:savanna_rock
+        minecraft:mutated_savanna
+        minecraft:mutated_savanna_rock
+        minecraft:desert
+        minecraft:desert_hills
+        tolkienmobs:haradwaith
+        minecraft:mutated_desert
+        minecraft:mutated_mesa
+        minecraft:mutated_mesa_rock
+        minecraft:mutated_mesa_clear_rock
+        minecraft:mesa
+        minecraft:mesa_rock
+        minecraft:mesa_clear_rock
+        tolkienmobs:the brown lands
+        minecraft:mutated_extreme_hills
+        minecraft:mutated_jungle_edge
+        minecraft:mutated_extreme_hills_with_trees
+        tolkienmobs:tyrn gorthad
+        tolkienmobs:nindalf marshes
+     >
+    B:Enabled=true
+    I:"Max Group"=3
+    I:"Min Group"=2
+    I:"Spawn Chance"=15
+}
+
+
+redpanda {
+    #  [default: [minecraft:taiga], [minecraft:frozen_ocean], [minecraft:frozen_river], [minecraft:ice_flats], [minecraft:ice_mountains], [minecraft:taiga_hills], [minecraft:cold_beach], [minecraft:taiga_cold], [minecraft:taiga_cold_hills], [minecraft:redwood_taiga], [minecraft:redwood_taiga_hills], [moreplanets:diona], [moreplanets:infected dead taiga], [moreplanets:infected ice plains], [aether:aether_arctic_peaks], [appliedenergistics2:storage_biome], [twilightforest:snowy_forest], [twilightforest:twilight_glacier], [galaxyspace:space], [galaxyspace:spacelowplains], [galaxyspace:spacemidplains], [galaxyspace:spacelowhills], [galaxyspace:spacemidhills], [moreplanets:outer space 10], [moreplanets:outer space 12], [minecraft:mutated_taiga], [minecraft:mutated_ice_flats], [fp:envia], [plants2:crystal_forest], [minecraft:mutated_taiga_cold], [minecraft:desert], [minecraft:sky], [minecraft:desert_hills], [minecraft:mesa], [minecraft:mesa_rock], [minecraft:mesa_clear_rock], [moreplanets:slimely wasteland], [moreplanets:infected dead savanna], [moreplanets:infected desert], [tolkienmobs:haradwaith], [tolkienmobs:the brown lands], [twilightforest:highlands_center], [twilightforest:thornlands], [galacticraftcore:outer space], [galacticraftplanets:outer space 1], [galacticraftplanets:outer space 2], [erebus:volcanic_desert], [erebus:ulterior_outback], [minecraft:mutated_desert], [erebus:petrified_forest], [fp:menelaus], [fp:menelaus_sea], [fp:menelaus_flat], [minecraft:mutated_savanna], [minecraft:mutated_savanna_rock], [minecraft:mutated_mesa], [minecraft:mutated_mesa_rock], [minecraft:mutated_mesa_clear_rock], [minecraft:jungle], [minecraft:jungle_hills], [minecraft:roofed_forest], [moreplanets:infected dead roofed forest], [moreplanets:infected jungle], [aether:aether_forgotten_highlands], [aether:aether_irradiated_forests], [twilightforest:dense_twilight_forest], [twilightforest:dark_forest], [twilightforest:dark_forest_center], [twilightforest:spooky_forest], [moreplanets:outer space 7], [moreplanets:outer space 11], [erebus:underground_jungle], [erebus:fungal_forest], [minecraft:mutated_jungle], [minecraft:mutated_birch_forest], [minecraft:mutated_birch_forest_hills], [minecraft:mutated_roofed_forest], [minecraft:mutated_redwood_taiga], [minecraft:mutated_redwood_taiga_hills], [twilightforest:twilight_highlands], [minecraft:extreme_hills], [minecraft:smaller_extreme_hills], [minecraft:extreme_hills_with_trees], [moreplanets:chalos hills], [moreplanets:infected extreme hills], [tolkienmobs:iron hills], [moreplanets:outer space 8], [minecraft:mutated_extreme_hills], [fp:tyros_mountain], [minecraft:mutated_extreme_hills_with_trees]]
+    S:Biomes <
+        minecraft:taiga
+        minecraft:frozen_ocean
+        minecraft:frozen_river
+        minecraft:ice_flats
+        minecraft:ice_mountains
+        minecraft:taiga_hills
+        minecraft:cold_beach
+        minecraft:taiga_cold
+        minecraft:taiga_cold_hills
+        minecraft:redwood_taiga
+        minecraft:redwood_taiga_hills
+        minecraft:mutated_taiga
+        minecraft:mutated_ice_flats
+        plants2:crystal_forest
+        minecraft:mutated_taiga_cold
+        minecraft:desert
+        minecraft:sky
+        minecraft:desert_hills
+        minecraft:mesa
+        minecraft:mesa_rock
+        minecraft:mesa_clear_rock
+        tolkienmobs:haradwaith
+        tolkienmobs:the brown lands
+        minecraft:mutated_desert
+        minecraft:mutated_savanna
+        minecraft:mutated_savanna_rock
+        minecraft:mutated_mesa
+        minecraft:mutated_mesa_rock
+        minecraft:mutated_mesa_clear_rock
+        minecraft:jungle
+        minecraft:jungle_hills
+        minecraft:roofed_forest
+        minecraft:mutated_jungle
+        minecraft:mutated_birch_forest
+        minecraft:mutated_birch_forest_hills
+        minecraft:mutated_roofed_forest
+        minecraft:mutated_redwood_taiga
+        minecraft:mutated_redwood_taiga_hills
+        minecraft:extreme_hills
+        minecraft:smaller_extreme_hills
+        minecraft:extreme_hills_with_trees
+        minecraft:mutated_extreme_hills
+        minecraft:mutated_extreme_hills_with_trees
+     >
+    B:Enabled=true
+    I:"Max Group"=2
+    I:"Min Group"=1
+    I:"Spawn Chance"=5
+}
+
+
+reticulatedgiraffe {
+    #  [default: [minecraft:jungle], [minecraft:jungle_edge], [minecraft:savanna], [minecraft:savanna_rock], [moreplanets:infected dead savanna], [moreplanets:infected desert], [moreplanets:infected jungle], [moreplanets:green vein], [tolkienmobs:haradwaith], [tolkienmobs:mordor], [aether:aether_magnetic_hills], [aether:aether_irradiated_forests], [twilightforest:fire_swamp], [galacticraftplanets:outer space 1], [galacticraftplanets:outer space 2], [moreplanets:outer space 11], [erebus:underground_jungle], [erebus:volcanic_desert], [erebus:ulterior_outback], [erebus:submerged_swamp], [erebus:petrified_forest], [fp:menelaus], [fp:menelaus_sea], [fp:menelaus_flat], [fp:tyros], [fp:tyros_swamp], [fp:tyros_mountain], [fp:tyros_rockdesert], [fp:tyros_rockdesertflat], [minecraft:mutated_jungle], [minecraft:mutated_jungle_edge], [minecraft:mutated_savanna], [minecraft:mutated_savanna_rock], [minecraft:desert], [minecraft:hell], [minecraft:desert_hills], [moreplanets:diona], [moreplanets:slimely wasteland], [tolkienmobs:the brown lands], [twilightforest:highlands_center], [twilightforest:thornlands], [galacticraftcore:outer space], [galaxyspace:space], [galaxyspace:spacelowplains], [galaxyspace:spacemidplains], [galaxyspace:spacelowhills], [galaxyspace:spacemidhills], [minecraft:mutated_desert], [fp:envia], [minecraft:mutated_mesa], [minecraft:mutated_mesa_rock], [minecraft:mutated_mesa_clear_rock], [minecraft:mesa_rock], [tolkienmobs:iron hills], [twilightforest:twilight_clearing], [twilightforest:oak_savannah], [erebus:subterranean_savannah], [minecraft:plains], [moreplanets:chalos plains], [moreplanets:infected plains], [moreplanets:infected river], [moreplanets:infected ocean], [moreplanets:infected forest], [moreplanets:infected deep ocean], [moreplanets:infected dead roofed forest], [moreplanets:infected dead taiga], [moreplanets:infected ice plains], [tolkienmobs:tyrn gorthad], [tolkienmobs:lorinand], [tolkienmobs:the shire], [tolkienmobs:gladden fields], [aether:aether_highlands], [appliedenergistics2:storage_biome], [erebus:elysian_fields], [minecraft:mutated_plains], [betteragriculture:farmlandbiome], [minecraft:mesa], [minecraft:mesa_clear_rock]]
+    S:Biomes <
+        minecraft:jungle
+        minecraft:jungle_edge
+        minecraft:savanna
+        minecraft:savanna_rock
+        tolkienmobs:haradwaith
+        tolkienmobs:mordor
+        minecraft:mutated_jungle
+        minecraft:mutated_jungle_edge
+        minecraft:mutated_savanna
+        minecraft:mutated_savanna_rock
+        minecraft:desert
+        minecraft:desert_hills
+        tolkienmobs:the brown lands
+        minecraft:mutated_desert
+        minecraft:mutated_mesa
+        minecraft:mutated_mesa_rock
+        minecraft:mutated_mesa_clear_rock
+        minecraft:mesa_rock
+        tolkienmobs:hithaeglir
+        tolkienmobs:iron hills
+        tolkienmobs:tyrn gorthad
+        tolkienmobs:lorinand
+        minecraft:mesa
+        minecraft:mesa_clear_rock
+     >
+    B:Enabled=true
+    I:"Max Group"=3
+    I:"Min Group"=2
+    I:"Spawn Chance"=2
+}
+
+
+sockeyesalmon {
+    #  [default: [minecraft:ocean], [moreplanets:infected ocean], [moreplanets:infected deep ocean], [twilightforest:twilight_lake], [moreplanets:outer space 4], [moreplanets:outer space 5], [minecraft:river], [minecraft:frozen_ocean], [minecraft:deep_ocean], [moreplanets:infected river], [twilightforest:twilight_stream], [moreplanets:outer space 3], [erebus:submerged_swamp], [minecraft:frozen_river], [minecraft:swampland]]
+    S:Biomes <
+        minecraft:ocean
+        minecraft:river
+        minecraft:frozen_ocean
+        minecraft:deep_ocean
+        minecraft:frozen_river
+        minecraft:swampland
+     >
+    B:Enabled=true
+    I:"Max Group"=2
+    I:"Min Group"=1
+    I:"Spawn Chance"=5
+}
+
+
+toucan {
+    #  [default: [minecraft:desert], [minecraft:desert_hills], [minecraft:jungle], [minecraft:jungle_hills], [minecraft:jungle_edge], [minecraft:savanna], [minecraft:savanna_rock], [moreplanets:infected dead savanna], [moreplanets:infected desert], [moreplanets:infected jungle], [moreplanets:green vein], [tolkienmobs:haradwaith], [tolkienmobs:mordor], [aether:aether_magnetic_hills], [aether:aether_irradiated_forests], [twilightforest:fire_swamp], [galacticraftplanets:outer space 1], [galacticraftplanets:outer space 2], [moreplanets:outer space 11], [erebus:underground_jungle], [erebus:volcanic_desert], [erebus:ulterior_outback], [erebus:submerged_swamp], [minecraft:mutated_desert], [erebus:petrified_forest], [fp:menelaus], [fp:menelaus_sea], [fp:menelaus_flat], [fp:tyros], [fp:tyros_swamp], [fp:tyros_mountain], [fp:tyros_rockdesert], [fp:tyros_rockdesertflat], [minecraft:mutated_jungle], [minecraft:mutated_jungle_edge], [minecraft:mutated_savanna], [minecraft:mutated_savanna_rock], [minecraft:mutated_mesa], [minecraft:mutated_mesa_rock], [minecraft:mutated_mesa_clear_rock], [minecraft:swampland], [moreplanets:infected swampland], [twilightforest:twilight_swamp], [moreplanets:outer space 9], [minecraft:mutated_swampland], [minecraft:roofed_forest], [moreplanets:infected dead roofed forest], [aether:aether_arctic_peaks], [aether:aether_forgotten_highlands], [twilightforest:dense_twilight_forest], [twilightforest:dark_forest], [twilightforest:dark_forest_center], [twilightforest:spooky_forest], [moreplanets:outer space 7], [erebus:fungal_forest], [minecraft:mutated_birch_forest], [minecraft:mutated_birch_forest_hills], [minecraft:mutated_roofed_forest], [minecraft:mutated_redwood_taiga], [minecraft:mutated_redwood_taiga_hills], [tolkienmobs:the brown lands], [tolkienmobs:fangorn forest], [tolkienmobs:nindalf marshes], [tolkienmobs:old forest], [tolkienmobs:the shire], [tolkienmobs:gladden fields], [tolkienmobs:firien wood], [twilightforest:firefly_forest], [erebus:elysian_fields], [erebus:fields_sub_forest], [fp:envia]]
+    S:Biomes <
+        minecraft:desert
+        minecraft:desert_hills
+        minecraft:jungle
+        minecraft:jungle_hills
+        minecraft:jungle_edge
+        minecraft:savanna
+        minecraft:savanna_rock
+        tolkienmobs:haradwaith
+        tolkienmobs:mordor
+        minecraft:mutated_desert
+        minecraft:mutated_jungle
+        minecraft:mutated_jungle_edge
+        minecraft:mutated_savanna
+        minecraft:mutated_savanna_rock
+        minecraft:mutated_mesa
+        minecraft:mutated_mesa_rock
+        minecraft:mutated_mesa_clear_rock
+        minecraft:swampland
+        minecraft:mutated_swampland
+        minecraft:roofed_forest
+        minecraft:mutated_birch_forest
+        minecraft:mutated_birch_forest_hills
+        minecraft:mutated_roofed_forest
+        minecraft:mutated_redwood_taiga
+        minecraft:mutated_redwood_taiga_hills
+        tolkienmobs:the brown lands
+        tolkienmobs:fangorn forest
+        tolkienmobs:nindalf marshes
+        tolkienmobs:old forest
+        tolkienmobs:the shire
+        tolkienmobs:gladden fields
+        tolkienmobs:firien wood
+     >
+    B:Enabled=true
+    I:"Max Group"=3
+    I:"Min Group"=2
+    I:"Spawn Chance"=6
+}
+
+
+treefrog {
+    #  [default: [minecraft:jungle], [minecraft:jungle_hills], [minecraft:jungle_edge], [minecraft:savanna], [minecraft:savanna_rock], [moreplanets:infected dead savanna], [moreplanets:infected desert], [moreplanets:infected jungle], [moreplanets:green vein], [tolkienmobs:haradwaith], [tolkienmobs:mordor], [aether:aether_magnetic_hills], [aether:aether_irradiated_forests], [twilightforest:fire_swamp], [galacticraftplanets:outer space 1], [galacticraftplanets:outer space 2], [moreplanets:outer space 11], [erebus:underground_jungle], [erebus:volcanic_desert], [erebus:ulterior_outback], [erebus:submerged_swamp], [erebus:petrified_forest], [fp:menelaus], [fp:menelaus_sea], [fp:menelaus_flat], [fp:tyros], [fp:tyros_swamp], [fp:tyros_mountain], [fp:tyros_rockdesert], [fp:tyros_rockdesertflat], [minecraft:mutated_jungle], [minecraft:mutated_jungle_edge], [minecraft:mutated_savanna], [minecraft:mutated_savanna_rock], [erebus:subterranean_savannah], [tolkienmobs:the brown lands], [tolkienmobs:fangorn forest], [tolkienmobs:nindalf marshes], [tolkienmobs:old forest], [tolkienmobs:the shire], [tolkienmobs:gladden fields], [tolkienmobs:firien wood], [twilightforest:firefly_forest], [erebus:elysian_fields], [erebus:fields_sub_forest], [fp:envia], [minecraft:forest], [minecraft:taiga], [minecraft:forest_hills], [minecraft:taiga_hills], [minecraft:birch_forest], [minecraft:birch_forest_hills], [minecraft:roofed_forest], [minecraft:redwood_taiga], [minecraft:redwood_taiga_hills], [minecraft:extreme_hills_with_trees], [moreplanets:infected forest], [moreplanets:infected dead roofed forest], [tolkienmobs:lorinand], [thaumcraft:magical_forest], [twilightforest:twilight_forest], [twilightforest:dense_twilight_forest], [twilightforest:twilight_highlands], [twilightforest:mushroom_forest], [twilightforest:snowy_forest], [twilightforest:oak_savannah], [twilightforest:deep_mushroom_forest], [twilightforest:dark_forest], [twilightforest:enchanted_forest], [twilightforest:dark_forest_center], [twilightforest:spooky_forest], [moreplanets:outer space 6], [moreplanets:outer space 7], [moreplanets:outer space 13], [minecraft:mutated_forest], [minecraft:mutated_taiga], [plants2:crystal_forest], [minecraft:mutated_birch_forest], [minecraft:mutated_birch_forest_hills], [minecraft:mutated_roofed_forest], [minecraft:mutated_redwood_taiga], [minecraft:mutated_redwood_taiga_hills], [minecraft:swampland], [moreplanets:infected swampland], [twilightforest:twilight_swamp], [moreplanets:outer space 9], [minecraft:mutated_swampland]]
+    S:Biomes <
+        minecraft:jungle
+        minecraft:jungle_hills
+        minecraft:jungle_edge
+        minecraft:savanna
+        minecraft:savanna_rock
+        tolkienmobs:haradwaith
+        tolkienmobs:mordor
+        minecraft:mutated_jungle
+        minecraft:mutated_jungle_edge
+        minecraft:mutated_savanna
+        minecraft:mutated_savanna_rock
+        tolkienmobs:the brown lands
+        tolkienmobs:fangorn forest
+        tolkienmobs:nindalf marshes
+        tolkienmobs:old forest
+        tolkienmobs:the shire
+        tolkienmobs:gladden fields
+        tolkienmobs:firien wood
+        minecraft:forest
+        minecraft:taiga
+        minecraft:forest_hills
+        minecraft:taiga_hills
+        minecraft:birch_forest
+        minecraft:birch_forest_hills
+        minecraft:roofed_forest
+        minecraft:redwood_taiga
+        minecraft:redwood_taiga_hills
+        minecraft:extreme_hills_with_trees
+        tolkienmobs:lorinand
+        tolkienmobs:mirkwood
+        thaumcraft:magical_forest
+        plants2:crystal_forest
+        minecraft:mutated_birch_forest
+        minecraft:mutated_birch_forest_hills
+        minecraft:mutated_roofed_forest
+        minecraft:mutated_redwood_taiga
+        minecraft:mutated_redwood_taiga_hills
+        minecraft:swampland
+        minecraft:mutated_swampland
+     >
+    B:Enabled=true
+    I:"Max Group"=3
+    I:"Min Group"=1
+    I:"Spawn Chance"=15
+}
+
+
+zookeeper {
+    #  [default: [minecraft:ocean], [minecraft:plains], [minecraft:desert], [minecraft:extreme_hills], [minecraft:forest], [minecraft:taiga], [minecraft:swampland], [minecraft:river], [minecraft:frozen_ocean], [minecraft:frozen_river], [minecraft:ice_flats], [minecraft:ice_mountains], [minecraft:mushroom_island], [minecraft:mushroom_island_shore], [minecraft:beaches], [minecraft:desert_hills], [minecraft:forest_hills], [minecraft:taiga_hills], [minecraft:smaller_extreme_hills], [minecraft:jungle], [minecraft:jungle_hills], [minecraft:jungle_edge], [minecraft:deep_ocean], [minecraft:stone_beach], [minecraft:cold_beach], [minecraft:birch_forest], [minecraft:birch_forest_hills], [minecraft:roofed_forest], [minecraft:taiga_cold], [minecraft:taiga_cold_hills], [minecraft:redwood_taiga], [minecraft:redwood_taiga_hills], [minecraft:extreme_hills_with_trees], [minecraft:savanna], [minecraft:savanna_rock], [minecraft:mesa], [minecraft:mesa_rock], [minecraft:mesa_clear_rock], [minecraft:void], [minecraft:mutated_plains], [minecraft:mutated_desert], [minecraft:mutated_extreme_hills], [minecraft:mutated_forest], [minecraft:mutated_taiga], [minecraft:mutated_swampland], [minecraft:mutated_ice_flats], [minecraft:mutated_jungle], [minecraft:mutated_jungle_edge], [minecraft:mutated_birch_forest], [minecraft:mutated_birch_forest_hills], [minecraft:mutated_roofed_forest], [minecraft:mutated_taiga_cold], [minecraft:mutated_redwood_taiga], [minecraft:mutated_redwood_taiga_hills], [minecraft:mutated_extreme_hills_with_trees], [minecraft:mutated_savanna], [minecraft:mutated_savanna_rock], [minecraft:mutated_mesa], [minecraft:mutated_mesa_rock], [minecraft:mutated_mesa_clear_rock], [moreplanets:diona], [moreplanets:chalos plains], [moreplanets:chalos hills], [moreplanets:slimely wasteland], [moreplanets:infected plains], [moreplanets:infected dead savanna], [moreplanets:infected desert], [moreplanets:infected river], [moreplanets:infected ocean], [moreplanets:infected forest], [moreplanets:infected deep ocean], [moreplanets:infected dead roofed forest], [moreplanets:infected extreme hills], [moreplanets:infected swampland], [moreplanets:infected dead taiga], [moreplanets:infected jungle], [moreplanets:infected ice plains], [moreplanets:green vein], [tolkienmobs:tyrn gorthad], [tolkienmobs:lorinand], [tolkienmobs:haradwaith], [tolkienmobs:the brown lands], [tolkienmobs:fangorn forest], [tolkienmobs:mordor], [tolkienmobs:nindalf marshes], [tolkienmobs:old forest], [tolkienmobs:the shire], [tolkienmobs:gladden fields], [tolkienmobs:iron hills], [tolkienmobs:firien wood], [aether:aether_highlands], [aether:aether_magnetic_hills], [aether:aether_arctic_peaks], [aether:aether_forgotten_highlands], [aether:aether_irradiated_forests], [aether:aether_void], [aether:instanced_zone], [appliedenergistics2:storage_biome], [thaumcraft:magical_forest], [thaumcraft:eerie], [thaumcraft:eldritch], [twilightforest:twilight_lake], [twilightforest:twilight_forest], [twilightforest:dense_twilight_forest], [twilightforest:twilight_highlands], [twilightforest:mushroom_forest], [twilightforest:twilight_swamp], [twilightforest:twilight_stream], [twilightforest:snowy_forest], [twilightforest:twilight_glacier], [twilightforest:twilight_clearing], [twilightforest:oak_savannah], [twilightforest:firefly_forest], [twilightforest:deep_mushroom_forest], [twilightforest:dark_forest], [twilightforest:enchanted_forest], [twilightforest:fire_swamp], [twilightforest:dark_forest_center], [twilightforest:highlands_center], [twilightforest:thornlands], [twilightforest:spooky_forest], [galacticraftcore:outer space], [galacticraftplanets:outer space 1], [galacticraftplanets:outer space 2], [galaxyspace:space], [galaxyspace:spacelowplains], [galaxyspace:spacemidplains], [galaxyspace:spacelowhills], [galaxyspace:spacemidhills], [moreplanets:outer space 3], [moreplanets:outer space 4], [moreplanets:outer space 5], [moreplanets:outer space 6], [moreplanets:outer space 7], [moreplanets:outer space 8], [moreplanets:outer space 9], [moreplanets:outer space 10], [moreplanets:outer space 11], [moreplanets:outer space 12], [moreplanets:outer space 13], [erebus:underground_jungle], [erebus:volcanic_desert], [erebus:subterranean_savannah], [erebus:elysian_fields], [erebus:ulterior_outback], [erebus:fungal_forest], [erebus:submerged_swamp], [erebus:fields_sub_forest], [erebus:petrified_forest], [fossil:lair of darkness], [fossil:treasure], [fp:menelaus], [fp:menelaus_sea], [fp:menelaus_flat], [fp:tyros], [fp:tyros_swamp], [fp:tyros_mountain], [fp:tyros_rockdesert], [fp:tyros_rockdesertflat], [fp:envia], [plants2:crystal_forest], [betteragriculture:farmlandbiome]]
+    S:Biomes <
+        minecraft:ocean
+        minecraft:plains
+        minecraft:desert
+        minecraft:extreme_hills
+        minecraft:forest
+        minecraft:taiga
+        minecraft:swampland
+        minecraft:river
+        minecraft:frozen_ocean
+        minecraft:frozen_river
+        minecraft:ice_flats
+        minecraft:ice_mountains
+        minecraft:mushroom_island
+        minecraft:mushroom_island_shore
+        minecraft:beaches
+        minecraft:desert_hills
+        minecraft:forest_hills
+        minecraft:taiga_hills
+        minecraft:smaller_extreme_hills
+        minecraft:jungle
+        minecraft:jungle_hills
+        minecraft:jungle_edge
+        minecraft:deep_ocean
+        minecraft:stone_beach
+        minecraft:cold_beach
+        minecraft:birch_forest
+        minecraft:birch_forest_hills
+        minecraft:roofed_forest
+        minecraft:taiga_cold
+        minecraft:taiga_cold_hills
+        minecraft:redwood_taiga
+        minecraft:redwood_taiga_hills
+        minecraft:extreme_hills_with_trees
+        minecraft:savanna
+        minecraft:savanna_rock
+        minecraft:mesa
+        minecraft:mesa_rock
+        minecraft:mesa_clear_rock
+        minecraft:void
+        minecraft:mutated_plains
+        minecraft:mutated_desert
+        minecraft:mutated_extreme_hills
+        minecraft:mutated_forest
+        minecraft:mutated_taiga
+        minecraft:mutated_swampland
+        minecraft:mutated_ice_flats
+        minecraft:mutated_jungle
+        minecraft:mutated_jungle_edge
+        minecraft:mutated_birch_forest
+        minecraft:mutated_birch_forest_hills
+        minecraft:mutated_roofed_forest
+        minecraft:mutated_taiga_cold
+        minecraft:mutated_redwood_taiga
+        minecraft:mutated_redwood_taiga_hills
+        minecraft:mutated_extreme_hills_with_trees
+        minecraft:mutated_savanna
+        minecraft:mutated_savanna_rock
+        minecraft:mutated_mesa
+        minecraft:mutated_mesa_rock
+        minecraft:mutated_mesa_clear_rock
+        tolkienmobs:tyrn gorthad
+        tolkienmobs:lorinand
+        tolkienmobs:mirkwood
+        tolkienmobs:hithaeglir
+        tolkienmobs:haradwaith
+        tolkienmobs:the brown lands
+        tolkienmobs:fangorn forest
+        tolkienmobs:mordor
+        tolkienmobs:nindalf marshes
+        tolkienmobs:old forest
+        tolkienmobs:the shire
+        tolkienmobs:gladden fields
+        tolkienmobs:iron hills
+        tolkienmobs:firien wood
+        thaumcraft:magical_forest
+        plants2:crystal_forest
+        betteragriculture:farmlandbiome
+     >
+    B:Enabled=true
+    I:"Max Group"=1
+    I:"Min Group"=0
+    I:"Spawn Chance"=2
+}
+
+
